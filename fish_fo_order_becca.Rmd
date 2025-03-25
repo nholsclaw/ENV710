@@ -35,16 +35,6 @@ fish_dist <- ggplot(fish, aes(x=FO)) +
 
 fish_dist
 
-fish <- fish %>%
-  mutate(log = log10(FO))
-
-fish_dist <- ggplot(fish, aes(x=log)) +
-  geom_histogram() +
-  theme_bw() +
-  theme(legend.position = "none")
-
-fish_dist # did. not help
-
 ```
 
 
@@ -64,4 +54,161 @@ summary(family_ANOVA)
 
 ```
 
+```{r}
+
+fish <- fish %>% separate(habitat, c('Neritic_Oceanic', 'Bentho_Pelagic'), sep=",")
+
+fish[fish == ' D'] <- "D"
+fish[fish == ' B'] <- "B"
+fish[fish == ' P'] <- "P"
+fish[fish == ' BP'] <- "BP"
+fish[fish == ' B '] <- "B"
+
+write.csv(fish,file='cleaner_fish_table_becca.csv')
+
+fish <- fish %>% drop_na(trophic_level) %>% drop_na(Neritic_Oceanic) %>% drop_na(Bentho_Pelagic)
+
+mlm1 <- lm(FO ~ order + family + Neritic_Oceanic + Bentho_Pelagic + feeding_strategy + trophic_level, data = fish)
+
+summary(mlm1)
+
+plot(mlm1) 
+
+# Run AIC
+
+step(mlm1)
+
+outliers_rm <- fish[-c(17,9,108,8), ] # outliers persist after removing these 3
+
+mlm2 <- lm(FO ~ order + family + Neritic_Oceanic + Bentho_Pelagic + feeding_strategy + trophic_level, data = outliers_rm)
+
+summary(mlm2)
+
+plot(mlm2)
+
+mlm3 <- lm(FO ~ Neritic_Oceanic + Bentho_Pelagic + feeding_strategy + trophic_level, data = fish)
+
+summary(mlm3)
+
+plot(mlm3)
+
+step(mlm3)
+
+```
+
+```{r}
+
+unique(fish$Neritic_Oceanic)
+
+fish$Neritic_Oceanic <- factor(fish$Neritic_Oceanic,
+                             levels = c("N-O",
+                                        "N",
+                                        "O"))
+
+unique(fish$Bentho_Pelagic)
+
+fish$Bentho_Pelagic <- factor(fish$Bentho_Pelagic,
+                             levels = c("D",
+                                        "B",
+                                        "P",
+                                        "BP"))
+
+unique(fish$feeding_strategy)
+
+fish$feeding_strategy <- factor(fish$feeding_strategy,
+                             levels = c("BP",
+                                        "P",
+                                        "PP",
+                                        "O",
+                                        "G"))
+
+unique(fish$trophic_level)
+
+fish$trophic_level <- as.numeric(fish$trophic_level, na.rm=TRUE)
+
+fish_mod <- glm(FO~Neritic_Oceanic+Bentho_Pelagic+feeding_strategy+trophic_level,
+                data = fish,
+                family = "poisson")
+
+summary(fish_mod)
+
+plot(fish_mod)
+
+fishmod_2 <- fish[-c(15,273,123,122,128,27,26,48,72),] #a lot of outliers! this isn't all of them
+
+fish_mod_2 <- glm(FO~Neritic_Oceanic+Bentho_Pelagic+feeding_strategy+trophic_level,
+                 data = fishmod_2,
+                 family = "poisson")
+
+summary(fish_mod_2)
+
+plot(fish_mod_2)
+
+```
+
+```{r}
+
+fish$binary <- ifelse(fish$FO > 0, "1", "0")
+
+fish$binary <- as.numeric(fish$binary)
+
+fish_mod_glm <- glm(binary~Neritic_Oceanic+Bentho_Pelagic+feeding_strategy+trophic_level,
+                data = fish,
+                family = "binomial")
+
+summary(fish_mod_glm)
+
+fish <- subset(fish, !is.na(trophic_level))
+
+unique(fish$trophic_level)
+
+range(fish$trophic_level)
+
+trophic_vector <- rep(seq(from = 2, to = 5), 15)
+
+neritic_oceanic_vector <- rep(c("N-O", "N", "O"), 20)
+
+bentho_pelagic_vector <- c(rep("D", 15),
+                   rep("B", 15),
+                 rep("P", 15),
+                 rep("BP", 15))
+
+fish[fish == '??'] <- "NA"
+fish <- subset(fish, !is.na(feeding_vector))
+
+unique(fish$feeding_strategy)
+
+feeding_vector <- c(rep("BP", 12),
+                   rep("P", 12),
+                 rep("PP", 12),
+                 rep("O", 12),
+                     rep("G", 12))
+
+data_pred <- data.frame(trophic_vector, neritic_oceanic_vector, bentho_pelagic_vector, feeding_vector)
+colnames(data_pred) <- c("trophic_level", "Neritic_Oceanic", "Bentho_Pelagic", "feeding_strategy")
+
+prediction <- predict(fish_mod_glm,
+                      newdata = data_pred,
+                      type = "response",
+                      se.fit = TRUE)
+
+
+data_fig <- data.frame(data_pred,
+                       prediction$fit,
+                       prediction$se.fit)
+
+
+colnames(data_fig) <- c("trophic_level", "neritic_oceanic", "bentho_pelagic", "feeding_strategy", "probability", "se")
+
+ggplot(data_fig, aes(x = trophic_level,
+                     y = probability)) +
+  geom_smooth(aes(color = feeding_strategy)) +
+  geom_ribbon(aes(ymin = probability - se,
+                  ymax = probability + se,
+                  fill = feeding_strategy), alpha = 0.3) +
+  labs(x = "trophic", y = "Probability of FO", color = "feeding_strategy", fill = "feeding_strategy") +
+  theme_bw()
+
+
+```
 
