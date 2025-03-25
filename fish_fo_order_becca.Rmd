@@ -1,0 +1,67 @@
+---
+title: "becca_exploration"
+output: html_document
+date: "2025-03-25"
+---
+
+```{r}
+
+library(dplyr)
+library(here)
+library(tidyverse)
+
+fish <- read.csv("fish_data_all_becca.csv")
+
+fish[fish == ''] <- NA
+
+fish <- fish %>%
+  filter(if_any(FO, ~ !(.x %in% c("yes", "no")))) %>%
+  drop_na(FO)
+
+fish$FO <- as.numeric(fish$FO)
+
+fish_group <- fish %>%
+  group_by(order) %>%
+  summarize(mean_fo=mean(FO))
+
+```
+
+```{r}
+
+fish_dist <- ggplot(fish, aes(x=FO)) +
+  geom_histogram() +
+  theme_bw() +
+  theme(legend.position = "none")
+
+fish_dist
+
+fish <- fish %>%
+  mutate(log = log10(FO))
+
+fish_dist <- ggplot(fish, aes(x=log)) +
+  geom_histogram() +
+  theme_bw() +
+  theme(legend.position = "none")
+
+fish_dist # did. not help
+
+```
+
+
+```{r}
+
+order_ANOVA <- aov(FO ~ order, data = fish)
+
+summary(order_ANOVA)
+
+#no significant difference between orders
+
+family_ANOVA <- aov(FO ~ family, data = fish)
+
+summary(family_ANOVA)
+
+#significant difference by family
+
+```
+
+

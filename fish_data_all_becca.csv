@@ -1,0 +1,691 @@
+﻿order,family,species,common_name,habitat,feeding_strategy,trophic_level,IUCN,fisheries_interest,G/GI,method,N,n_fish_ingested,FO
+Osteichthyes,,,,,,,,,,,,,
+Anguilliformes,Anguillidae,Anguilla anguilla,European eel,"N, D",S,3.6,CR,Y,GI,2,n/a,,yes
+Anguilliformes,Congridae,Conger conger,European conger,"N-O, D",BP,4.3,NE,Y,G,1,7007,1,0.01
+Anguilliformes,Congridae,,,,,,,,GI ,2,44,0,0.00
+Anguilliformes,Congridae,Conger verreauxi,Conger,"N, D",BP,4.2,LC,Y,"G, GI",2,25,0,0.00
+Anguilliformes,Muraenesocidae,Cynoponticus savanna,Guayana pike-conger,"N, B",BP,3.5,LC,Y,GI,2,1,0,0.00
+Anguilliformes,Muraenesocidae,Muraenesox cinereus,Daggertooth pike conger,"N-O, D",BP,4.4,NE,Y,GI,3,18,18,100.00
+Anguilliformes,Muraenidae,Gymnothorax ocellatus,Ocellated moray,"N, B",BP,4.1,LC,Y,GI,2,1,0,0.00
+Anguilliformes,Nemichthyidae,Nemichthys scolopaceus,Slender snipe eel,"O, P",P,3.5,NE,N,GI,3,1,1,100.00
+Anguilliformes,Nettastomatidae,Nettastoma melanurum,Black fin sorcerer,"O, D",BP,3.5,NE,N,"G, GI, I",1,11,1,9.09
+Anguilliformes,Nettastomatidae,,,,,,,,GI,2,1,0,0.00
+Anguilliformes,Ophichthidae,Ophichthus cylindroideus,Dusky snake eel,"N, D",n/a,4,LC,n/a,GI,2,1,,no
+Anguilliformes,Ophichthidae,,,,,,,,GI,2,1,0,0.00
+Anguilliformes,Ophichthidae,Ophichthus ophis,Spotted snake eel,"N, B",BP,4.5,LC,Y,GI,2,1,0,0.00
+Anguilliformes,Serrivomeridae,Serrivomer beanii,Stout sawpalate,"O, P",PP,3.9,LC,N,G ,3,14,13,92.86
+Anguilliformes,Serrivomeridae,,,,,,,,,,,,25.16
+Atheriniformes,Atherinopsidae,Atherinella blackburni,Beach silverside,"N, BP",n/a,3.4,LC,Y,GI,2,2,,no
+Atheriniformes,Atherinopsidae,Atherinella brasiliensis,Brazilian silversides,"N, BP",P,3.2,LC,Y,GI,2,405,,yes
+Atheriniformes,Atherinopsidae,Atherinopsis californiensis,Jack silverside,"N, P",P,2.3,LC,Y,GI,3,7,2,28.57
+Atheriniformes,Atherinopsidae,Menidia menidia  ,Atlantic silverside,"N, P",P,3.2,NE,Y,n/a,,9,3,33.33
+Atheriniformes,Atherinopsidae,Odontesthes regia,Chilean silverside,"N, P",P,,LC,n/a,GI,2,9,1,11.11
+Aulopiformes,Alepisauridae,Alepisaurus ferox,Long-snouted lancetfish,"O, P",PP,4,LC,BC,G ,1,192,47,24.48
+Aulopiformes,Alepisauridae,,,,,,,,G,1,114,34,29.82
+Aulopiformes,Alepisauridae,,,,,,,,n/a,1,1,,yes
+Aulopiformes,Paralepididae,Arctozenus risso,Spotted barracudina,"O, P",P,3.2,NE,N,GI,3,14,3,21.43
+Aulopiformes,Paralepididae,Sudis hyalina,n/a,"O, P",PP,4.2,NE,N,GI ,2,5,0,0.00
+Aulopiformes,Synodontidae,Harpadon nehereus,Bombay-duck,"O, BP",BP,4.2,NE,Y,GI,3,18,18,100.00
+Aulopiformes,Synodontidae,Saurida tumbil,Greater lizardfish,"N, BP",BP,4.4,LC,Y,GI,3,4,,yes
+Aulopiformes,Synodontidae,Saurida undosquamis,Brushtooth lizardfish,"N, D",BP,4.5,NE,Y,GI,3,99,55,55.56
+Batrachoidiformes,Batrachoididae,Batrachoides surinamensis,Pacuma toadfish,"N, B",BP,3.7,LC,Y,GI,2,1,0,0.00
+Beloniformes,Belonidae,Strongylura marina,Atlantic needlefish,"N, P",PP,3,LC,Y,GI,2,4,,no
+Beloniformes,Belonidae,Strongylura timucu,Timucu,"N, P",PP,4.5,LC,Y,GI,2,2,,no
+Beloniformes,Exocetidae,Cheilopogon pitcairnensis,n/a,"N, P",P,3.9,NE,Y,GI,3,21,2,9.52
+Beloniformes,Exocetidae,Cheilopogon rapanouiensis,Easter Island flyingfish,"O, P",P,4,LC,N,"G, GI",2,43,7,16.28
+Beloniformes,Hemiramphidae,Hyporhamphus ihi,n/a,"N, P",P,3.2,NE,Y,GI,3,24,0,0.00
+Beloniformes,Hemiramphidae,Hyporhamphus intermedius,Asian pencil halfbeak,"N, P",P,3.4,NE,Y,GI,3,18,18,100.00
+Beloniformes,Hemiramphidae,Hyporhamphus melanochir,Southern sea garfish,"N, P",O,2.7,NE,Y,"G, GI",2,66,0,0.00
+Beloniformes,Hemiramphidae,Hyporhamphus roberti roberti,Slender halfbeak,"N, P",n/a,3,LC,Y,GI,2,35,,yes
+Beloniformes,Hemiramphidae,Hyporhamphus unifasciatus,Common halfbeak,"N, P",O,2,LC,Y,GI,2,209,,yes
+Beloniformes,Scomberesocidae,Cololabis saira,Pacific saury,"O, P",P,3.7,NE,Y,G,2,54,,yes
+Beryciformes,Holocentridae,Myripristis amaena,Brick soldierfish,"N, D",BP,3.6,LC,Y,GI,1,10,0,0.00
+Beryciformes,Holocentridae,Neoniphon sammara,Sammara squirrelfish,"N, D",BP,3.6,LC,N,GI ,3,5,1,20.00
+Beryciformes,Holocentridae,Sargocentron spiniferum,Sabre squirrelfish,"N, D",BP,3.6,LC,N,GI,3,5,0,0.00
+Clupeiformes,Clupeidae,Alosa fallax,Twaite shad,"N, P",PP,4,LC,Y,G,2,1,1,100.00
+Clupeiformes,Clupeidae,Brevoortia patronus,Gulf menhaden,"N, P",P,2.2,LC,Y,n/a, ,n/a,,yes
+Clupeiformes,Clupeidae,Clupea harengus,Atlantic herring,"N-O, P",P,3.4,LC,Y,G,3,3,2,66.67
+Clupeiformes,Clupeidae,,,,,,,,n/a,,2,2,100.00
+Clupeiformes,Clupeidae,,,,,,,,GI,3,164,3,1.83
+Clupeiformes,Clupeidae,,,,,,,,GI,3,566,11,1.94
+Clupeiformes,Clupeidae,,,,,,,,GI,3,131,0,0.00
+Clupeiformes,Clupeidae,,,,,,,,GI,2,33,0,0.00
+Clupeiformes,Clupeidae,Clupea pallasii,Pacific herring,"N, P",P,3.2,NE,Y,GI,2,205,4,1.95
+Clupeiformes,Clupeidae,Hyperlophus vittatus,Sandy sprat,"N, P",P,3.4,NE,Y,"G, GI",2,10,0,0.00
+Clupeiformes,Clupeidae,Lile piquitinga,Atlantic piquitinga,"N, P",n/a,3.1,LC,Y,GI,2,2,,no
+Clupeiformes,Clupeidae,Opisthonema libertate,Pacific thread herring,"N, P",P,2.9,LC,Y,GI,2,80,2,2.50
+Clupeiformes,Clupeidae,Opisthonema oglinum,Atlantic thread herring,"N, P",P,4.5 ??,LC,Y,GI,2,56,,yes
+Clupeiformes,Clupeidae,Rhinosardinia bahiensis,Bahia sprat,"N, P",n/a,3.1,NE,Y,GI,2,179,,yes
+Clupeiformes,Clupeidae,Sardina pilchardus ,European pilchard,"N, P",P,3.1,NE,Y,GI ,3,99,19,19.19
+Clupeiformes,Clupeidae,,,,,,,,GI,3,7,4,57.14
+Clupeiformes,Clupeidae,,,,,,,,G,3,3,2,66.67
+Clupeiformes,Clupeidae,,,,,,,,GI,2,105,16,15.24
+Clupeiformes,Clupeidae,,,,,,,,G,2,12,0,0.00
+Clupeiformes,Clupeidae,,,,,,,,GI ,2,139,27,19.42
+Clupeiformes,Clupeidae,,,,,,,,GI,3,66,28,42.42
+Clupeiformes,Clupeidae,,,,,,,,GI,3,36,17,47.22
+Clupeiformes,Clupeidae,Sardinops sagax,South American pilchard,"N, P",P,2.8,LC,Y,GI,2,7,0,0.00
+Clupeiformes,Clupeidae,Spratelloides gracilis,Silver-stripe r. herring,"N, P",P,3.1,LC,Y,GI,3,10,4,40.00
+Clupeiformes,Clupeidae,Sprattus sprattus,European sprat,"N, P",P,3,NE,Y,GI,3,141,1,0.71
+Clupeiformes,Clupeidae,,,,,,,,GI,3,154,n/a,0.90
+Clupeiformes,Clupeidae,Strangomera benticki,Araucanian herring,"N, P",P,2.7,NE,Y,GI,2,10,0,0.00
+Clupeiformes,Engraulidae,Anchoa januaria,Rio anchovy,"N,P",P,2.9,NE,N,GI,2,194,,yes
+Clupeiformes,Engraulidae,Anchoa marinii,Marini's anchovy,"N, P",P,3.4,NE,n/a,GI,2,22,,yes
+Clupeiformes,Engraulidae,Anchoa tricolor,Piquitinga anchovy,"N,P",P,3.4,NE,Y,GI,2,6,,no
+Clupeiformes,Engraulidae,Anchovia clupeoides,Zabaleta anchovy,"N, P",P,3.4,LC,Y,GI,2,10,,yes
+Clupeiformes,Engraulidae,Cetengraulis edentulus,Atlantic anchoveta,"N, P",P,2.1,LC,Y,GI,2,5,,no
+Clupeiformes,Engraulidae,Cetengraulis mysticetus,Pacific anchoveta,"N, P",P,2.5,LC,Y,GI,2,40,1,2.50
+Clupeiformes,Engraulidae,Coilia nasus,Jap. grenadier anchovy,"N, P",P,3,NE,Y,GI,3,18,18,100.00
+Clupeiformes,Engraulidae,Encrasicholina heteroloba,Shorthead anchovy,"N, P",P,3.3,NE,Y,GI,3,10,4,40.00
+Clupeiformes,Engraulidae,Engraulis australis,Australian anchovy,"N, P",P,3,NE,Y,"G, GI",2,10,0,0.00
+Clupeiformes,Engraulidae,Engraulis encrasicolus,European anchovy,"N, P",P,3.1,NE,Y,G,3,3,2,66.67
+Clupeiformes,Engraulidae,,,,,,,,GI,2,105,15,14.29
+Clupeiformes,Engraulidae,Engraulis japonicus,Japanese anchovy,"N, P",P,3.1,NE,Y,GI,3,64,49,76.56
+Clupeiformes,Engraulidae,Engraulis mordax,Californian anchovy,"N, P",P,3.1,LC,Y,GI,3,10,3,30.00
+Clupeiformes,Engraulidae,Engraulis ringens,Anchoveta,"N, P",P,2.9,LC,Y,GI,2,116,1,0.86
+Clupeiformes,Engraulidae,Lycengraulis grossidens,Atl. sabretooth anchovy,"N, P",PP,3.7,LC,Y,GI,2,146,,yes
+Cyprinodontiformes,Poeciliidae,Poecilia vivipara,n/a,"N, BP",P,2.3,NE,N,GI,2,75,,yes
+Elopiformes,Elopidae,Elops saurus,Ladyfish,"N, D",BP,3.5,LC,Y,GI,2,1,,no
+Gadiformes,Gadidae,Boreogadus saida,Polar cod,"N-O, BP",P,3.1,NE,Y,GI,3,85,15,17.65
+Gadiformes,Gadidae,,,,,,,,G ,2,72,2,2.78
+Gadiformes,Gadidae,Gadus morhua,Atlantic cod,"N, BP",BP,4.1,VU,Y,GI,3,80,10,12.50
+Gadiformes,Gadidae,,,,,,,,G,2,302,9,2.98
+Gadiformes,Gadidae,,,,,,,,"G, GI",1,205,5,2.44
+Gadiformes,Gadidae,,,,,,,,GI,2,81,1,1.23
+Gadiformes,Gadidae,,,,,,,,n/a,,n/a,,yes
+Gadiformes,Gadidae,,,,,,,,n/a,,1,,yes
+Gadiformes,Gadidae,Melanogrammus aeglefinus,Haddock,"N-O, D",BP,4,VU,Y,GI,3,97,6,6.19
+Gadiformes,Gadidae,Merlangius merlangus,Whiting,"N-O, D",BP,4.4,NE,Y,GI,3,105,6,5.71
+Gadiformes,Gadidae,,,,,,,,GI,2,50,16,32.00
+Gadiformes,Gadidae,,,,,,,,GI,2,n/a,,yes
+Gadiformes,Gadidae,,,,,,,,GI,3,28,0,0.00
+Gadiformes,Gadidae,Micromesistius poutassou,Blue whiting,"N-O, P",BP,4.1,NE,Y,GI,2,27,14,51.85
+Gadiformes,Gadidae,,,,,,,,GI,2,20,0,0.00
+Gadiformes,Gadidae,,,,,,,,GI,2,3,0,0.00
+Gadiformes,Gadidae,,,,,,,,G,1,10575,2,0.02
+Gadiformes,Gadidae,Pollachius pollachius,Pollack,"N-O, BP",BP,4.3,NE,Y,GI,2,5,0,0.00
+Gadiformes,Gadidae,,,,,,,,n/a,,n/a,,yes
+Gadiformes,Gadidae,Pollachius virens,Saithe,"N-O, D",BP,4.3,NE,Y,n/a,,1,1,100.00
+Gadiformes,Gadidae,,,,,,,,n/a,,n/a,,yes
+Gadiformes,Gadidae,Trisopterus luscus,pout whiting,"N-O, BP",BP,3.7,NE,Y,G,1,3076,1,0.03
+Gadiformes,Gadidae,,,,,,,,n/a,,n/a,,yes
+Gadiformes,Gadidae,,,,,,,,G,2,1,0,0.00
+Gadiformes,Gadidae,Trisopterus minutus,Poor cod,"N, D",BP,3.7,LC,Y,GI,2,50,20,40.00
+Gadiformes,Gadidae,,,,,,,,GI,2,n/a,,yes
+Gadiformes,Gadidae,,,,,,,,G,1,2062,0,0.00
+Gadiformes,Lotidae,Ciliata mustela,Fivebeard rockling,"N, D",BP,3.5,NE,Y,GI, ,113,6,5.31
+Gadiformes,Lotidae,Gaidropsaurus macrophthalmus,Bigeye rockling,"N-O, D",BP,3.5,LC,Y,G,1,725,0,0.00
+Gadiformes,Lotidae,Molva macrophthalma,Spanish ling,"O, D",BP,4.5,NE,N,GI ,2,13,0,0.00
+Gadiformes,Lotidae,,,,,,,,G,1,990,0,0.00
+Gadiformes,Lotidae,Molva molva,Ling ,"O, D",BP,4.4,NE,Y,GI,2,5,0,0.00
+Gadiformes,Macrouridae,Coryphaenoides rupestris,Roundnose grenadier,"O, P",PP,3.5,CR,Y,GI,2,5,0,0.00
+Gadiformes,Macrouridae,Trachyrincus scabrus,Roughsnout grenadier,"O, BP",P,3.6,NE,Y,"G, GI, I",1,18,6,33.33
+Gadiformes,Merlucciidae,Merluccius binilearis,Silver hake,"N, D",BP,4.5,NT,Y,GI,1,134,0,0.00
+Gadiformes,Merlucciidae,Merluccius merluccius,European Hake,"N-O, D",BP,4.4,NE,Y,GI,3,3,3,100.00
+Gadiformes,Merlucciidae,,,,,,,,G,2,12,3,25.00
+Gadiformes,Merlucciidae,,,,,,,,G,3,12,2,16.67
+Gadiformes,Merlucciidae,,,,,,,,GI,2,36,0,0.00
+Gadiformes,Merlucciidae,,,,,,,,G,1,16164,0,0.00
+Gadiformes,Moridae,Mora moro,Common mora,"O, P",BP,3.8,NE,Y,"G, GI, I",1,80,,yes
+Gadiformes,Moridae,,,,,,,,GI ,2,19,0,0.00
+Gadiformes,Phycidae,Phycis blennoides,Greater forkbeard,"N-O, D",BP,3.7,NE,Y,GI,2,46,0,0.00
+Gadiformes,Phycidae,,,,,,,,"G, GI, I",1,22,0,0.00
+Gadiformes,Phycidae,,,,,,,,G,1,1828,0,0.00
+Gadiformes,Phycidae,Phycis phycis ,Forkbeard,"N-O, D",BP,4.3,LC,Y,GI,3,8,7,87.50
+Gasterosteiformes,Gasterosteidae,Gasterosteus aculeatus,Three-spined stickleback,"N, BP",BP,3.3,LC,Y,GI,3,355,0,0.00
+Lampriformes,Lampridae,Lampris sp.,Big-eye moonfish/opah,"O, P",PP,4.2,NE,Y,G,1,115,49,42.61
+Lampriformes,Lampridae,Lampris sp.,Small-eye moonfish/opah,"O, P",PP,4.2,NE,Y,G,1,24,14,58.33
+Lampriformes,Lampridae,Lampris immaculatus,Southern opah,"O, P",PP,4.4,NE,BC,n/a,1,69,10,14.49
+Lophiiformes,Lophiidae,Lophius budegassa,Blackbellied angler,"N-O, B",BP,4.4,DD,Y,G,1,505,0,0.00
+Lophiiformes,Lophiidae,Lophius piscatorius,Angler,"N-O, D",BP,4.5,NE,Y,G,2,2,1,50.00
+Lophiiformes,Lophiidae,,,,,,,,G,1,1382,0,0.00
+Mugiliformes,Mugilidae,Aldrichetta forsteri,Yellow-eye mullet,"N, D",O,2.5,NE,Y,"G, GI",2,17,0,0.00
+Mugiliformes,Mugilidae,Chelon auratus,Golden grey mullet,"N, BP",O,2.8,LC,Y,GI,3,39,17,43.59
+Mugiliformes,Mugilidae,,,,,,,,GI ,3,20,19,95.00
+Mugiliformes,Mugilidae,Ellochelon vaigiensis,Squaretail mullet,"N, BP",O,2.2,LC,Y,GI,3,33,16,48.48
+Mugiliformes,Mugilidae,Liza haematocheila,So-iuy mullet,"N, BP",O,2.5,NE,Y,GI,3,18,18,100.00
+Mugiliformes,Mugilidae,Mugil cephalus,Flat-head grey mullet,"N, BP",O,2.5,LC,Y,GI,2,70,51,72.86
+Mugiliformes,Mugilidae,,,,,,,,GI,3,18,18,100.00
+Mugiliformes,Mugilidae,,,,,,,,GI,3,22,3,13.64
+Mugiliformes,Mugilidae,,,,,,,,GI,2,45,29,64.44
+Mugiliformes,Mugilidae,,,,,,,,"G, GI",2,43,0,0.00
+Mugiliformes,Mugilidae,,,,,,,,GI,3,30,18,60.00
+Mugiliformes,Mugilidae,Mugil curema,White mullet,"N, BP",O,2,LC,Y,GI,2,186,,yes
+Mugiliformes,Mugilidae,Mugil curvidens,Dwarf mullet,"N, BP",D,2,NE,N,GI,2,9,,no
+Mugiliformes,Mugilidae,Mugil hospes,Hospe mullet,"N, BP",P,n/a,LC,Y,GI,2,28,,no
+Mugiliformes,Mugilidae,Mugil incilis,Parassi mullet,"N, BP",D,2,LC,Y,GI,2,5,,no
+Mugiliformes,Mugilidae,Mugil liza,Lebranche mullet,"N, BP",D,2,DD,Y,GI,2,2,,no
+Myctophiformes,Myctophidae,Benthosema glaciale,Glacier lanternfish,"O, P",P,3,NE,N,GI,3,27,6,22.22
+Myctophiformes,Myctophidae,,,,,,,,G ,3,69,47,68.12
+Myctophiformes,Myctophidae,Benthosema pterotum,Skinnycheek lanternfish,"O, P",P,3.1,LC,N,GI,3,10,1,10.00
+Myctophiformes,Myctophidae,Bolinichthys longipes,Popeye lampfish,"O, P",P,3.1,NE,N,G,2,3,0,0.00
+Myctophiformes,Myctophidae,Centrobranchus andreae,Andre's lanternfish,"O, P",P,3.4,NE,N,n/a,1,5,2,40.00
+Myctophiformes,Myctophidae,Ceratoscopelus warmingii,Warming's lanternfish,"O, P",P,3.4,NE,Y,G,2,8,0,0.00
+Myctophiformes,Myctophidae,Diaphus anderseni,Andersen's lanternfish,"O, P",P,3.1,NE,N,G,2,13,2,15.38
+Myctophiformes,Myctophidae,Diaphus fulgens,n/a,"O, P",P,3.1,NE,N,G,2,7,2,28.57
+Myctophiformes,Myctophidae,Diaphus metopoclampus,Spothead lanternfish,"O, P",P,3.3,LC,N,G,?,296,1,0.34
+Myctophiformes,Myctophidae,Diaphus phillipsi,Bolin's lanternfish,"O, P",P,3.1,NE,N,G,2,1,1,100.00
+Myctophiformes,Myctophidae,Diaphus rafinesquii,White-spotted lanternfish,"O, P",P,3.4,LC,N,G ,3,34,24,70.59
+Myctophiformes,Myctophidae,Diogenichthys atlanticus,Longfin lanternfish,"O, P",P,3.1,NE,Y,G,2,5,0,0.00
+Myctophiformes,Myctophidae,Electrona risso,Electric lanternfish,"O, P",P,3.4,LC,N,G,?,82,5,6.10
+Myctophiformes,Myctophidae,Gymnoscopelus nicholsi,Nichol's lanternfish,"N-O, P",P,3.4,NE,Y,"G, GI",2,39,0,0.00
+Myctophiformes,Myctophidae,Hygophum benoiti,Benoit's lanternfish,"O, P",P,3,LC,N,G,?,73,5,6.85
+Myctophiformes,Myctophidae,Hygophum proximum,Firefly lanternfish,"O, P",P,3.2,LC,N,G,2,2,0,0.00
+Myctophiformes,Myctophidae,Hygophum reinhardtii,Reinhardt's lanternfish,"O, P",P,3.2,NE,Y,G,2,47,,yes
+Myctophiformes,Myctophidae,,,,,,,,G,2,2,0,0.00
+Myctophiformes,Myctophidae,Lampadena urophaos,Sunbeam lampfish,"O, P",P,3.2,NE,Y,G,2,1,0,0.00
+Myctophiformes,Myctophidae,Lampanyctus crocodilus,Jewel lanternfish,"O, P",P,3.2,NE,N,GI,3,2,0,0.00
+Myctophiformes,Myctophidae,Lampanyctus macdonaldi,Rakery beaconlamp,"O, P",P,3.1,LC,N,G ,3,16,12,75.00
+Myctophiformes,Myctophidae,Lobianchia gemellarii,Cocco's lanternfish,"O, P",P,3,NE,Y,G,2,3,1,33.33
+Myctophiformes,Myctophidae,Loweina interrupta,n/a,"O, P",P,3.2,NE,Y,G,2,27,,yes
+Myctophiformes,Myctophidae,Myctophum aurolaternatum,Golden lanternfish,"O, P",P,3.5,NE,N,G,2,462,,yes
+Myctophiformes,Myctophidae,Mychtophum lychnobium,n/a,"O, P",P,3.2,LC,N,n/a,1,17,7,41.18
+Myctophiformes,Myctophidae,Myctophum nitidulum,Pearly lanternfish,"O, P",P,3.4,NE,Y,G,2,25,4,16.00
+Myctophiformes,Myctophidae,Myctophum punctatum,Spotted lanternfish,"O, P",P,3.4,NE,N,G,?,71,3,4.23
+Myctophiformes,Myctophidae,,,"O, P",,,,,G ,3,86,64,74.42
+Myctophiformes,Myctophidae,,,,,,,,GI,3,3,0,0.00
+Myctophiformes,Myctophidae,Nannobrachium fernae,n/a,"O, P",P,3.1,NE,N,G,2,1,0,0.00
+Myctophiformes,Myctophidae,Nannobrachium hawaiiensis,n/a,"O, P",P,3.1,NE,N,G,2,17,0,0.00
+Myctophiformes,Myctophidae,Nannobrachium regale,Pinpoint lampfish,"O, P",P,3.2,NE,N,G,2,1,0,0.00
+Myctophiformes,Myctophidae,Notolychnus valdiviae,Topside lampfish,"O, P",P,3.1,NE,Y,G,2,3,0,0.00
+Myctophiformes,Myctophidae,Notoscopelus kroyeri,Lancet fish,"O, P",P,3.2,NE,N,GI,3,417,60,14.39
+Myctophiformes,Myctophidae,Notoscopelus resplendens,Patchwork lampfish,"O, P",P,3,NE,Y,G,2,3,0,0.00
+Myctophiformes,Myctophidae,Symbolophorus californiensis,Bigfin lanternfish,"O, P",P,3.1,NE,N,G,2,74,,yes
+Myctophiformes,Myctophidae,Symbolophorus evermanni,Evermann's lanternfish,"O, P",P,3.4,NE,N,n/a,1,14,1,7.14
+Myctophiformes,Myctophidae,Taaningichthys bathyphilus,Deepwater lanternfish,"O, P",P,3.1,NE,Y,G,2,3,0,0.00
+Ophidiiformes,Bythidiae,Cataetyx laticeps,n/a,"O, D",BP,3.8,NE,N,"G, GI, I",1,10,1,10.00
+Osmeriformes,Alepocephalidae,Alepocephalus rostratus,Risso's smooth-head,"O, D",BP,3.7,NE,N,"G, GI, I",1,158,0,0.00
+Osmeriformes,Alepocephalidae,Xenodermichthys copei,Bluntsnout smooth-head,"O, P",P,3.2,NE,N,GI,3,5,3,60.00
+Osmeriformes,Argentinidae,Argentina silus,Greater argentine,"O, P",P,3.3,NE,Y,GI,2,15,1,6.67
+Osmeriformes,Osmeridae,Osmerus eperlanus,European smelt,"N, BP",P,3.5,LC,Y,GI,2,10,2,20.00
+Perciformes,Acanthuridae,Acanthurus coeruleus,Blue tang surgeonfish,"N, B",G,2,LC,Y,G ,2,1,0,0.00
+Perciformes,Acanthuridae,Acanthurus gahhm,Black surgeonfish,"N, B",O,2.8,LC,Y,GI ,3,10,1,10.00
+Perciformes,Acanthuridae,Acanthurus lineatus,Lined surgeonfish,"N, B",G,2,LC,Y,GI,3,24,4,16.67
+Perciformes,Acanthuridae,Acanthurus sohal,Sohal surgeonfish,"N, B",G,2,LC,Y,GI,3,3,0,0.00
+Perciformes,Acanthuridae,Ctenochaetus striatus,Striated surgeonfish,"N, B",G,2,LC,Y,GI,3,27,7,25.93
+Perciformes,Acanthuridae,,,,,,,,GI,3,29,6,20.69
+Perciformes,Acanthuridae,Naso brachycentron,Humpback unicornfish,"N, B",G,2.7,LC,Y,GI,1,1,0,0.00
+Perciformes,Acanthuridae,Naso lituratus,Orangespine unicornfish,"N, B",G,2.3,LC,Y,GI,3,28,4,14.29
+Perciformes,Acanthuridae,Naso unicornis,Bluespine unicornfish,"N, B",G,2.2,LC,Y,GI,3,30,6,20.00
+Perciformes,Acanthuridae,,,,,,,,GI,3,2,0,0.00
+Perciformes,Ammodytidae,Ammodytes personatus,Pacific sandlance,"N, B",P,3.1,NE,Y,GI,2,734,11,1.50
+Perciformes,Arripidae,Arripis sp.,Australian salmon,,,,,n/a,"G, GI",2,9,0,0.00
+Perciformes,Blennidae,Scartichthys viridis,n/a,"N, B",G,2.2,LC,N,GI,3,19,19,100.00
+Perciformes,Bramidae,Brama brama,Atlantic pomfret,"O, P",PP,4.1,NE,Y,G,2,3,1,33.33
+Perciformes,Bramidae,,,,,,,,GI ,2,9,0,0.00
+Perciformes,Callionymidae,Callionymus lyra,Dragonet,"N, D",BP,3.3,NE,Y,GI,2,50,19,38.00
+Perciformes,Callionymidae,,,,,,,,GI ,2,n/a,,yes
+Perciformes,Callionymidae,,,,,,,,G,1,2116,0,0.00
+Perciformes,Callionymidae,Callionymus planus,Japanese darter dragonet,"N, B",BP,3.3,NE,N,GI,3,18,18,100.00
+Perciformes,Carangidae,Caranx crysos,Blue runner,"N, P",PP,4.1,LC,Y,GI,3,1,1,100.00
+Perciformes,Carangidae,,,,,,,,G ,2,3,0,0.00
+Perciformes,Carangidae,,,,,,,,GI,2,3,0,0.00
+Perciformes,Carangidae,Caranx hippos,Crevalle jack,"N-O, BP",BP,3.6,LC,Y,GI,2,3,3,100.00
+Perciformes,Carangidae,Caranx latus,Horse-eye jack,"N-O, P",BP,4.2,LC,Y,GI,2,57,,no
+Perciformes,Carangidae,Caranx melampygus,Bluefin trevally,"N-O, BP",PP,4.5,LC,Y,GI,1,1,0,0.00
+Perciformes,Carangidae,Caranx papuensis,Brassy trevally,"N, P",PP,4,NE,Y,GI,3,32,14,43.75
+Perciformes,Carangidae,Caranx sexfasciatus,Bigeye trevally,"N-O, BP",PP,4.5,LC,Y,GI,1,3,0,0.00
+Perciformes,Carangidae,Decapterus macrosoma,Shortfin scad,"N, P",P,3.4,NE,Y,GI,3,17,5,29.41
+Perciformes,Carangidae,,,,,,,,GI,3,25,7,28.00
+Perciformes,Carangidae,Decapterus muroadsi,Amberstripe scad,"N-O, P",P,3.4,LC,Y,GI,3,25,16,64.00
+Perciformes,Carangidae,,,,,,,,GI,2,20,16,80.00
+Perciformes,Carangidae,Oligoplites palometa,Maracaibo leatherjacket,"N, BP",BP,4.3,LC,Y,GI,2,8,,no
+Perciformes,Carangidae,Oligoplites saliens,Castin leatherjacket,"N, BP",P,3.8,LC,Y,GI,2,2,,no
+Perciformes,Carangidae,Oligoplites saurus,Leatherjacket,"N, P",PP,4.3,NE,Y,GI,2,22,,yes
+Perciformes,Carangidae,Selar boops,Oxeye scad,"N, BP",P,3.5,NE,Y,GI,3,7,0,0.00
+Perciformes,Carangidae,Selene setapinnis,Atlantic moofish,"N, BP",PP,3.7,LC,Y,GI,2,1,0,0.00
+Perciformes,Carangidae,Selene vomer,Lookdown,"N, D",BP,4.3,LC,Y,GI,2,2,1,50.00
+Perciformes,Carangidae,,,,,,,,GI,2,2,,no
+Perciformes,Carangidae,Seriola lalandi ,Yellowtail kingfish,"N-O, BP",PP,4.2,NE,Y,GI,2,19,2,10.53
+Perciformes,Carangidae,,,,,,,,GI,3,15,3,20.00
+Perciformes,Carangidae,,,,,,,,GI,1,10,0,0.00
+Perciformes,Carangidae,Trachinotus ovatus,Pompano,"N, P",BP,3.7,LC,Y,G,2,115,28,24.35
+Perciformes,Carangidae,Trachurus declivis,Greenback horse mackerel,"N-O, BP",P,3.9,NE,Y,"G, GI",2,23,0,0.00
+Perciformes,Carangidae,Trachurus mediterraneus,Med Horse mackerel,"O, P",PP,3.8,LC,Y,GI,3,98,67,68.37
+Perciformes,Carangidae,,,,,,,,GI,2,2,0,0.00
+Perciformes,Carangidae,Trachurus novaezelandiae,Yellowtail horse mackerel,"O, P",P,3.2,NE,Y,GI,3,31,1,3.23
+Perciformes,Carangidae,Trachurus picturatus,Blue jack mackerel,"N, BP",P,3.3,NE,Y,G,2,29,1,3.45
+Perciformes,Carangidae,,,,,,,,GI ,2,9,0,0.00
+Perciformes,Carangidae,Trachurus trachurus,Atlantic horse mackerel,"N-O, P",BP,3.7,NE,Y,GI,2,56,16,28.57
+Perciformes,Carangidae,,,,,,,,GI,3,100,1,1.00
+Perciformes,Carangidae,,,,,,,,G,2,44,3,6.82
+Perciformes,Carangidae,,,,,,,,GI,2,5,0,0.00
+Perciformes,Carangidae,,,,,,,,GI,2,50,12,24.00
+Perciformes,Centrolophidae,Psenopsis anomala,Pacific rudderfish,"N, BP",P,4,LC,Y,GI,3,18,18,100.00
+Perciformes,Centrolophidae,Schedophilus ovalis,Imperial blackfish,"O, BP",P,3.5,NE,Y,GI,2,3,0,0.00
+Perciformes,Centrolophidae,Schedophilus velaini,Violet warehou,"O, P",PP,4.2,LC,Y,GI,3,14,8,57.14
+Perciformes,Centropomidae,Centropomus ensiferus,Swordspine snook,"N, BP",BP,4.2,LC,Y,GI,2,1,,no
+Perciformes,Centropomidae,Centropomus undecimalis,Common snook,"N, BP",BP,4.2,LC,Y,GI,2,2,,no
+Perciformes,Cepolidae,Cepola macrophthalma,Red bandfish,"N, D",P,3.1,NE,Y,GI,2,62,20,32.26
+Perciformes,Chaetodontidae,Chaetodon austriacus,Blacktail butterflyfish,"N, B",G,3.3,LC,N,GI ,3,10,1,10.00
+Perciformes,Cheilodactylidae,Nemadactylus macropterus,Tarakihi,"N, D",BP,3.4,NE,Y,GI,3,23,2,8.70
+Perciformes,Coryphaenidae,Coryphaena hippurus,Common dolphinfish,"N-O, P",PP,4.4,LC,Y,GI,3,10,2,20.00
+Perciformes,Coryphaenidae,,,,,,,,G,1,42,1,2.38
+Perciformes,Coryphaenidae,,,,,,,,GI,2,2,,yes
+Perciformes,Coryphaenidae,,,,,,,,n/a,,n/a,,yes
+Perciformes,Coryphaenidae,,,,,,,,GI,1,1,0,0.00
+Perciformes,Eleotridae,Oxyeleotris marmorata,Marble goby,"N, B",BP,3.9,LC,Y,GI,3,18,18,100.00
+Perciformes,Ephippidae,Chaetodipterus faber,Atlantic spadefish,"N, D",BP,4.5 ??,LC,Y,G ,2,103,48,46.60
+Perciformes,Ephippidae,,,,,,,,GI,2,6,,yes
+Perciformes,Ephippidae,,,,,,,,GI,2,5,0,0.00
+Perciformes,Epigonidae,Epigonus telescopus,Black cardinal fish,"O, BP",BP,3.6,NE,Y,GI ,2,4,0,0.00
+Perciformes,Gempylidae,Gempylus serpens,Snake mackarel,"O, P",PP,4.4,NE,Y,G,1,104,1,0.96
+Perciformes,Gempylidae,Lepidocybium flavobrunneum,Escolar,"O, P",PP,4.3,NE,Y,G,1,45,0,0.00
+Perciformes,Gempylidae,Thyrsites atun,Snoek,"N-O, BP",PP,3.6,NE,Y,GI,3,28,8,28.57
+Perciformes,Gempylidae,,,,,,,,"G, GI",2,2,0,0.00
+Perciformes,Gerreidae,Diapterus auratus,Irish mojarra,"N, D",BP,2.4,LC,Y,GI,2,29,,yes
+Perciformes,Gerreidae,Diapterus rhombeus,Caitipa mojarra,"N, D",BP,3,NE,Y,G,,44,5,11.36
+Perciformes,Gerreidae,,,,,,,,GI,2,31,,yes
+Perciformes,Gerreidae,Eugerres brasilianus,Brazilian mojarra,"N, D",BP,3.4,NE,Y,G,,240,39,16.25
+Perciformes,Gerreidae,,,,,,,,GI,2,64,,yes
+Perciformes,Gerreidae,Eucinostomus argenteus,Silver mojarra,"N,D",O,3.2,LC,Y,GI,2,98,,yes
+Perciformes,Gerreidae,Eucinostomus melanopterus,Flagfin mojarra,"N, D",O,3.4,NE,Y,G,,141,13,9.22
+Perciformes,Gerreidae,,,,,,,,GI,2,21,,no
+Perciformes,Gerreidae,Gerres subfasciatus,Common silver belly,n/a,n/a,3.3,LC,Y,GI,2,24,5,20.83
+Perciformes,Gobiidae,Bathygobius soporator,Frillfin goby,"N, B",BP,3.7,LC,N,GI,2,6,,no
+Perciformes,Gobiidae,Ctenogobius boleosoma,Darter goby,"N, B",BP,3.3,LC,n/a,GI,2,27,,yes
+Perciformes,Gobiidae,Ctenogobius stigmaticus,Marked goby,"N, B",BP,3.4,LC,N,GI,2,3,,no
+Perciformes,Gobiidae,Gobionellus oceanicus,Highfin goby,"N, B",BP,3.4,LC,n/a,GI,2,6,,no
+Perciformes,Gobiidae,Microgobius meeki,n/a,"N, B",BP,3.5,LC,n/a,GI,2,1,,no
+Perciformes,Gobiidae,Pomatoschistus minutus,Sand goby,"N, B",BP,3.2,NE,N,GI, ,200,15,7.50
+Perciformes,Gobiidae,Synechogobius ommaturus,Asian freshwater goby,"N, B",BP,3.5,NE,N,GI,3,18,18,100.00
+Perciformes,Haemulidae,Anisotremus surinamensis,Black margate,"N, D",BP,3.6,DD,Y,GI,2,1,,no
+Perciformes,Haemulidae,,,,,,,,GI,2,1,0,0.00
+Perciformes,Haemulidae,Anisotremus virginicus,Porkfish,"N, D",BP,3.6,LC,Y,GI,2,1,0,0.00
+Perciformes,Haemulidae,Conodon nobilis,Barred grunt,"N, D",BP,3.6,LC,Y,GI,2,8,0,0.00
+Perciformes,Haemulidae,Genyatremus luteus,Torroto grunt,"N, D",O,3.5,NE,Y,GI,2,8,0,0.00
+Perciformes,Haemulidae,Haemulon plunierii,White grunt,"N, D",BP,3.8,LC,Y,GI,2,13,0,0.00
+Perciformes,Haemulidae,Haemulon steindachneri,Chere-chere grunt,"N, D",BP,3.7,LC,Y,GI,2,5,0,0.00
+Perciformes,Haemulidae,Orthopristis chrysoptera,"Grunt, pigfish","N, D",BP,3.4,LC,Y,G ,2,157,42,26.75
+Perciformes,Haemulidae,Orthopristis ruber,Corocoro grunt,"N, D",BP,3.6,LC,Y,GI,2,2,0,0.00
+Perciformes,Haemulidae,Plectorhinchus gaterinus,Blackspotted subberlip,"N, B",BP,4,NE,Y,GI,3,6,2,33.33
+Perciformes,Haemulidae,Pomadasys corvinaeformis,Roughneck grunt,"N, D",BP,3.6,LC,Y,GI,2,4,,no
+Perciformes,Haemulidae,Pomadasys incisus,Bastard grunt,"N, D",BP,3.8,LC,Y,GI,3,29,16,55.17
+Perciformes,Istiophoridae,Istiompax indica,Black marlin,"O, P",PP,4.5,DD,Y,n/a,1,1,,yes
+Perciformes,Kuhliidae,Kuhlia sandvicensis,Hawaiian flagtail,n/a,n/a,3.8,NE,Y,GI,1,15,3,20.00
+Perciformes,Kyphosidae,Girella laevifrons,n/a,"N, P",G,2.6,NE,N,GI,3,16,16,100.00
+Perciformes,Kyphosidae,Girella tricuspidata,Parore,"N, BP",G,2.1,NE,y,GI,3,20,14,70.00
+Perciformes,Kyphosidae,Graus nigra,n/a,"N, D",BP,3.4,NE,Y,GI,3,8,8,100.00
+Perciformes,Kyphosidae,Kyphosus pacificus,Pacific drummer,n/a,n/a,,NE,Y,GI,1,15,0,0.00
+Perciformes,Kyphosidae,Kyphosus sandwicensis,Pacific chub,"N, D",G,,NE,Y,GI,3,39,20,51.28
+Perciformes,Kyphosidae,Kyphosus sydneyanus,Silver drummer,"N, B",G,2,NE,Y,GI,1,10,0,0.00
+Perciformes,Labridae,Coris aygula,Clown coris,"N, D",BP,3.7,LC,Y,GI,1,1,0,0.00
+Perciformes,Labridae,Notolabrus tetricus,Blue-throated wrasse,"N, D",BP,3.6,LC,Y,"G, GI",2,7,0,0.00
+Perciformes,Labridae,Oxycheilinus unifasciatus,Ringtail maori wrasse,"N, BP",BP,4.1,LC,Y,GI,1,1,0,0.00
+Perciformes,Labridae,Thalassoma purpureum,Surge wrasse,"N, D",BP,3.8,LC,Y,GI,1,2,1,50.00
+Perciformes,Labridae,Thalassoma rueppellii,Klunzinger's wrasse,"N, D",BP,3.5,LC,Y,GI,3,12,1,8.33
+Perciformes,Labridae,Thalassoma trilobatum,Christmas wrasse,"N, D",BP,3.8,LC,Y,GI,1,4,1,25.00
+Perciformes,Labridae,Tautogolabrus adspersus,Cunner,"N, B",BP,3.7,LC,Y,n/a,,6,,yes
+Perciformes,Labrisomidae,Auchenionchus microcirrhis,n/a,"N, D",BP,3.7,LC,N,GI,3,16,16,100.00
+Perciformes,Lateolabracidae,Lateolabrax japonicus,Japanese seabass,"N, BP",P,3.4,NE,Y,GI,3,18,18,100.00
+Perciformes,Latidae,Lates calcarifer,Barramundi,"N, D",BP,3.8,NE,Y,GI,3,2,2,100.00
+Perciformes,Leiognathidae,Photopectoralis bindus,Orangefin ponyfish,"N, D",O,2.9,NE,y,GI,3,18,18,100.00
+Perciformes,Lethrinidae,Gnathodentex aurolineatus,Striped large-eye bream,"N, D",BP,3.7,NE,Y,GI,3,29,2,6.90
+Perciformes,Lethrinidae,Gymnocranius grandoculis,Blue-lined large-eye bream,"N, D",BP,3.8,LC,N,GI ,3,10,2,20.00
+Perciformes,Lethrinidae,Lethrinus amboinensis,Ambon emperor,"N, D",BP,4,NE,Y,GI,3,26,6,23.08
+Perciformes,Lethrinidae,Lethrinus microdon,Smalltooth emperor,"N, D",BP,3.8,LC,Y,GI,3,10,2,20.00
+Perciformes,Lethrinidae,Lethrinus obsoletus,Orange-striped emperor,"N, D",BP,3.9,NE,Y,GI,3,30,4,13.33
+Perciformes,Lutjanidae,Lipocheilus carnolabrum,Tang's snapper,"N, D",BP,3.9,LC,Y,GI,3,7,2,28.57
+Perciformes,Lutjanidae,Lutjanus alexandrei,n/a,"N, D",BP,3.8,NE,n/a,GI,2,1,,no
+Perciformes,Lutjanidae,Lutjanus analis,Mutton snapper,"N, D",BP,3.9,NT,Y,GI,2,3,1,33.33
+Perciformes,Lutjanidae,,,,,,,,G ,2,2,0,0.00
+Perciformes,Lutjanidae,Lutjanus campechanus,Northern red snapper,"N, BP",BP,3.9,VU,Y,GI,2,2,,yes
+Perciformes,Lutjanidae,Lutjanus gibbus,Humpback red snapper,"N, BP",BP,4.1,LC,Y,GI,3,29,6,20.69
+Perciformes,Lutjanidae,,,,,,,,GI,3,5,0,0.00
+Perciformes,Lutjanidae,,,,,,,,GI,1,1,0,0.00
+Perciformes,Lutjanidae,Lutjanus griseus,Grey snapper,"N, BP",BP,4.2,LC,Y,GI,2,5,,yes
+Perciformes,Lutjanidae,Lutjanus jocu,Dog snapper,"N, D",BP,4.4,NE,Y,G ,2,5,0,0.00
+Perciformes,Lutjanidae,,,,,,,,GI,2,4,,no
+Perciformes,Lutjanidae,Lutjanus kasmira,Bluestripe snapper,"N, D",BP,3.9,LC,Y,GI ,3,12,2,16.67
+Perciformes,Lutjanidae,Lutjanus synagris,Lane snapper,"N, D",BP,3.8,NT,Y,GI,2,2,1,50.00
+Perciformes,Lutjanidae,,,,,,,,GI,2,2,,no
+Perciformes,Lutjanidae,Pristipomoides multidens,Gold banded jobfish,"N, D",BP,3.8,LC,Y,GI,3,10,2,20.00
+Perciformes,Lutjanidae,Pristipomoides typus,Sharptooth jobfish,"N, D",BP,4.2,LC,N,GI,3,5,0,0.00
+Perciformes,Malacanthidae,Branchiostegus japonicus,Horsehead tilefish,"N, D",P,3.4,LC,Y,GI,3,18,18,100.00
+Perciformes,Moronidae,Dicentrarchus labrax,European seabass,"N, D",BP,3.5,LC,Y,GI,3,40,9,22.50
+Perciformes,Moronidae,Morone americana  ,White perch,"N, D",BP,3.1,LC,Y,n/a,,12,4,33.33
+Perciformes,Moronidae,Morone saxatilis,Striped bass,"N, D",BP,4.7??,LC,Y,GI,3,7,2,28.57
+Perciformes,Moronidae,,,,,,,,n/a,1,1094,1,0.09
+Perciformes,Mullidae,Mulloidichthys flavolineatus,Yellowstripe goatfish,"N, B",BP,3.8,LC,Y,GI,1,2,0,0.00
+Perciformes,Mullidae,Mullus barbatus,Red mullet,"N, D",BP,3.1,NE,Y,GI,3,11,7,63.64
+Perciformes,Mullidae,,,,,,,,G,3,128,24,18.75
+Perciformes,Mullidae,,,,,,,,GI,3,207,136,65.70
+Perciformes,Mullidae,,,,,,,,GI,3,12,11,91.67
+Perciformes,Mullidae,,,,,,,,GI ,2,148,11,7.43
+Perciformes,Mullidae,,,,,,,,GI,3,25,8,32.00
+Perciformes,Mullidae,,,,,,,,GI,3,25,8,32.00
+Perciformes,Mullidae,Mullus surmuletus,Surmullet,"N, B",BP,3.5,NE,Y,G,2,4,4,100.00
+Perciformes,Mullidae,,,,,,,,GI,3,51,33,64.71
+Perciformes,Mullidae,,,,,,,,G,2,417,114,27.34
+Perciformes,Mullidae,,,,,,,,GI ,2,8,0,0.00
+Perciformes,Mullidae,,,,,,,,GI,3,30,21,70.00
+Perciformes,Mullidae,,,,,,,,G,1,1298,0,0.00
+Perciformes,Mullidae,Upeneus moluccensis,Goldband goatfish,"N, D",BP,3.6,NE,Y,GI,3,18,8,44.44
+Perciformes,Mullidae,Upeneus pori,Por's goatfish,"N, D",BP,3.5,NE,Y,GI,3,78,32,41.03
+Perciformes,Nemipteridae,Nemipterus randalli,Randall's theadfin bream,"N, D",BP,3.7,NE,Y,GI,3,135,74,54.81
+Perciformes,Nemipteridae,Parascolopsis eriomma,Rosy dwarf mon. bream ,"N, D",BP,3.5,NE,Y,GI ,3,5,3,60.00
+Perciformes,Nototheniidae,Dissostichus mawsoni,Antarctic tootfish,"O, P",BP,3.9,NE,Y,"G, GI",2,10,1,10.00
+Perciformes,Odacidae,Haletta semifasciata,Blue weed whiting,"N, D",BP,3.2,LC,Y,"G, GI",2,2,0,0.00
+Perciformes,Polynemidae,Polydactylus oligodon,Littlescale threadfin,"N, B",BP,3.7,LC,Y,GI,2,1,1,100.00
+Perciformes,Polynemidae,Polydactylus virginicus,Barbu,"N, D",BP,3.7,LC,Y,GI,2,14,,no
+Perciformes,Polynemidae,,,,,,,,GI,2,13,0,0.00
+Perciformes,Polyprionidae,Polyprion americanus,Wreckfish,"N, D",BP,4.1,DD,Y,GI,2,14,0,0.00
+Perciformes,Polyprionidae,,,,,,,,G,2,1,0,0.00
+Perciformes,Pomacanthidae,Pygoplites diacanthus,Regal angelfish,"N, B",G,2.7,LC,N,GI,3,5,0,0.00
+Perciformes,Pomacentridae,Abudefduf sexfasciatus,Scissortail sergeant,"N, BP",O,2.7,NE,N,GI,3,5,1,20.00
+Perciformes,Pomacentridae,Abudefduf sordidus,Blackspot sergeant,"N, D",O,2.9,NE,Y,GI,1,1,0,0.00
+Perciformes,Pomacentridae,Dascyllus trimaculatus,Threespot dascyllus,"N, BP",O,2.8,NE,N,GI ,3,2,0,0.00
+Perciformes,Pomatomidae,Pomatomus saltatrix,Bluefish,"N-O, P",PP,4.5,VU,Y,GI,2,2,0,0.00
+Perciformes,Priacanthidae,Heteropriacanthus cruentatus,Glasseye,"N, D",BP,3.6,LC,Y,GI,3,10,3,30.00
+Perciformes,Priacanthidae,Priacanthus arenatus,Atlantic bigeye,"N, D",BP,4,LC,Y,G,2,122,60,49.18
+Perciformes,Rachycentridae,Rachycentron canadum,Cobia,"N-O, BP",PP,4,LC,Y,GI,2,1,0,0.00
+Perciformes,Scaridae,Chlorurus sordidus,Daisy parrotfish,"N, B",G,2.6,LC,Y,GI,1,4,1,25.00
+Perciformes,Scaridae,Nicholsina usta,Emerald parrotfish,"N, D",G,2,LC,Y,GI,2,2,,no
+Perciformes,Scaridae,Scarus niger,Dusky parrotfish,"N, D",G,2,LC,Y,GI,3,30,7,23.33
+Perciformes,Scaridae,Scarus oviceps,Dark capped parrotfish,"N, D",G,2,LC,Y,GI,3,45,5,11.11
+Perciformes,Scaridae,Scarus psittacus,Common parrotfish,"N, D",G,2,LC,Y,GI,3,30,5,16.67
+Perciformes,Sciaenidae,Argyrosomus regius,Meagre,"N, BP",PP,4.3,NE,Y,G,2,5,3,60.00
+Perciformes,Sciaenidae,,,,,,,,GI,3,51,38,74.51
+Perciformes,Sciaenidae,Bairdiella ronchus,Ground croaker,"N, D",BP,3.5,LC,Y,GI,2,4,0,0.00
+Perciformes,Sciaenidae,Collichthys lucidus,n/a,"N, D",BP,3.5,NE,Y,GI,3,18,18,100.00
+Perciformes,Sciaenidae,Ctenosciaena gracilicirrhus,Barbel drum,"N, D",BP,3.9,LC,Y,GI,2,11,0,0.00
+Perciformes,Sciaenidae,Cynoscion acoupa,Acoupa weakfish,"N, B",BP,4.1,LC,Y,G,2,530,340,64.15
+Perciformes,Sciaenidae,,,,,,,,GI,2,552,282,51.09
+Perciformes,Sciaenidae,Cynoscion arenarius,"Sand trout, s. weakfish","N, D",BP,4.2,LC,Y,G ,2,139,60,43.17
+Perciformes,Sciaenidae,Cynoscion jamaicensis,Jamaica weakfish,"N, D",BP,3.8,LC,Y,GI,2,3,0,0.00
+Perciformes,Sciaenidae,Cynoscion leiarchus,Cynoscion weakfish,"N, D",BP,3.1,LC,Y,GI,2,2,1,50.00
+Perciformes,Sciaenidae,,,,,,,,GI,2,9,,no
+Perciformes,Sciaenidae,Cynoscion microlepidotus,Smallscale weakfish,"N, D",BP,4,LC,Y,GI,2,16,3,18.75
+Perciformes,Sciaenidae,Cynoscion nebulosus,Spotted weakfish,"N, D",BP,4,LC,Y,GI,2,20,,yes
+Perciformes,Sciaenidae,Cynoscion virescens,Green weakfish,"N, D",BP,4,LC,Y,GI,2,7,1,14.29
+Perciformes,Sciaenidae,Larimichthys crocea,Large yellow croaker,"N, BP",BP,3.7,NE,Y,GI,3,18,18,100.00
+Perciformes,Sciaenidae,Macrodon ancylodon,King weakfish,"N, D",BP,3.9,LC,Y,GI,2,13,1,7.69
+Perciformes,Sciaenidae,Menticirrhus americanus,Southern kingcroaker,"N, D",BP,3.5,LC,Y,G ,2,150,53,35.33
+Perciformes,Sciaenidae,,,,,,,,GI,2,1,0,0.00
+Perciformes,Sciaenidae,,,,,,,,GI,2,1,,no
+Perciformes,Sciaenidae,Micropogonias furnieri,Whitemouth croaker,"N, D",BP,3.1,LC,Y,GI,2,1,,no
+Perciformes,Sciaenidae,,,,,,,,GI,2,6,0,0.00
+Perciformes,Sciaenidae,Micropogonias undulatus,Atlantic croaker,"N, D",BP,4,LC,Y,G ,2,383,173,45.17
+Perciformes,Sciaenidae,,,,,,,,GI,2,1,0,0.00
+Perciformes,Sciaenidae,,,,,,,,n/a, ,n/a,,yes
+Perciformes,Sciaenidae,Paralonchurus brasiliensis,Banded croaker,"N, D",BP,3.4,LC,Y,GI,2,6,0,0.00
+Perciformes,Sciaenidae,Pogonias cromis,Black drum,"N, D",BP,3.9,LC,Y,GI,2,1,0,0.00
+Perciformes,Sciaenidae,Sciaena umbra,Brown meagre,"N, D",BP,3.8,NT,Y,GI,3,1,1,100.00
+Perciformes,Sciaenidae,Sciaenops ocellatus,Red drum,"N, D",BP,3.7,LC,Y,GI,2,28,,yes
+Perciformes,Sciaenidae,Stellifer brasiliensis,n/a,"N, D",BP,3.4,NE,N,G,2,330,23,6.97
+Perciformes,Sciaenidae,,,,,,,,GI,2,1,,no
+Perciformes,Sciaenidae,Stellifer stellifer,Little croaker,"N, D",BP,3.4,NE,Y,G,2,239,22,9.21
+Perciformes,Sciaenidae,Umbrina cirrosa,Shi drum,"N, D",BP,3.4,NE,Y,GI,3,1,0,0.00
+Perciformes,Scombridae,Acanthocybium solandri,Wahoo,"O, P",PP,4.3,LC,Y,n/a,1,885,1,0.11
+Perciformes,Scombridae,Euthynnus alletteratus,Little tunny,"N, BP",PP,4.5,LC,Y,n/a,,n/a,,yes
+Perciformes,Scombridae,Gymnosarda unicolor,Dogtooth tuna,"O, P",PP,4.5,LC,Y,GI,1,2,0,0.00
+Perciformes,Scombridae,Katsuwonus pelamis,Skipjack tuna,"O, P",PP,4.4,LC,Y,GI,3,26,6,23.08
+Perciformes,Scombridae,,,,,,,,G,1,29,0,0.00
+Perciformes,Scombridae,,,,,,,,GI,3,9,0,0.00
+Perciformes,Scombridae,,,,,,,,"G, GI",2,1,0,0.00
+Perciformes,Scombridae,Rastrelliger kanagurta,Indian mackerel,"N, P",P,3.2,DD,Y,GI,3,9,5,55.56
+Perciformes,Scombridae,,,,,,,,GI,3,20,,yes
+Perciformes,Scombridae,Scomber australasicus,Blue mackerel,"N, P",P,4.2,LC,Y,"G, GI",2,4,0,0.00
+Perciformes,Scombridae,Scomber japonicus,Chub mackerel,"N, P",P,3.4,LC,Y,G,2,35,11,31.43
+Perciformes,Scombridae,,,,,,,,GI,3,7,5,71.43
+Perciformes,Scombridae,,,,,,,,GI,2,30,1,3.33
+Perciformes,Scombridae,,,,,,,,GI,3,1,0,0.00
+Perciformes,Scombridae,,,,,,,,GI ,2,37,16,43.24
+Perciformes,Scombridae,Scomber scombrus,Atlantic mackerel,"N-O, P",P,3.6,LC ,Y,G,2,13,4,30.77
+Perciformes,Scombridae,,,,,,,,GI,2,51,9,17.65
+Perciformes,Scombridae,,,,,,,,GI,2,31,10,32.26
+Perciformes,Scombridae,,,,,,,,GI,3,84,0,0.00
+Perciformes,Scombridae,Scomberomorus brasiliensis,Serra Spanish mackerel,"N-O, P",PP,3.3,LC,Y,GI,2,1,0,0.00
+Perciformes,Scombridae,Scomberomorus cavalla,King mackerel,"N, P",PP,4.4,LC,Y,G ,2,8,5,62.50
+Perciformes,Scombridae,,,,,,,,GI,2,1,0,0.00
+Perciformes,Scombridae,Thunnus albacares,Yellowfin tuna,"O, P",PP,4.4,NT,Y,GI,3,68,18,26.47
+Perciformes,Scombridae,,,,,,,,"G, GI",2,50,1,2.00
+Perciformes,Scombridae,,,,,,,,n/a,,n/a,,yes
+Perciformes,Scombridae,,,,,,,,G,1,26,0,0.00
+Perciformes,Scombridae,Thunnus alalunga,Albacore,"O, P",PP,4.3,NT,Y,G,?,31,4,12.90
+Perciformes,Scombridae,,,,,,,,GI,3,2,0,0.00
+Perciformes,Scombridae,Thunnus atlanticus,Blackfin tuna,"O, P",PP,4.4,LC,Y,n/a,,n/a,,yes
+Perciformes,Scombridae,Thunnus maccoyi,Southern bluefin tuna,"O, P",PP,3.9,CR,Y,n/a,1,1219,12,0.98
+Perciformes,Scombridae,Thunnus obesus,Bigeye tuna,"O, P",PP,4.5,VU,Y,G,1,35,3,8.57
+Perciformes,Scombridae,Thunnus thynnus,Atlantic bluefin tuna,"O, P",PP,4.5,EN,Y,G,?,34,11,32.35
+Perciformes,Serranidae,Cephalopholis argus,Peacock hind,"N, BP",BP,4.5,LC,Y,GI,3,4,0,0.00
+Perciformes,Serranidae,Epinephelus areolatus,Areolate grouper,"N, D",BP,3.7,LC,Y,GI,3,5,1,20.00
+Perciformes,Serranidae,Epinephelus chlorostigma,Brownspotted grouper,"N, D",BP,4,LC,Y,GI ,3,3,1,33.33
+Perciformes,Serranidae,Epinephelus epistictus,Dotted grouper,"N, D",BP,4,DD,N,GI,3,5,1,20.00
+Perciformes,Serranidae,Epinephelus fasciatus,Blacktip grouper,"N, D",BP,3.7,LC,Y,GI,1,17,0,0.00
+Perciformes,Serranidae,Epinephelus itajara,Atlantic goliath grouper,"N, D",BP,4.1,CR,Y,GI,2,2,0,0.00
+Perciformes,Serranidae,Epinephelus merra,Honeycomb grouper,"N, D",BP,3.8,LC,Y,GI,3,20,,yes
+Perciformes,Serranidae,Epinephelus radiatus,Oblique-banded grouper,"N, D",BP,4,LC,N,GI,3,7,1,14.29
+Perciformes,Serranidae,Mycteroperca sp.,Grouper ?,"N, D",,,,n/a,G ,2,1,0,0.00
+Perciformes,Serranidae,Rypticus randalli,n/a,"N, D",BP,3.8,LC,n/a,GI,2,1,,no
+Perciformes,Serranidae,Serranus cabrilla,Comber,"N-O, D",BP,3.4,LC,Y,GI,3,6,4,66.67
+Perciformes,Serranidae,Variola louti,Yellow-edged lyretail,"N, BP",BP,4.3,NE,Y,GI,1,15,3,20.00
+Perciformes,Siganidae,Siganus argenteus,Streamlined spinefoot,"N, P",G,2,NE,Y,GI,3,2,1,50.00
+Perciformes,Siganidae,Siganus canaliculatus,White-spotted spinefoot,"N, P",G,2.8,NE,Y,GI,3,3,1,33.33
+Perciformes,Siganidae,Siganus fuscescens,Mottled spinefoot,"N, P",G,2.3,NE,Y,GI,3,2,0,0.00
+Perciformes,Siganidae,Siganus luridus,Dusky spinefoot,"N, D",G,2,NE,Y,GI,3,15,13,86.67
+Perciformes,Siganidae,,,,,,,,GI,3,n/a,,yes
+Perciformes,Siganidae,Siganus punctatus,Goldspotted spinefoot,"N, D",G,2,NE,Y,GI,3,29,4,13.79
+Perciformes,Siganidae,Siganus rivulatus,Marbled spinefoot,"N, D",G,2,LC,Y,GI,3,n/a,,yes
+Perciformes,Sillaginidae,Sillaginodes punctatus,Spotted sillago,"N, D",BP,3.3,NE,Y,"G, GI",2,8,0,0.00
+Perciformes,Sillaginidae,Sillago flindersi,Flinder's sillago,"N, D",BP,3.3,NE,Y,"G, GI",2,10,0,0.00
+Perciformes,Sillaginidae,Sillago sihama,Silver silago,"N, D",BP,3.3,NE,Y,GI,3,18,18,100.00
+Perciformes,Sillaginidae,,,,,,,,GI,3,17,,yes
+Perciformes,Sparidae,Acanthopagrus australis,Yellowfin bream,"N, D",BP,3.1,LC,Y,GI,2,24,6,25.00
+Perciformes,Sparidae,Boops boops,Bogue,"N, B",O,2.8,NE,Y,G,2,32,3,9.38
+Perciformes,Sparidae,,,,,,,,GI,2,337,195,57.86
+Perciformes,Sparidae,Dentex dentex,Common dentex,"N, BP",BP,4.5,VU,Y,GI,3,1,0,0.00
+Perciformes,Sparidae,Dentex gibbosus,Pink dentex,"N, BP",BP,4.1,LC,Y,GI,3,14,4,28.57
+Perciformes,Sparidae,Dentex macrophthalmus,Large-eye dentex,"N-O, BP",BP,3.5,NE,Y,G,2,1,1,100.00
+Perciformes,Sparidae,Diplodus annularis,Pink dentex,"N, BP",BP,3.6,LC,Y,GI,3,48,33,68.75
+Perciformes,Sparidae,Diplodus vulgaris,2-banded seabream,"N, BP",BP,3.5,LC,Y,GI,3,40,29,72.50
+Perciformes,Sparidae,Lagodon rhomboides,Pinfish,"N, D",BP,4.4,LC,Y,G ,2,449,209,46.55
+Perciformes,Sparidae,,,,,,,,GI,2,48,,yes
+Perciformes,Sparidae,Lithognathus mormyrus,Sand steenbras,"N, D",BP,3.4,LC,Y,GI,3,46,16,34.78
+Perciformes,Sparidae,,,,,,,,G,1,63,0,0.00
+Perciformes,Sparidae,Pagellus acarne,Axillary seabream,"N-O, B",BP,3.8,NE,Y,G,2,1,1,100.00
+Perciformes,Sparidae,,,,,,,,GI,3,52,35,67.31
+Perciformes,Sparidae,,,,,,,,G,1,1917,0,0.00
+Perciformes,Sparidae,Pagellus bogaraveo,Blackspot seabream,"N-O, D",BP,4.2,NE,Y,GI ,2,60,1,1.67
+Perciformes,Sparidae,,,,,,,,G,1,174,0,0.00
+Perciformes,Sparidae,Pagellus erythrinus,Common pandora,"N, BP",BP,3.5,LC,Y,GI,3,54,28,51.85
+Perciformes,Sparidae,,,,,,,,GI,2,80,2,2.50
+Perciformes,Sparidae,,,,,,,,GI ,3,49,23,46.94
+Perciformes,Sparidae,,,,,,,,GI,3,19,8,42.11
+Perciformes,Sparidae,,,,,,,,G,1,370,0,0.00
+Perciformes,Sparidae,Pagrus auratus,Silver seabream,"N, BP",BP,3.6,LC,Y,GI,3,22,1,4.55
+Perciformes,Sparidae,Pagrus pagrus,Red porgy,"N, BP",BP,3.9,LC,Y,GI,3,9,7,77.78
+Perciformes,Sparidae,Sparus aurata,Gilthead seabream,"N, D",BP,3.7,LC,Y,GI,3,110,48,43.64
+Perciformes,Sparidae,,,,,,,,GI,3,20,20,100.00
+Perciformes,Sparidae,Spondyliosoma cantharus,Black seabream,"N, BP",O,3.3,LC,Y,GI ,3,5,5,100.00
+Perciformes,Sparidae,,,,,,,,G,1,284,0,0.00
+Perciformes,Sphyraenidae,Sphyraena forsteri,Bigeye barracuda,"N-O, P",PP,4.4,NE,Y,GI,3,12,2,16.67
+Perciformes,Sphyraenidae,Sphyraena genie,Blackfin barracuda,"N-O, P",PP,4.5,NE,Y,GI,1,7,1,14.29
+Perciformes,Sphyraenidae,Sphyraena guachancho,Guachanche barracuda,"N, P",PP,4.4,NE,Y,G ,2,1,0,0.00
+Perciformes,Stromateidae,Pampus argenteus,Silver pomfret,"N, BP",P,3.3,NE,Y,GI,3,18,18,100.00
+Perciformes,Stromateidae,Peprilus paru,American harvestfish,"N, BP",??,4.5??,LC,Y,GI,2,2,0,0.00
+Perciformes,Teraponidae,Pelates quadrilineatus,Fourlined terapon,"N, D",BP,3.6,NE,Y,GI,3,135,88,65.19
+Perciformes,Teraponidae,Terapon jarbua,Jarbua terapon,"N, D",O,3.9,LC,Y,GI,3,18,18,100.00
+Perciformes,Trichiuridae,Aphanopus carbo,Black scabbardfish,"O, P",PP,4.5,NE,Y,GI,2,5,0,0.00
+Perciformes,Trichiuridae,,,,,,,,G,1,11,0,0.00
+Perciformes,Trichiuridae,Lepidopus caudatus,Silver Scabbardfish,"N-O, BP",PP,3.8,NE,Y,GI,2,1,0,0.00
+Perciformes,Trichiuridae,Trichiurus lepturus,Largehead hairtail,"N, BP",PP,4.4,NE,Y,G,1,149,1,0.67
+Perciformes,Trichiuridae,,,,,,,,G,2,1,0,0.00
+Perciformes,Trichiuridae,,,,,,,,GI,2,5,1,20.00
+Perciformes,Tripterygiidae,Helcogrammoides chilensis,n/a,"N, D",BP,3.3,LC,N,GI,3,3,3,100.00
+Perciformes,Uranoscopidae,Uranoscopus scaber,Stargazer,"N-O, D",BP,4.4,LC,Y,GI,3,9,7,77.78
+Perciformes,Xiphiidae,Xiphias gladius,Swordfish,"O, P",PP,4.5,LC,Y,G,?,56,7,12.50
+Perciformes,Xiphiidae,,,,,,,,G,1,31,1,3.23
+Perciformes,Xiphiidae,,,,,,,,GI ,2,1,0,0.00
+Perciformes,Zoarcidae,Zoarces viviparus,Eelpout,"N, D",BP,3.5,NE,Y,GI,3,150,0,0.00
+Pleuronectiformes ,Achiridae,Achirus achirus,Drab sole,"N, B",BP,4,LC,N,GI,2,3,,no
+Pleuronectiformes ,Achiridae,Achirus declivis,Plainfin sole,"N, B",BP,3.3,LC,n/a,GI,2,7,,yes
+Pleuronectiformes ,Achiridae,Achirus lineatus,Lined sole,"N, B",BP,3.5,LC,N,GI,2,10,,yes
+Pleuronectiformes ,Achiridae,Trinectes paulistanus,Slipper sole,"N, B",BP,3.3,LC,n/a,GI,2,3,,no
+Pleuronectiformes ,Citharidae,Citharus linguatula,Spotted flounder,"N, B",BP,4,LC,Y,GI ,2,52,1,1.92
+Pleuronectiformes ,Cynoglossidae,Cynoglossus abbreviatus,3-lined tongue sole,"N, D",BP,3.5,NE,Y,GI,3,18,18,100.00
+Pleuronectiformes ,Cynoglossidae,,,,,,,,GI,3,11,,yes
+Pleuronectiformes ,Cynoglossidae,Symphurus tessellatus,n/a,"N, B",BP,3.6,LC,n/a,GI,2,26,,yes
+Pleuronectiformes ,Paralichthyidae,Citharichthys macrops,Spotted whiff,"N, B",BP,3.5,LC,n/a,GI,2,7,,no
+Pleuronectiformes ,Paralichthyidae,Citharichthys sordidus,Pacific sanddab,"N-O, B",BP,3.5,NE,y,GI,3,5,3,60.00
+Pleuronectiformes ,Paralichthyidae,Citharichthys spilopterus,Bay whiff,"N, B",BP,3.6,LC,Y,GI,2,12,,no
+Pleuronectiformes ,Paralichthyidae,Etropus crossotus,Fringed flounder,"N, B",BP,3.5,LC,Y,GI,2,1,,no
+Pleuronectiformes ,Paralichthyidae,Paralichthys brasiliensis,Brazilian flounder,"N, B",BP,4.2,NE,y,G ,2,1,0,0.00
+Pleuronectiformes ,Paralichthyidae,Paralichthys lethostigma,Southern flounder,"N, B",BP,3.5,NT,Y,GI,2,8,,yes
+Pleuronectiformes ,Pleuronectidae,Hippoglossus hippoglossus,Atlantic halibut,"O, B",BP,4,EN,Y,GI,2,14,0,0.00
+Pleuronectiformes ,Pleuronectidae,Limanda limanda,Common dab,"N, B",BP,3.4,LC,Y,GI ,2,89,4,4.49
+Pleuronectiformes ,Pleuronectidae,,,,,,,,GI,3,100,0,0.00
+Pleuronectiformes ,Pleuronectidae,,,,,,,,GI,2,19,9,47.37
+Pleuronectiformes ,Pleuronectidae,Pleuronectes platessa,European plaice,"N, B",BP,3.2,LC,Y,GI,2,62,28,45.16
+Pleuronectiformes ,Pleuronectidae,Pseudopleuronectes americanus  ,Winter flounder,"N, B",BP,3.6,NE,Y,n/a,,95,2,2.11
+Pleuronectiformes ,Pleuronectidae,Platichthys flesus,European flounder,"N, B",BP,3.3,LC,Y,GI,2,66,56,84.85
+Pleuronectiformes ,Pleuronectidae,,,,,,,,GI,2,36,2,5.56
+Pleuronectiformes ,Pleuronectidae,,,,,,,,GI, ,1090,133,12.20
+Pleuronectiformes ,Pleuronectidae,,,,,,,,GI,3,40,5,12.50
+Pleuronectiformes ,Pleuronectidae,,,,,,,,GI,2,47,24,51.06
+Pleuronectiformes ,Scophthalmidae,Lepidorhombus boscii,Four-spot megrim,"N-O, B",BP,3.7,NE,Y,G,2,2,1,50.00
+Pleuronectiformes ,Scophthalmidae,,,,,,,,G,1,25914,0,0.00
+Pleuronectiformes ,Scophthalmidae,Lepidorhombus whiffiagonis,Megrim,"N-O, B",BP,4.3,NE,Y,GI,2,10,1,10.00
+Pleuronectiformes ,Scophthalmidae,,,,,,,,G,2,2,0,0.00
+Pleuronectiformes ,Scophthalmidae,,,,,,,,G,1,6753,0,0.00
+Pleuronectiformes ,Soleidae,Buglossidium luteum,Solenette,"N-O, B",BP,3.3,LC,Y,GI,2,50,13,26.00
+Pleuronectiformes ,Soleidae,Microchirus variegatus,Thickback sole,"N-O, B",BP,3.3,NE ,Y,GI,2,51,12,23.53
+Pleuronectiformes ,Soleidae,,,,,,,,GI,2,n/a,,yes
+Pleuronectiformes ,Soleidae,Solea solea,Common sole,"N, B",BP,3.2,NE ,Y,GI,3,533,506,94.93
+Pleuronectiformes ,Soleidae,,,,,,,,G,2,1,0,0.00
+Pleuronectiformes ,Soleidae,,,,,,,,GI,2,88,2,2.27
+Pleuronectiformes ,Soleidae,,,,,,,,GI ,3,20,13,65.00
+Salmoniformes,Salmonidae,Oncorhynchus tshawytscha,Chinook salmon,"N, BP",PP,4.4,NE,Y,GI,3,4,1,25.00
+Salmoniformes,Salmonidae,Salmo trutta,Sea trout,"N, P",BP,3.4,LC,Y,GI,3,62,42,67.74
+Scorpaeniformes ,Cottidae,Myoxocephalus aenaeus  ,Grubby,"N-O, B",BP,3.7,NE ,N,n/a,,47,2,4.26
+Scorpaeniformes ,Cottidae,Triglops nybelini,Bigeye sculpin,"N-O, B",BP,3.3,NE,N,GI,3,71,24,33.80
+Scorpaeniformes ,Hexagrammidae,Ophiodon elongatus,Lingcod,"N-O, D",BP,4.3,NE,Y,GI,3,11,1,9.09
+Scorpaeniformes ,Liparidae,Liparis liparis,Striped seasnail,"N, B",BP,3.6,LC,Y,GI, ,220,16,7.27
+Scorpaeniformes ,Platycephalidae,Platycephalus bassensis,Sand flathead,"N, B",BP,4.3,NE,Y,"G, GI",2,10,0,0.00
+Scorpaeniformes ,Platycephalidae,Platicephalus indicus,Bartail flathead,"N, D",BP,3.6,DD,Y,GI,3,12,,yes
+Scorpaeniformes ,Platycephalidae,Platycephalus laevigatus,Black flathead,"N, D",BP,3.8,NE,N,"G, GI",2,7,0,0.00
+Scorpaeniformes ,Scorpaenidae,Scorpaena elongata,Slender rockfish,"N-O, D",BP,3.9,NE,Y,GI,2,1,0,0.00
+Scorpaeniformes ,Scorpaenidae,Scorpaena jacksoniensis,n/a,"N, D",BP,3.9,NE,N,"G, GI",2,19,0,0.00
+Scorpaeniformes ,Scorpaenidae,Scorpaena loppei,Cadenat's rockfish,"N, D",BP,3.5,LC,N,G,1,104,0,0.00
+Scorpaeniformes ,Scorpaenidae,Scorpaena scrofa,Red scorpionfish,"N-O, D",BP,4.3,LC,Y,G,1,51,0,0.00
+Scorpaeniformes ,Scorpaenidae,Scorpaena sp.,n/a,,BP,,,n/a,GI,3,19,16,84.21
+Scorpaeniformes ,Sebastidae,Helicolenus dactylopterus,Blackbelly rosefish,"N-O, D",BP,3.5,NE,Y,GI ,2,380,0,0.00
+Scorpaeniformes ,Sebastidae,,,,,,,,G,2,1,0,0.00
+Scorpaeniformes ,Sebastidae,,,,,,,,G,1,3618,0,0.00
+Scorpaeniformes ,Sebastidae,Sebastes caurinus,Copper rockfish,"N, D",BP,4.1,NE,Y,GI,3,1,0,0.00
+Scorpaeniformes ,Sebastidae,Sebastes flavidus,Yellowtail rockfish,"N-O, BP",PP,4.2,NE,Y,GI,3,3,1,33.33
+Scorpaeniformes ,Sebastidae,Sebastes miniatus,Vermilion rockfish,"N, D",BP,3.9,NE,Y,GI,3,3,0,0.00
+Scorpaeniformes ,Sebastidae,Sebastes mystinus,Blue rockfish,"N-O, BP",P,2.7,NE,Y,GI,3,10,2,20.00
+Scorpaeniformes ,Sebastidae,Sebastiscus marmoratus,False kelpfish,"N, B",BP,3.7,NE,Y,GI,3,18,18,100.00
+Scorpaeniformes ,Sebastidae,Trachyscorpia cristulata,Atlantic thornyhead,"N-O, D",BP,3.9,LC,Y,G,1,49,0,0.00
+Scorpaeniformes ,Triglidae,Chelidonichthys cuculus,Red gurnard,"N, B",BP,3.8,NE,Y,GI,2,66,34,51.52
+Scorpaeniformes ,Triglidae,,,,,,,,G,1,3503,1,0.03
+Scorpaeniformes ,Triglidae,Chelidonichthys kumu,Bluefin gurnard,"N, B",BP,3.7,LC,Y,GI,3,27,1,3.70
+Scorpaeniformes ,Triglidae,Chelidonichthys lucerna,Tub gurnard,"N, B",BP,4,NE,Y,GI ,3,3,2,66.67
+Scorpaeniformes ,Triglidae,,,,,,,,GI,3,24,9,37.50
+Scorpaeniformes ,Triglidae,,,,,,,,GI,2,1,0,0.00
+Scorpaeniformes ,Triglidae,,,,,,,,G,1,1019,0,0.00
+Scorpaeniformes ,Triglidae,Chelidonichthys obscurus,Longfin gurnard,"N, B",BP,3.7,LC,Y,G,1,412,0,0.00
+Scorpaeniformes ,Triglidae,Eutrigla gurnardus,Grey gurnard,"N, B",BP,3.9,NE,Y,GI,3,171,0,0.00
+Scorpaeniformes ,Triglidae,,,,,,,,G,1,2853,0,0.00
+Scorpaeniformes ,Triglidae,Prionotus evolans,Striped searobin,"N, B",BP,4.3,LC,Y,n/a,,1,1,100.00
+Scorpaeniformes ,Triglidae,Prionotus punctatus,Bluewing searobin,"N, B",BP,3.8,LC,Y,GI,2,1,,no
+Scorpaeniformes ,Triglidae,Trigla lyra,Piper,"N, B",BP,3.7,NE,Y,G,2,31,6,19.35
+Scorpaeniformes ,Triglidae,,,,,,,,G,1,1488,0,0.00
+Siluriformes,Ariidae,Bagre bagre,Coco sea catfish,"N, B",BP,4,LC,Y,GI,2,7,5,71.43
+Siluriformes,Ariidae,Bagre marinus,Gafftopsail sea catfish,"N, B",BP,3.5,LC,Y,GI,2,4,4,100.00
+Siluriformes,Ariidae,Cathorops agassizii,n/a,"N, B",BP,4.3,NE,N,G,2,60,20,33.33
+Siluriformes,Ariidae,,,,,,,,GI,2,1,,no
+Siluriformes,Ariidae,Cathorops spixii,Madamango sea catfish,"N, D",BP,3.5,NE,Y,G,2,60,11,18.33
+Siluriformes,Ariidae,,,,,,,,GI,2,2,,yes
+Siluriformes,Ariidae,Notarius grandicassis,Thomas sea catfish,"N, B",BP,4,LC,Y,GI,2,4,0,0.00
+Siluriformes,Ariidae,Sciades herzbergii,Pemecou sea catfish,"N, D",BP,3.3,NE,Y,G,2,62,11,17.74
+Siluriformes,Ariidae,,,,,,,,GI,2,57,,yes
+Stomiiformes,Gonostomatidae,Cyclothone acclinidens,Benttooth bristlemouth,"O, P",P,3.6,NE,N,G,2,4,0,0.00
+Stomiiformes,Gonostomatidae,Cyclothone atraria,Deep-water bristlemouth,"O, P",P,3.1,NE,N,G,2,3,0,0.00
+Stomiiformes,Gonostomatidae,Cyclothone pallida,Tan bristlemouth,"O, P",P,3.2,NE,N,G,2,5,0,0.00
+Stomiiformes,Gonostomatidae,Cyclothone pseudopallida,Slender bristlemouth,"O, P",P,3.1,NE,N,G,2,4,0,0.00
+Stomiiformes,Gonostomatidae,Gonostoma denudatum,n/a,"O, P",P,3.3,LC,N,G ,3,5,5,100.00
+Stomiiformes,Phosichthyidae,Vinciguerria mabahiss,n/a,"O, P",P,3.1,NE,N,GI ,3,10,0,0.00
+Stomiiformes,Sternoptychidae,Argyropelecus ssp.,n/a,,n/a,,,n/a,GI,3,5,0,0.00
+Stomiiformes,Sternoptychidae,Argyropelecus affinis,Pacififc hatchet fish,"O, P",P,3.1,NE,N,G,2,1,0,0.00
+Stomiiformes,Sternoptychidae,Argyropelecus hemigymnus,Half-naked hatchet fish,"O, P",P,3.1,LC,N,G,2,3,0,0.00
+Stomiiformes,Sternoptychidae,Danaphos oculatus,Bottlelights,"O, P",P,3,NE,Y,G,2,9,0,0.00
+Stomiiformes,Sternoptychidae,Maurolicus muelleri,Silvery lightfish,"O, P",P,3,NE,Y,GI,3,282,8,2.84
+Stomiiformes,Sternoptychidae,Maurolicus mucronatus,n/a,"O, P",P,3.1,NE,N,GI,3,10,1,10.00
+Stomiiformes,Sternoptychidae,Sternoptyx diaphana,Bottlelights,"O, P",P,3.4,NE,N,G,2,4,1,25.00
+Stomiiformes,Sternoptychidae,Sternoptyx pseudobscura,Highlight hatchet fish,"O, P",P,3.4,NE,N,G,2,6,1,16.67
+Stomiiformes,Stomiidae,Astronesthes indopacificus,Indo-Pacific snaggletooth,"O, P",PP,4,LC,N,G,2,7,,yes
+Stomiiformes,Stomiidae,Idiacanthus antrostomus,Pacific blackdragon,"O, P",PP,3.8,NE,N,G,2,4,1,25.00
+Stomiiformes,Stomiidae,Stomias boa  ,Boa dragonfish,"O, P",PP,4,NE,N,GI,3,5,2,40.00
+Stomiiformes,Stomiidae,,,"O, P",,,,,G ,3,9,6,66.67
+Tetraodontiformes,Diodontidae,Chilomycterus spinosus spinosus,n/a,"N, D",n/a,3.6,LC,n/a,GI,2,1,,no
+Tetraodontiformes,Monacanthidae,Meuschenia scaber,Velvet leatherjacket,"N, BP",G,3.1,NE,Y,GI,3,19,7,36.84
+Tetraodontiformes,Monacanthidae,Thamnaconus septentrionalis,n/a,"N, D",O,3.4,NE,Y,GI,3,18,18,100.00
+Tetraodontiformes,Tetraodontidae,Colomesus psittacus,Banded puffer,"N, D",BP,3.6,LC,N,GI,2,5,,no
+Tetraodontiformes,Tetraodontidae,,,,,,,,GI,2,2,0,0.00
+Tetraodontiformes,Tetraodontidae,Lagocephalus laevigatus,Smooth puffer,"N-O, P",BP,4,NE,Y,G ,2,1,0,0.00
+Tetraodontiformes,Tetraodontidae,Lagocephalus spadiceus,Half-smooth gold puffie,"N, D",BP,3.7,LC,N,GI,3,1,0,0.00
+Tetraodontiformes,Tetraodontidae,Sphoeroides greeleyi,Green puffer,"N, D",BP,3.5,LC,n/a,GI,2,31,,no
+Tetraodontiformes,Tetraodontidae,Sphoeroides testudineus,Checkered puffer,"N, D",BP,3.4,LC,N,GI,2,55,,yes
+Zeiformes,Zeidae,Zeus faber,John dory,"N, BP",BP,4.5,NE,Y,GI,2,42,20,47.62
+Zeiformes,Zeidae,,,,,,,,G,2,1,1,100.00
+Zeiformes,Zeidae,,,,,,,,G,1,1346,0,0.00
+Elasmobranchii,Zeidae,,,,,,,,,,,,
+Carcharhiniformes,Carcharhinidae,Carcharhinus amboinensis,Pigeye shark,"N, BP",PP,4.3,DD,Y,G,1,222,0,0.00
+Carcharhiniformes,Carcharhinidae,Carcharhinus brachyurus,Bronze whaler,"N-O, BP",PP,4.5,NT,Y,G,1,1404,1,0.07
+Carcharhiniformes,Carcharhinidae,Carcharhinus brevipinna,Spinner shark,"N-O, P",PP,4.2,NT,Y,G,1,1699,0,0.00
+Carcharhiniformes,Carcharhinidae,Carcharhinus leucas,Bull shark,"N, BP",PP,4.3,NT,Y,G,1,661,4,0.61
+Carcharhiniformes,Carcharhinidae,Carcharhinus limbatus,Blacktip shark,"N, BP",PP,4.4,NT,Y,G,1,1785,4,0.22
+Carcharhiniformes,Carcharhinidae,Carcharhinus obscurus,Dusky shark,"N, BP",PP,4.3,VU,Y,G,1,2741,4,0.15
+Carcharhiniformes,Carcharhinidae,Carcharhinus plumbeus,Sandbar shark,"N-O, BP",PP,4.5,VU,Y,G,1,379,0,0.00
+Carcharhiniformes,Carcharhinidae,Galeocerdo cuvier,Tiger shark,"N-O, BP",PP,4.5,NT,Y,G,1,505,38,7.52
+Carcharhiniformes,Carcharhinidae,Prionace glauca,Blue shark,"O, P",PP,4.4,NT,N,G,2,95,24,25.26
+Carcharhiniformes,Carcharhinidae,Rhizoprionodon lalandii,Brazilian sharpnose shark,"N, D",PP,4.3,DD,Y,G ,2,6,2,33.33
+Carcharhiniformes,Triakidae,Mustelus canis,Dusky smooth-hound,"N-O, D",BP,3.6,NT,Y,GI,2,2,0,0.00
+Carcharhiniformes,Triakidae,Mustelus higmani,Smalleye smooth-hound,"N-O, D",BP,3.6,LC,Y,GI,2,3,0,0.00
+Carcharhiniformes,Scyliorhinidae,Galeus melastomus   ,Blackmouth catshark,"N-O, D",BP,4.2,LC,Y,G,2,125,21,16.80
+Carcharhiniformes,Scyliorhinidae,,,,,,,,GI,2,741,24,3.24
+Carcharhiniformes,Scyliorhinidae,,,,,,,,"G, GI, I",1,220,,yes
+Carcharhiniformes,Scyliorhinidae,Galeus spp. ,,,,,,,G,1,2962,3,0.10
+Carcharhiniformes,Scyliorhinidae,Scyliorhinus canicula ,Lesser spotted dogfish,"N-O, D",BP,3.8,LC,Y,G,2,20,4,20.00
+Carcharhiniformes,Scyliorhinidae,,,,,,,,G,3,72,11,15.28
+Carcharhiniformes,Scyliorhinidae,,,,,,,,GI,1,20,3,15.00
+Carcharhiniformes,Scyliorhinidae,,,,,,,,GI ,2,1,0,0.00
+Carcharhiniformes,Scyliorhinidae,,,,,,,,G,2,5,0,0.00
+Carcharhiniformes,Scyliorhinidae,,,,,,,,G,1,9981,7,0.07
+Carcharhiniformes,Sphyrnidae,Sphyrna lewini,Scalloped hammerhead,"O, P",PP,4.1,EN,Y,G,1,1916,2,0.10
+Carcharhiniformes,Sphyrnidae,Sphyrna mokarran,Great hammerhead,"O, P",PP,4.3,EN,Y,G,1,177,0,0.00
+Carcharhiniformes,Sphyrnidae,Sphyrna tiburo,Bonnethead,"N, D",BP,3.9,LC,Y,GI,2,2,2,100.00
+Carcharhiniformes,Sphyrnidae,Sphyrna zygaena,Smooth hammerhead,"O, P",PP,4.9,VU,Y,G,1,1154,2,0.17
+Lamniformes,Alopiidae,Alopias superciliosus,Bigeye thresher,"O, P",PP,4.5,VU,Y,n/a,1,1,,yes
+Lamniformes,Lamnidae,Carcharodon carcharias,Great White shark,"O, P",PP,4.5,VU,Y,G,1,524,2,0.38
+Lamniformes,Lamnidae,Isurus oxyrinchus,Shortfin mako shark,"O, P",PP,4.5,VU,Y,G,1,231,2,0.87
+Lamniformes,Lamnidae,Lamna nasus,Porbeagle,"O, P",PP,4.6,VU,Y,n/a,1,1022,,yes
+Lamniformes,Odantaspididae,Carcharias taurus,Sand tiger shark,"N, BP",PP,4.5,VU,Y,G,1,2268,1,0.04
+Myliobatiformes,Dasyatidae,Hypanus americanus,Southern stingray,"N, B",BP,3.5,DD,Y,G ,2,3,0,0.00
+Myliobatiformes,Dasyatidae,Pteroplatytrygon violacea  ,Pelagic stingray,"O, P",PP,4.4,LC,BC,GI,2,2,1,50.00
+Myliobatiformes,Myliobatidae,Rhinoptera bonasus,Cownose ray,"N-O, B",BP,3.2,NT,Y,GI,2,1,0,0.00
+Orectolobiformes,Rhincodontidae,Rhincodon typus,Whale shark,"O, P",P ,3.6,VU,Y,n/a,1,1,,yes
+Rajiformes,Rajidae,Dipturus oxyrinchus,Longnosed skate,"N-O, B ",BP,3.5,NT,Y,GI ,2,10,0,0.00
+Rajiformes,Rajidae,Leucoraja circularis,Sandy ray,"N-O, B",BP,3.5,EN,Y,G,1,34,0,0.00
+Rajiformes,Rajidae,Leucoraja naevus,Cuckoo ray,"N-O, B",BP,4.2,LC,Y,G,1,381,1,0.26
+Rajiformes,Rajidae,Raja asterias,Mediterranean starry ray,"N, D",BP,3.5,LC,Y,G,2,7,3,42.86
+Rajiformes,Rajidae,Raja clavata,Thornback ray,"N, B ",BP,3.8,NT,Y,GI,2,2,0,0.00
+Rajiformes,Rajidae,,,,,,,,G,1,2705,0,0.00
+Rajiformes,Rajidae,Raja montagui,Spotted ray,"N, B",BP,3.9,LC,Y,G,1,1421,0,0.00
+Squaliformes,Centrophoridae,Centrophorus granulosus,gulper shark,"O, D",PP,4.1,VU,Y,GI ,2,5,0,0.00
+Squaliformes,Centrophoridae,Deania calcea,Birdbeak dogfish,"O, BP",PP,4.3,LC,Y,G,1,130,0,0.00
+Squaliformes,Etmopteridae,Etmopterus spinax  ,Velvet-belly lanternshark,"O, D",PP,4.1,LC,Y,GI,2,16,1,6.25
+Squaliformes,Etmopteridae,,,,,,,,"G, GI, I",1,13,1,7.69
+Squaliformes,Etmopteridae,,,,,,,,G,2,8,4,50.00
+Squaliformes,Etmopteridae,,,,,,,,G,1,756,0,0.00
+Squaliformes,Somniosidae,Centroscymnus coelolepis,Portuguese dogfish,"O, D",PP,4.5,NT,Y,"G, GI, I",1,54,1,1.85
+Squaliformes,Somniosidae,Scymnodon ringens,Knifetooth dogfish,"O, BP",PP,3.9,DD,Y,G,1,49,0,0.00
+Squaliformes,Squalidae,Squalus acanthias,Picked dogfish,"N-O, BP",PP,4.4,VU,Y,GI,3,9,4,44.44
+Squaliformes,Squalidae,,,,,,,,GI ,2,10,0,0.00
+Squaliformes,Squalidae,Squalus blainville,Longnose spurdog,"N-O, D",PP,4,DD,Y,GI,2,75,1,1.33
+Torpediniformes,Narcinidae,Narcine brasiliensis,Brazilian electric ray,"N, B",BP,3.2,DD,Y,GI,2,6,1,16.67
+Torpediniformes,Torpedinidae,Torpedo torpedo,Common torpedo,"N, D",BP,4.5,DD,N,G,2,1,0,0.00
+Holocephali,Torpedinidae,,,,,,,,,,,,
+Chimaeriformes,Chimaeridae,Chimera monstrosa,Ratfish,"N, D",BP,3.5,NT,BC,G,2,2,0,0.00
