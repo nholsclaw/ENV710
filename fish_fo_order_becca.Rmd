@@ -37,22 +37,26 @@ fish_dist
 
 ```
 
+## ANOVA
 
 ```{r}
 
-order_ANOVA <- aov(FO ~ order, data = fish)
+order_ANOVA <- aov(FO ~ order + family, data = fish)
 
 summary(order_ANOVA)
 
-#no significant difference between orders
+tukey <- TukeyHSD(order_ANOVA)
 
-family_ANOVA <- aov(FO ~ family, data = fish)
+library(broom)
+library(dplyr)
 
-summary(family_ANOVA)
-
-#significant difference by family
+tukey_table <- as.data.frame(tidy(tukey))
 
 ```
+
+Significant difference in ANOVA, but none in Tukey's HSD.
+
+## Linear Model
 
 ```{r}
 
@@ -95,6 +99,8 @@ plot(mlm3)
 step(mlm3)
 
 ```
+
+## GLM
 
 ```{r}
 
@@ -202,11 +208,12 @@ colnames(data_fig) <- c("trophic_level", "neritic_oceanic", "bentho_pelagic", "f
 
 ggplot(data_fig, aes(x = trophic_level,
                      y = probability)) +
-  geom_smooth(aes(color = feeding_strategy)) +
+  geom_line(aes(color = feeding_strategy)) +
   geom_ribbon(aes(ymin = probability - se,
                   ymax = probability + se,
                   fill = feeding_strategy), alpha = 0.3) +
-  labs(x = "trophic", y = "Probability of FO", color = "feeding_strategy", fill = "feeding_strategy") +
+  labs(x = "trophic", y = "Probability of Occurrence")
+       +
   theme_bw()
 
 
