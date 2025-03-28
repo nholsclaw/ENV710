@@ -41,6 +41,9 @@ fish_dist
 
 ```{r}
 
+
+#i didn't do variance
+
 order_ANOVA <- aov(FO ~ order + family, data = fish)
 
 summary(order_ANOVA)
@@ -55,6 +58,41 @@ tukey_table <- as.data.frame(tidy(tukey))
 ```
 
 Significant difference in ANOVA, but none in Tukey's HSD.
+
+```{r}
+
+library(dunn.test)
+
+kruskal_test_order <- kruskal.test(FO ~ order, data = fish)
+
+kruskal_test_order
+
+dunn_test_order <- dunn.test(fish$FO, fish$order, list = TRUE)
+
+dunn_test_order = cbind.data.frame(dunn_test_order$comparisons,dunn_test_order$Z,dunn_test_order$P.adjusted)
+
+colnames(dunn_test_order) <- c("comparisons","Z", "P.adjusted")
+
+dunn_test_order_sorted <- dunn_test_order %>%
+  filter(P.adjusted < 0.05)
+
+kruskal_test_family <- kruskal.test(FO ~ family, data = fish)
+
+kruskal_test_family
+
+dunn_test_family <- dunn.test(fish$FO, fish$family, list = TRUE)
+
+dunn_test_family = cbind.data.frame(dunn_test_family$comparisons,dunn_test_family$Z,dunn_test_family$P.adjusted)
+
+colnames(dunn_test_family) <- c("comparisons","Z", "P.adjusted")
+
+dunn_test_family_sorted <- dunn_test_family %>%
+  filter(P.adjusted < 0.05)
+
+
+
+```
+
 
 ## Linear Model
 
@@ -97,6 +135,10 @@ summary(mlm3)
 plot(mlm3)
 
 step(mlm3)
+
+mlm4 <- lm(FO ~ Neritic_Oceanic, data = fish)
+
+summary(mlm4)
 
 ```
 
@@ -170,28 +212,30 @@ unique(fish$trophic_level)
 
 range(fish$trophic_level)
 
-trophic_vector <- rep(seq(from = 2, to = 5), 15)
+trophic_vector <- rep(seq(from = 2, to = 5), 150)
 
-neritic_oceanic_vector <- rep(c("N-O", "N", "O"), 20)
+neritic_oceanic_vector <- rep(c("N-O", "N", "O"), 200)
 
-bentho_pelagic_vector <- c(rep("D", 15),
-                   rep("B", 15),
-                 rep("P", 15),
-                 rep("BP", 15))
+bentho_pelagic_vector <- c(rep("D", 150),
+                   rep("B", 150),
+                 rep("P", 150),
+                 rep("BP", 150))
 
 fish[fish == '??'] <- "NA"
 fish <- subset(fish, !is.na(feeding_vector))
 
 unique(fish$feeding_strategy)
 
-feeding_vector <- c(rep("BP", 12),
-                   rep("P", 12),
-                 rep("PP", 12),
-                 rep("O", 12),
-                     rep("G", 12))
+feeding_vector <- c(rep("BP", 120),
+                   rep("P", 120),
+                 rep("PP", 120),
+                 rep("O", 120),
+                     rep("G", 120))
 
 data_pred <- data.frame(trophic_vector, neritic_oceanic_vector, bentho_pelagic_vector, feeding_vector)
 colnames(data_pred) <- c("trophic_level", "Neritic_Oceanic", "Bentho_Pelagic", "feeding_strategy")
+
+data_pred$trophic_level <- as.numeric(data_pred$trophic_level)
 
 prediction <- predict(fish_mod_glm,
                       newdata = data_pred,
@@ -206,14 +250,15 @@ data_fig <- data.frame(data_pred,
 
 colnames(data_fig) <- c("trophic_level", "neritic_oceanic", "bentho_pelagic", "feeding_strategy", "probability", "se")
 
+library(ggplot2)
+
 ggplot(data_fig, aes(x = trophic_level,
                      y = probability)) +
   geom_line(aes(color = feeding_strategy)) +
   geom_ribbon(aes(ymin = probability - se,
                   ymax = probability + se,
                   fill = feeding_strategy), alpha = 0.3) +
-  labs(x = "trophic", y = "Probability of Occurrence")
-       +
+  labs(x = "trophic", y = "Probability of Occurrence") +
   theme_bw()
 
 
