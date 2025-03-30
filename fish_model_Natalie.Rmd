@@ -1,0 +1,108 @@
+---
+title: "Natalie's Fish Model"
+output: pdf_document
+date: "2025-03-30"
+editor_options: 
+  chunk_output_type: console
+---
+
+# Setup
+
+```{r}
+# Load packages
+library(ggplot2)
+library(dplyr)
+library(here)
+library(tidyverse)
+library(DHARMa)
+
+# Bring in data
+fish_data <- read.csv("cleaned_fish_data.csv")
+
+# Clean data
+fish_data <- fish_data %>% filter(!is.na(Region))
+fish_data <- fish_data %>% filter(!is.na(feeding_strategy)) %>% 
+  filter(feeding_strategy != "??") %>% 
+  filter(feeding_strategy != "n/a")
+
+# Check raw data
+ggplot(fish_data, aes(x = FO))+
+  geom_histogram()
+
+ggplot(fish_data, aes(x = Region, y = FO))+
+  geom_boxplot()
+
+ggplot(fish_data, aes(x = order, y = FO))+
+  geom_boxplot()
+
+ggplot(fish_data, aes(x = Region, y = order))+
+  geom_point()
+
+# Data is non-normal
+
+```
+
+### Binomial Regression
+
+#### Question: Are region and species order significant predictors of plastic ingestion?
+
+```{r}
+# Add plastic present/absent data
+fish_data$Plastic_Present <- round((fish_data$FO / 100) * fish_data$N)
+fish_data$Plastic_Absent <- fish_data$N - fish_data$Plastic_Present
+
+# Run regression model
+model <- glm(cbind(Plastic_Present, Plastic_Absent) ~ Region + feeding_strategy, 
+             family = binomial, data = fish_data)
+
+# Model results
+summary(model)
+
+# All regions and feeding strategies had significant effect on probability of 
+# plastic ingestion (log-odds) 
+
+simulateResiduals(model) %>% plot() # Examine modified residual plots
+
+# to convert log-odds to probabilities
+#prob_south <- exp(int + coeff) / (1 + exp(int + coeff))
+
+log_odds_ATL_S <- -2.635 + 1.709  # Log-odds for ATL S
+prob_ATL_S <- 1 / (1 + exp(-log_odds_ATL_S))
+prob_ATL_S 
+```
+
+#### Plots
+
+```{r}
+
+
+mean_feeding <- fish_data %>% 
+  group_by(feeding_strategy) %>% 
+  summarize(mean_FO = mean(FO, na.rm = TRUE),
+            sd_FO = sd(FO, na.rm = TRUE),
+            count = n())
+
+# PP = Pelagic Predator
+# BP = Benthic Predator
+# P = Planktivore
+# O = Omnivore
+# G = Grazer)
+
+ggplot(mean_feeding, aes(x = feeding_strategy, y = mean_FO, 
+                         color = feeding_strategy)) +
+  geom_point()+
+  geom_errorbar(aes(ymin = mean_FO - sd_FO, ymax = mean_FO + sd_FO), width = 0.2) +
+  labs(x = "Feeding Strategy", y = "Mean FO (%)", title = "Mean FO by Feeding Strategy") +
+  theme_minimal()
+
+# plot probabilities - see week 9 script
+
+fish_data$predicted <- predict(model, type = "response")
+
+ggplot(fish_data, aes(x = feeding_strategy, y = predicted, fill = feeding_strategy)) +
+  geom_bar(stat = "identity", position = position_dodge()) +
+  labs(y = "Predicted Probability of Plastic Ingestion")+
+  facet_wrap(~Region)
+```
+
+
