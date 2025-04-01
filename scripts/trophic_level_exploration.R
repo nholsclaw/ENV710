@@ -47,9 +47,6 @@ ggplot(fish_summary, aes(x = trophic_level, y = mean_FO)) +
 
 
 
-
-
-
 # boxplots
 
 fish_data <- fish_data %>%
