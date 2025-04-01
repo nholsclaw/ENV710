@@ -25,6 +25,11 @@ fish_data <- fish_data %>% filter(!is.na(feeding_strategy)) %>%
   filter(feeding_strategy != "??") %>% 
   filter(feeding_strategy != "n/a")
 
+fish_data$trophic_level<- as.numeric(fish_data$trophic_level)
+fish_data <- fish_data %>% 
+  filter(!is.na(trophic_level))
+unique(fish_data$trophic_level)
+
 # Check raw data
 ggplot(fish_data, aes(x = FO))+
   geom_histogram()
@@ -55,8 +60,14 @@ fish_data$Plastic_Absent <- fish_data$N - fish_data$Plastic_Present
 model <- glm(cbind(Plastic_Present, Plastic_Absent) ~ Region + feeding_strategy, 
              family = binomial, data = fish_data)
 
+# *** try with trophic level
+model2 <- glm(cbind(Plastic_Present, Plastic_Absent) ~ Region + feeding_strategy +
+                      trophic_level,
+                    family = binomial, data = fish_data)
+
 # Model results
 summary(model)
+summary(model2)
 
 # All regions and feeding strategies had significant effect on probability of 
 # plastic ingestion (log-odds) 
