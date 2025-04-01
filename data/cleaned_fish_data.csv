@@ -1,0 +1,574 @@
+,order,family,species,common_name,Neritic_Oceanic,Bentho_Pelagic,feeding_strategy,trophic_level,IUCN,fisheries_interest,G.GI,method,N,n_fish_ingested,FO,Region
+1,Anguilliformes,Congridae,Conger conger,European conger,N-O,D,BP,4.3,NE,Y,G,1,7007,1,0.01,ATL N
+2,Anguilliformes,Congridae,NA,NA,NA,NA,NA,NA,NA,NA,GI ,2,44,0,0,MED
+3,Anguilliformes,Congridae,Conger verreauxi,Conger,N,D,BP,4.2,LC,Y,"G, GI",2,25,0,0,PAC S
+4,Anguilliformes,Muraenesocidae,Cynoponticus savanna,Guayana pike-conger,N,B,BP,3.5,LC,Y,GI,2,1,0,0,ATL N
+5,Anguilliformes,Muraenesocidae,Muraenesox cinereus,Daggertooth pike conger,N-O,D,BP,4.4,NE,Y,GI,3,18,18,100,PAC N
+6,Anguilliformes,Muraenidae,Gymnothorax ocellatus,Ocellated moray,N,B,BP,4.1,LC,Y,GI,2,1,0,0,ATL N
+7,Anguilliformes,Nemichthyidae,Nemichthys scolopaceus,Slender snipe eel,O,P,P,3.5,NE,N,GI,3,1,1,100,ATL N
+8,Anguilliformes,Nettastomatidae,Nettastoma melanurum,Black fin sorcerer,O,D,BP,3.5,NE,N,"G, GI, I",1,11,1,9.09,MED
+9,Anguilliformes,Nettastomatidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,2,1,0,0,MED
+10,Anguilliformes,Ophichthidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,2,1,0,0,ATL N
+11,Anguilliformes,Ophichthidae,Ophichthus ophis,Spotted snake eel,N,B,BP,4.5,LC,Y,GI,2,1,0,0,ATL N
+12,Anguilliformes,Serrivomeridae,Serrivomer beanii,Stout sawpalate,O,P,PP,3.9,LC,N,G ,3,14,13,92.86,ATL N
+13,Anguilliformes,Serrivomeridae,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,25.16,NA
+14,Atheriniformes,Atherinopsidae,Atherinopsis californiensis,Jack silverside,N,P,P,2.3,LC,Y,GI,3,7,2,28.57,PAC N
+15,Atheriniformes,Atherinopsidae,Menidia menidia  ,Atlantic silverside,N,P,P,3.2,NE,Y,n/a,NA,9,3,33.33,ATL N
+16,Atheriniformes,Atherinopsidae,Odontesthes regia,Chilean silverside,N,P,P,NA,LC,n/a,GI,2,9,1,11.11,PAC S
+17,Aulopiformes,Alepisauridae,Alepisaurus ferox,Long-snouted lancetfish,O,P,PP,4,LC,BC,G ,1,192,47,24.48,PAC N
+18,Aulopiformes,Alepisauridae,NA,NA,NA,NA,NA,NA,NA,NA,G,1,114,34,29.82,PAC N
+19,Aulopiformes,Paralepididae,Arctozenus risso,Spotted barracudina,O,P,P,3.2,NE,N,GI,3,14,3,21.43,ATL N
+20,Aulopiformes,Paralepididae,Sudis hyalina,n/a,O,P,PP,4.2,NE,N,GI ,2,5,0,0,MED
+21,Aulopiformes,Synodontidae,Harpadon nehereus,Bombay-duck,O,BP,BP,4.2,NE,Y,GI,3,18,18,100,PAC N
+22,Aulopiformes,Synodontidae,Saurida undosquamis,Brushtooth lizardfish,N,D,BP,4.5,NE,Y,GI,3,99,55,55.56,MED
+23,Batrachoidiformes,Batrachoididae,Batrachoides surinamensis,Pacuma toadfish,N,B,BP,3.7,LC,Y,GI,2,1,0,0,ATL N
+24,Beloniformes,Exocetidae,Cheilopogon pitcairnensis,n/a,N,P,P,3.9,NE,Y,GI,3,21,2,9.52,PAC S
+25,Beloniformes,Exocetidae,Cheilopogon rapanouiensis,Easter Island flyingfish,O,P,P,4,LC,N,"G, GI",2,43,7,16.28,PAC S
+26,Beloniformes,Hemiramphidae,Hyporhamphus ihi,n/a,N,P,P,3.2,NE,Y,GI,3,24,0,0,PAC S
+27,Beloniformes,Hemiramphidae,Hyporhamphus intermedius,Asian pencil halfbeak,N,P,P,3.4,NE,Y,GI,3,18,18,100,PAC N
+28,Beloniformes,Hemiramphidae,Hyporhamphus melanochir,Southern sea garfish,N,P,O,2.7,NE,Y,"G, GI",2,66,0,0,PAC S
+29,Beryciformes,Holocentridae,Myripristis amaena,Brick soldierfish,N,D,BP,3.6,LC,Y,GI,1,10,0,0,PAC S
+30,Beryciformes,Holocentridae,Neoniphon sammara,Sammara squirrelfish,N,D,BP,3.6,LC,N,GI ,3,5,1,20,IND
+31,Beryciformes,Holocentridae,Sargocentron spiniferum,Sabre squirrelfish,N,D,BP,3.6,LC,N,GI,3,5,0,0,IND
+32,Clupeiformes,Clupeidae,Alosa fallax,Twaite shad,N,P,PP,4,LC,Y,G,2,1,1,100,ATL N
+33,Clupeiformes,Clupeidae,Clupea harengus,Atlantic herring,N-O,P,P,3.4,LC,Y,G,3,3,2,66.67,ATL N
+34,Clupeiformes,Clupeidae,NA,NA,NA,NA,NA,NA,NA,NA,n/a,NA,2,2,100,ATL N
+35,Clupeiformes,Clupeidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,3,164,3,1.83,ATL N
+36,Clupeiformes,Clupeidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,3,566,11,1.94,ATL N
+37,Clupeiformes,Clupeidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,3,131,0,0,ATL N
+38,Clupeiformes,Clupeidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,2,33,0,0,ATL N
+39,Clupeiformes,Clupeidae,Clupea pallasii,Pacific herring,N,P,P,3.2,NE,Y,GI,2,205,4,1.95,PAC N
+40,Clupeiformes,Clupeidae,Hyperlophus vittatus,Sandy sprat,N,P,P,3.4,NE,Y,"G, GI",2,10,0,0,PAC S
+41,Clupeiformes,Clupeidae,Opisthonema libertate,Pacific thread herring,N,P,P,2.9,LC,Y,GI,2,80,2,2.5,PAC S
+42,Clupeiformes,Clupeidae,Sardina pilchardus ,European pilchard,N,P,P,3.1,NE,Y,GI ,3,99,19,19.19,MED
+43,Clupeiformes,Clupeidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,3,7,4,57.14,MED
+44,Clupeiformes,Clupeidae,NA,NA,NA,NA,NA,NA,NA,NA,G,3,3,2,66.67,ATL N
+45,Clupeiformes,Clupeidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,2,105,16,15.24,MED
+46,Clupeiformes,Clupeidae,NA,NA,NA,NA,NA,NA,NA,NA,G,2,12,0,0,ATL N
+47,Clupeiformes,Clupeidae,NA,NA,NA,NA,NA,NA,NA,NA,GI ,2,139,27,19.42,MED
+48,Clupeiformes,Clupeidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,3,66,28,42.42,MED
+49,Clupeiformes,Clupeidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,3,36,17,47.22,MED
+50,Clupeiformes,Clupeidae,Sardinops sagax,South American pilchard,N,P,P,2.8,LC,Y,GI,2,7,0,0,PAC S
+51,Clupeiformes,Clupeidae,Spratelloides gracilis,Silver-stripe r. herring,N,P,P,3.1,LC,Y,GI,3,10,4,40,IND
+52,Clupeiformes,Clupeidae,Sprattus sprattus,European sprat,N,P,P,3,NE,Y,GI,3,141,1,0.71,ATL N
+53,Clupeiformes,Clupeidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,3,154,n/a,0.9,ATL N
+54,Clupeiformes,Clupeidae,Strangomera benticki,Araucanian herring,N,P,P,2.7,NE,Y,GI,2,10,0,0,PAC S
+55,Clupeiformes,Engraulidae,Cetengraulis mysticetus,Pacific anchoveta,N,P,P,2.5,LC,Y,GI,2,40,1,2.5,PAC S
+56,Clupeiformes,Engraulidae,Coilia nasus,Jap. grenadier anchovy,N,P,P,3,NE,Y,GI,3,18,18,100,PAC N
+57,Clupeiformes,Engraulidae,Encrasicholina heteroloba,Shorthead anchovy,N,P,P,3.3,NE,Y,GI,3,10,4,40,IND
+58,Clupeiformes,Engraulidae,Engraulis australis,Australian anchovy,N,P,P,3,NE,Y,"G, GI",2,10,0,0,PAC S
+59,Clupeiformes,Engraulidae,Engraulis encrasicolus,European anchovy,N,P,P,3.1,NE,Y,G,3,3,2,66.67,MED
+60,Clupeiformes,Engraulidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,2,105,15,14.29,MED
+61,Clupeiformes,Engraulidae,Engraulis japonicus,Japanese anchovy,N,P,P,3.1,NE,Y,GI,3,64,49,76.56,PAC N
+62,Clupeiformes,Engraulidae,Engraulis mordax,Californian anchovy,N,P,P,3.1,LC,Y,GI,3,10,3,30,PAC N
+63,Clupeiformes,Engraulidae,Engraulis ringens,Anchoveta,N,P,P,2.9,LC,Y,GI,2,116,1,0.86,PAC S
+64,Gadiformes,Gadidae,Boreogadus saida,Polar cod,N-O,BP,P,3.1,NE,Y,GI,3,85,15,17.65,ATL N
+65,Gadiformes,Gadidae,NA,NA,NA,NA,NA,NA,NA,NA,G ,2,72,2,2.78,ATL N
+66,Gadiformes,Gadidae,Gadus morhua,Atlantic cod,N,BP,BP,4.1,VU,Y,GI,3,80,10,12.5,ATL N
+67,Gadiformes,Gadidae,NA,NA,NA,NA,NA,NA,NA,NA,G,2,302,9,2.98,ATL N
+68,Gadiformes,Gadidae,NA,NA,NA,NA,NA,NA,NA,NA,"G, GI",1,205,5,2.44,ATL N
+69,Gadiformes,Gadidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,2,81,1,1.23,ATL N
+70,Gadiformes,Gadidae,Melanogrammus aeglefinus,Haddock,N-O,D,BP,4,VU,Y,GI,3,97,6,6.19,ATL N
+71,Gadiformes,Gadidae,Merlangius merlangus,Whiting,N-O,D,BP,4.4,NE,Y,GI,3,105,6,5.71,ATL N
+72,Gadiformes,Gadidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,2,50,16,32,ATL N
+73,Gadiformes,Gadidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,3,28,0,0,ATL N
+74,Gadiformes,Gadidae,Micromesistius poutassou,Blue whiting,N-O,P,BP,4.1,NE,Y,GI,2,27,14,51.85,ATL N
+75,Gadiformes,Gadidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,2,20,0,0,ATL N
+76,Gadiformes,Gadidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,2,3,0,0,MED
+77,Gadiformes,Gadidae,NA,NA,NA,NA,NA,NA,NA,NA,G,1,10575,2,0.02,ATL N
+78,Gadiformes,Gadidae,Pollachius pollachius,Pollack,N-O,BP,BP,4.3,NE,Y,GI,2,5,0,0,ATL N
+79,Gadiformes,Gadidae,Pollachius virens,Saithe,N-O,D,BP,4.3,NE,Y,n/a,NA,1,1,100,ATL N
+80,Gadiformes,Gadidae,Trisopterus luscus,pout whiting,N-O,BP,BP,3.7,NE,Y,G,1,3076,1,0.03,ATL N
+81,Gadiformes,Gadidae,NA,NA,NA,NA,NA,NA,NA,NA,G,2,1,0,0,ATL N
+82,Gadiformes,Gadidae,Trisopterus minutus,Poor cod,N,D,BP,3.7,LC,Y,GI,2,50,20,40,ATL N
+83,Gadiformes,Gadidae,NA,NA,NA,NA,NA,NA,NA,NA,G,1,2062,0,0,ATL N
+84,Gadiformes,Lotidae,Ciliata mustela,Fivebeard rockling,N,D,BP,3.5,NE,Y,GI, ,113,6,5.31,ATL N
+85,Gadiformes,Lotidae,Gaidropsaurus macrophthalmus,Bigeye rockling,N-O,D,BP,3.5,LC,Y,G,1,725,0,0,ATL N
+86,Gadiformes,Lotidae,Molva macrophthalma,Spanish ling,O,D,BP,4.5,NE,N,GI ,2,13,0,0,MED
+87,Gadiformes,Lotidae,NA,NA,NA,NA,NA,NA,NA,NA,G,1,990,0,0,ATL N
+88,Gadiformes,Lotidae,Molva molva,Ling ,O,D,BP,4.4,NE,Y,GI,2,5,0,0,ATL N
+89,Gadiformes,Macrouridae,Coryphaenoides rupestris,Roundnose grenadier,O,P,PP,3.5,CR,Y,GI,2,5,0,0,ATL N
+90,Gadiformes,Macrouridae,Trachyrincus scabrus,Roughsnout grenadier,O,BP,P,3.6,NE,Y,"G, GI, I",1,18,6,33.33,MED
+91,Gadiformes,Merlucciidae,Merluccius binilearis,Silver hake,N,D,BP,4.5,NT,Y,GI,1,134,0,0,ATL N
+92,Gadiformes,Merlucciidae,Merluccius merluccius,European Hake,N-O,D,BP,4.4,NE,Y,GI,3,3,3,100,MED
+93,Gadiformes,Merlucciidae,NA,NA,NA,NA,NA,NA,NA,NA,G,2,12,3,25,ATL N
+94,Gadiformes,Merlucciidae,NA,NA,NA,NA,NA,NA,NA,NA,G,3,12,2,16.67,ATL N
+95,Gadiformes,Merlucciidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,2,36,0,0,MED
+96,Gadiformes,Merlucciidae,NA,NA,NA,NA,NA,NA,NA,NA,G,1,16164,0,0,ATL N
+97,Gadiformes,Moridae,NA,NA,NA,NA,NA,NA,NA,NA,GI ,2,19,0,0,MED
+98,Gadiformes,Phycidae,Phycis blennoides,Greater forkbeard,N-O,D,BP,3.7,NE,Y,GI,2,46,0,0,MED
+99,Gadiformes,Phycidae,NA,NA,NA,NA,NA,NA,NA,NA,"G, GI, I",1,22,0,0,MED
+100,Gadiformes,Phycidae,NA,NA,NA,NA,NA,NA,NA,NA,G,1,1828,0,0,ATL N
+101,Gadiformes,Phycidae,Phycis phycis ,Forkbeard,N-O,D,BP,4.3,LC,Y,GI,3,8,7,87.5,MED
+102,Gasterosteiformes,Gasterosteidae,Gasterosteus aculeatus,Three-spined stickleback,N,BP,BP,3.3,LC,Y,GI,3,355,0,0,ATL N
+103,Lampriformes,Lampridae,Lampris sp.,Big-eye moonfish/opah,O,P,PP,4.2,NE,Y,G,1,115,49,42.61,PAC N
+104,Lampriformes,Lampridae,Lampris sp.,Small-eye moonfish/opah,O,P,PP,4.2,NE,Y,G,1,24,14,58.33,PAC N
+105,Lampriformes,Lampridae,Lampris immaculatus,Southern opah,O,P,PP,4.4,NE,BC,n/a,1,69,10,14.49,ATL S
+106,Lophiiformes,Lophiidae,Lophius budegassa,Blackbellied angler,N-O,B,BP,4.4,DD,Y,G,1,505,0,0,ATL N
+107,Lophiiformes,Lophiidae,Lophius piscatorius,Angler,N-O,D,BP,4.5,NE,Y,G,2,2,1,50,ATL N
+108,Lophiiformes,Lophiidae,NA,NA,NA,NA,NA,NA,NA,NA,G,1,1382,0,0,ATL N
+109,Mugiliformes,Mugilidae,Aldrichetta forsteri,Yellow-eye mullet,N,D,O,2.5,NE,Y,"G, GI",2,17,0,0,PAC S
+110,Mugiliformes,Mugilidae,Chelon auratus,Golden grey mullet,N,BP,O,2.8,LC,Y,GI,3,39,17,43.59,MED
+111,Mugiliformes,Mugilidae,NA,NA,NA,NA,NA,NA,NA,NA,GI ,3,20,19,95,MED
+112,Mugiliformes,Mugilidae,Ellochelon vaigiensis,Squaretail mullet,N,BP,O,2.2,LC,Y,GI,3,33,16,48.48,PAC S
+113,Mugiliformes,Mugilidae,Liza haematocheila,So-iuy mullet,N,BP,O,2.5,NE,Y,GI,3,18,18,100,PAC N
+114,Mugiliformes,Mugilidae,Mugil cephalus,Flat-head grey mullet,N,BP,O,2.5,LC,Y,GI,2,70,51,72.86,IND
+115,Mugiliformes,Mugilidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,3,18,18,100,PAC N
+116,Mugiliformes,Mugilidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,3,22,3,13.64,PAC S
+117,Mugiliformes,Mugilidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,2,45,29,64.44,PAC S
+118,Mugiliformes,Mugilidae,NA,NA,NA,NA,NA,NA,NA,NA,"G, GI",2,43,0,0,PAC S
+119,Mugiliformes,Mugilidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,3,30,18,60,PAC N
+120,Myctophiformes,Myctophidae,Benthosema glaciale,Glacier lanternfish,O,P,P,3,NE,N,GI,3,27,6,22.22,ATL N
+121,Myctophiformes,Myctophidae,NA,NA,NA,NA,NA,NA,NA,NA,G ,3,69,47,68.12,ATL N
+122,Myctophiformes,Myctophidae,Benthosema pterotum,Skinnycheek lanternfish,O,P,P,3.1,LC,N,GI,3,10,1,10,IND
+123,Myctophiformes,Myctophidae,Bolinichthys longipes,Popeye lampfish,O,P,P,3.1,NE,N,G,2,3,0,0,PAC N
+124,Myctophiformes,Myctophidae,Centrobranchus andreae,Andre's lanternfish,O,P,P,3.4,NE,N,n/a,1,5,2,40,PAC N
+125,Myctophiformes,Myctophidae,Ceratoscopelus warmingii,Warming's lanternfish,O,P,P,3.4,NE,Y,G,2,8,0,0,PAC N
+126,Myctophiformes,Myctophidae,Diaphus anderseni,Andersen's lanternfish,O,P,P,3.1,NE,N,G,2,13,2,15.38,PAC N
+127,Myctophiformes,Myctophidae,Diaphus fulgens,n/a,O,P,P,3.1,NE,N,G,2,7,2,28.57,PAC N
+128,Myctophiformes,Myctophidae,Diaphus metopoclampus,Spothead lanternfish,O,P,P,3.3,LC,N,G,?,296,1,0.34,MED
+129,Myctophiformes,Myctophidae,Diaphus phillipsi,Bolin's lanternfish,O,P,P,3.1,NE,N,G,2,1,1,100,PAC N
+130,Myctophiformes,Myctophidae,Diaphus rafinesquii,White-spotted lanternfish,O,P,P,3.4,LC,N,G ,3,34,24,70.59,ATL N
+131,Myctophiformes,Myctophidae,Diogenichthys atlanticus,Longfin lanternfish,O,P,P,3.1,NE,Y,G,2,5,0,0,PAC N
+132,Myctophiformes,Myctophidae,Electrona risso,Electric lanternfish,O,P,P,3.4,LC,N,G,?,82,5,6.1,MED
+133,Myctophiformes,Myctophidae,Gymnoscopelus nicholsi,Nichol's lanternfish,N-O,P,P,3.4,NE,Y,"G, GI",2,39,0,0,PAC S
+134,Myctophiformes,Myctophidae,Hygophum benoiti,Benoit's lanternfish,O,P,P,3,LC,N,G,?,73,5,6.85,MED
+135,Myctophiformes,Myctophidae,Hygophum proximum,Firefly lanternfish,O,P,P,3.2,LC,N,G,2,2,0,0,PAC N
+136,Myctophiformes,Myctophidae,NA,NA,NA,NA,NA,NA,NA,NA,G,2,2,0,0,PAC N
+137,Myctophiformes,Myctophidae,Lampadena urophaos,Sunbeam lampfish,O,P,P,3.2,NE,Y,G,2,1,0,0,PAC N
+138,Myctophiformes,Myctophidae,Lampanyctus crocodilus,Jewel lanternfish,O,P,P,3.2,NE,N,GI,3,2,0,0,ATL N
+139,Myctophiformes,Myctophidae,Lampanyctus macdonaldi,Rakery beaconlamp,O,P,P,3.1,LC,N,G ,3,16,12,75,ATL N
+140,Myctophiformes,Myctophidae,Lobianchia gemellarii,Cocco's lanternfish,O,P,P,3,NE,Y,G,2,3,1,33.33,PAC N
+141,Myctophiformes,Myctophidae,Mychtophum lychnobium,n/a,O,P,P,3.2,LC,N,n/a,1,17,7,41.18,PAC N
+142,Myctophiformes,Myctophidae,Myctophum nitidulum,Pearly lanternfish,O,P,P,3.4,NE,Y,G,2,25,4,16,PAC N
+143,Myctophiformes,Myctophidae,Myctophum punctatum,Spotted lanternfish,O,P,P,3.4,NE,N,G,?,71,3,4.23,MED
+144,Myctophiformes,Myctophidae,NA,NA,O,P,NA,NA,NA,NA,G ,3,86,64,74.42,ATL N
+145,Myctophiformes,Myctophidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,3,3,0,0,ATL N
+146,Myctophiformes,Myctophidae,Nannobrachium fernae,n/a,O,P,P,3.1,NE,N,G,2,1,0,0,PAC N
+147,Myctophiformes,Myctophidae,Nannobrachium hawaiiensis,n/a,O,P,P,3.1,NE,N,G,2,17,0,0,PAC N
+148,Myctophiformes,Myctophidae,Nannobrachium regale,Pinpoint lampfish,O,P,P,3.2,NE,N,G,2,1,0,0,PAC N
+149,Myctophiformes,Myctophidae,Notolychnus valdiviae,Topside lampfish,O,P,P,3.1,NE,Y,G,2,3,0,0,PAC N
+150,Myctophiformes,Myctophidae,Notoscopelus kroyeri,Lancet fish,O,P,P,3.2,NE,N,GI,3,417,60,14.39,ATL N
+151,Myctophiformes,Myctophidae,Notoscopelus resplendens,Patchwork lampfish,O,P,P,3,NE,Y,G,2,3,0,0,PAC N
+152,Myctophiformes,Myctophidae,Symbolophorus evermanni,Evermann's lanternfish,O,P,P,3.4,NE,N,n/a,1,14,1,7.14,PAC N
+153,Myctophiformes,Myctophidae,Taaningichthys bathyphilus,Deepwater lanternfish,O,P,P,3.1,NE,Y,G,2,3,0,0,PAC N
+154,Ophidiiformes,Bythidiae,Cataetyx laticeps,n/a,O,D,BP,3.8,NE,N,"G, GI, I",1,10,1,10,MED
+155,Osmeriformes,Alepocephalidae,Alepocephalus rostratus,Risso's smooth-head,O,D,BP,3.7,NE,N,"G, GI, I",1,158,0,0,MED
+156,Osmeriformes,Alepocephalidae,Xenodermichthys copei,Bluntsnout smooth-head,O,P,P,3.2,NE,N,GI,3,5,3,60,ATL N
+157,Osmeriformes,Argentinidae,Argentina silus,Greater argentine,O,P,P,3.3,NE,Y,GI,2,15,1,6.67,ATL N
+158,Osmeriformes,Osmeridae,Osmerus eperlanus,European smelt,N,BP,P,3.5,LC,Y,GI,2,10,2,20,ATL N
+159,Perciformes,Acanthuridae,Acanthurus coeruleus,Blue tang surgeonfish,N,B,G,2,LC,Y,G ,2,1,0,0,ATL S
+160,Perciformes,Acanthuridae,Acanthurus gahhm,Black surgeonfish,N,B,O,2.8,LC,Y,GI ,3,10,1,10,IND
+161,Perciformes,Acanthuridae,Acanthurus lineatus,Lined surgeonfish,N,B,G,2,LC,Y,GI,3,24,4,16.67,PAC S
+162,Perciformes,Acanthuridae,Acanthurus sohal,Sohal surgeonfish,N,B,G,2,LC,Y,GI,3,3,0,0,IND
+163,Perciformes,Acanthuridae,Ctenochaetus striatus,Striated surgeonfish,N,B,G,2,LC,Y,GI,3,27,7,25.93,PAC S
+164,Perciformes,Acanthuridae,NA,NA,NA,NA,NA,NA,NA,NA,GI,3,29,6,20.69,PAC S
+165,Perciformes,Acanthuridae,Naso brachycentron,Humpback unicornfish,N,B,G,2.7,LC,Y,GI,1,1,0,0,PAC S
+166,Perciformes,Acanthuridae,Naso lituratus,Orangespine unicornfish,N,B,G,2.3,LC,Y,GI,3,28,4,14.29,PAC S
+167,Perciformes,Acanthuridae,Naso unicornis,Bluespine unicornfish,N,B,G,2.2,LC,Y,GI,3,30,6,20,PAC S
+168,Perciformes,Acanthuridae,NA,NA,NA,NA,NA,NA,NA,NA,GI,3,2,0,0,IND
+169,Perciformes,Ammodytidae,Ammodytes personatus,Pacific sandlance,N,B,P,3.1,NE,Y,GI,2,734,11,1.5,PAC N
+170,Perciformes,Arripidae,Arripis sp.,Australian salmon,NA,NA,NA,NA,NA,n/a,"G, GI",2,9,0,0,PAC S
+171,Perciformes,Blennidae,Scartichthys viridis,n/a,N,B,G,2.2,LC,N,GI,3,19,19,100,PAC S
+172,Perciformes,Bramidae,Brama brama,Atlantic pomfret,O,P,PP,4.1,NE,Y,G,2,3,1,33.33,ATL N
+173,Perciformes,Bramidae,NA,NA,NA,NA,NA,NA,NA,NA,GI ,2,9,0,0,MED
+174,Perciformes,Callionymidae,Callionymus lyra,Dragonet,N,D,BP,3.3,NE,Y,GI,2,50,19,38,ATL N
+175,Perciformes,Callionymidae,NA,NA,NA,NA,NA,NA,NA,NA,G,1,2116,0,0,ATL N
+176,Perciformes,Callionymidae,Callionymus planus,Japanese darter dragonet,N,B,BP,3.3,NE,N,GI,3,18,18,100,PAC N
+177,Perciformes,Carangidae,Caranx crysos,Blue runner,N,P,PP,4.1,LC,Y,GI,3,1,1,100,MED
+178,Perciformes,Carangidae,NA,NA,NA,NA,NA,NA,NA,NA,G ,2,3,0,0,ATL S
+179,Perciformes,Carangidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,2,3,0,0,ATL N
+180,Perciformes,Carangidae,Caranx hippos,Crevalle jack,N-O,BP,BP,3.6,LC,Y,GI,2,3,3,100,ATL N
+181,Perciformes,Carangidae,Caranx melampygus,Bluefin trevally,N-O,BP,PP,4.5,LC,Y,GI,1,1,0,0,PAC S
+182,Perciformes,Carangidae,Caranx papuensis,Brassy trevally,N,P,PP,4,NE,Y,GI,3,32,14,43.75,PAC S
+183,Perciformes,Carangidae,Caranx sexfasciatus,Bigeye trevally,N-O,BP,PP,4.5,LC,Y,GI,1,3,0,0,PAC S
+184,Perciformes,Carangidae,Decapterus macrosoma,Shortfin scad,N,P,P,3.4,NE,Y,GI,3,17,5,29.41,IND
+185,Perciformes,Carangidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,3,25,7,28,PAC S
+186,Perciformes,Carangidae,Decapterus muroadsi,Amberstripe scad,N-O,P,P,3.4,LC,Y,GI,3,25,16,64,PAC S
+187,Perciformes,Carangidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,2,20,16,80,PAC S
+188,Perciformes,Carangidae,Selar boops,Oxeye scad,N,BP,P,3.5,NE,Y,GI,3,7,0,0,IND
+189,Perciformes,Carangidae,Selene setapinnis,Atlantic moofish,N,BP,PP,3.7,LC,Y,GI,2,1,0,0,ATL N
+190,Perciformes,Carangidae,Selene vomer,Lookdown,N,D,BP,4.3,LC,Y,GI,2,2,1,50,ATL N
+191,Perciformes,Carangidae,Seriola lalandi ,Yellowtail kingfish,N-O,BP,PP,4.2,NE,Y,GI,2,19,2,10.53,PAC N
+192,Perciformes,Carangidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,3,15,3,20,PAC S
+193,Perciformes,Carangidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,1,10,0,0,PAC S
+194,Perciformes,Carangidae,Trachinotus ovatus,Pompano,N,P,BP,3.7,LC,Y,G,2,115,28,24.35,MED
+195,Perciformes,Carangidae,Trachurus declivis,Greenback horse mackerel,N-O,BP,P,3.9,NE,Y,"G, GI",2,23,0,0,PAC S
+196,Perciformes,Carangidae,Trachurus mediterraneus,Med Horse mackerel,O,P,PP,3.8,LC,Y,GI,3,98,67,68.37,MED
+197,Perciformes,Carangidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,2,2,0,0,MED
+198,Perciformes,Carangidae,Trachurus novaezelandiae,Yellowtail horse mackerel,O,P,P,3.2,NE,Y,GI,3,31,1,3.23,PAC S
+199,Perciformes,Carangidae,Trachurus picturatus,Blue jack mackerel,N,BP,P,3.3,NE,Y,G,2,29,1,3.45,ATL N
+200,Perciformes,Carangidae,NA,NA,NA,NA,NA,NA,NA,NA,GI ,2,9,0,0,MED
+201,Perciformes,Carangidae,Trachurus trachurus,Atlantic horse mackerel,N-O,P,BP,3.7,NE,Y,GI,2,56,16,28.57,ATL N
+202,Perciformes,Carangidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,3,100,1,1,ATL N
+203,Perciformes,Carangidae,NA,NA,NA,NA,NA,NA,NA,NA,G,2,44,3,6.82,ATL N
+204,Perciformes,Carangidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,2,5,0,0,ATL N
+205,Perciformes,Carangidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,2,50,12,24,MED
+206,Perciformes,Centrolophidae,Psenopsis anomala,Pacific rudderfish,N,BP,P,4,LC,Y,GI,3,18,18,100,PAC N
+207,Perciformes,Centrolophidae,Schedophilus ovalis,Imperial blackfish,O,BP,P,3.5,NE,Y,GI,2,3,0,0,MED
+208,Perciformes,Centrolophidae,Schedophilus velaini,Violet warehou,O,P,PP,4.2,LC,Y,GI,3,14,8,57.14,PAC S
+209,Perciformes,Cepolidae,Cepola macrophthalma,Red bandfish,N,D,P,3.1,NE,Y,GI,2,62,20,32.26,ATL N
+210,Perciformes,Chaetodontidae,Chaetodon austriacus,Blacktail butterflyfish,N,B,G,3.3,LC,N,GI ,3,10,1,10,IND
+211,Perciformes,Cheilodactylidae,Nemadactylus macropterus,Tarakihi,N,D,BP,3.4,NE,Y,GI,3,23,2,8.7,PAC S
+212,Perciformes,Coryphaenidae,Coryphaena hippurus,Common dolphinfish,N-O,P,PP,4.4,LC,Y,GI,3,10,2,20,PAC S
+213,Perciformes,Coryphaenidae,NA,NA,NA,NA,NA,NA,NA,NA,G,1,42,1,2.38,PAC N
+214,Perciformes,Coryphaenidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,1,1,0,0,PAC S
+215,Perciformes,Eleotridae,Oxyeleotris marmorata,Marble goby,N,B,BP,3.9,LC,Y,GI,3,18,18,100,PAC N
+216,Perciformes,Ephippidae,Chaetodipterus faber,Atlantic spadefish,N,D,BP,4.5 ??,LC,Y,G ,2,103,48,46.6,ATL N
+217,Perciformes,Ephippidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,2,5,0,0,ATL N
+218,Perciformes,Epigonidae,Epigonus telescopus,Black cardinal fish,O,BP,BP,3.6,NE,Y,GI ,2,4,0,0,MED
+219,Perciformes,Gempylidae,Gempylus serpens,Snake mackarel,O,P,PP,4.4,NE,Y,G,1,104,1,0.96,PAC N
+220,Perciformes,Gempylidae,Lepidocybium flavobrunneum,Escolar,O,P,PP,4.3,NE,Y,G,1,45,0,0,PAC N
+221,Perciformes,Gempylidae,Thyrsites atun,Snoek,N-O,BP,PP,3.6,NE,Y,GI,3,28,8,28.57,PAC S
+222,Perciformes,Gempylidae,NA,NA,NA,NA,NA,NA,NA,NA,"G, GI",2,2,0,0,PAC S
+223,Perciformes,Gerreidae,Diapterus rhombeus,Caitipa mojarra,N,D,BP,3,NE,Y,G,NA,44,5,11.36,ATL S
+224,Perciformes,Gerreidae,Eugerres brasilianus,Brazilian mojarra,N,D,BP,3.4,NE,Y,G,NA,240,39,16.25,ATL S
+225,Perciformes,Gerreidae,Eucinostomus melanopterus,Flagfin mojarra,N,D,O,3.4,NE,Y,G,NA,141,13,9.22,ATL S
+226,Perciformes,Gerreidae,Gerres subfasciatus,Common silver belly,n/a,NA,n/a,3.3,LC,Y,GI,2,24,5,20.83,PAC S
+227,Perciformes,Gobiidae,Pomatoschistus minutus,Sand goby,N,B,BP,3.2,NE,N,GI, ,200,15,7.5,ATL N
+228,Perciformes,Gobiidae,Synechogobius ommaturus,Asian freshwater goby,N,B,BP,3.5,NE,N,GI,3,18,18,100,PAC N
+229,Perciformes,Haemulidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,2,1,0,0,ATL N
+230,Perciformes,Haemulidae,Anisotremus virginicus,Porkfish,N,D,BP,3.6,LC,Y,GI,2,1,0,0,ATL N
+231,Perciformes,Haemulidae,Conodon nobilis,Barred grunt,N,D,BP,3.6,LC,Y,GI,2,8,0,0,ATL N
+232,Perciformes,Haemulidae,Genyatremus luteus,Torroto grunt,N,D,O,3.5,NE,Y,GI,2,8,0,0,ATL N
+233,Perciformes,Haemulidae,Haemulon plunierii,White grunt,N,D,BP,3.8,LC,Y,GI,2,13,0,0,ATL N
+234,Perciformes,Haemulidae,Haemulon steindachneri,Chere-chere grunt,N,D,BP,3.7,LC,Y,GI,2,5,0,0,ATL N
+235,Perciformes,Haemulidae,Orthopristis chrysoptera,"Grunt, pigfish",N,D,BP,3.4,LC,Y,G ,2,157,42,26.75,ATL N
+236,Perciformes,Haemulidae,Orthopristis ruber,Corocoro grunt,N,D,BP,3.6,LC,Y,GI,2,2,0,0,ATL N
+237,Perciformes,Haemulidae,Plectorhinchus gaterinus,Blackspotted subberlip,N,B,BP,4,NE,Y,GI,3,6,2,33.33,IND
+238,Perciformes,Haemulidae,Pomadasys incisus,Bastard grunt,N,D,BP,3.8,LC,Y,GI,3,29,16,55.17,MED
+239,Perciformes,Kuhliidae,Kuhlia sandvicensis,Hawaiian flagtail,n/a,NA,n/a,3.8,NE,Y,GI,1,15,3,20,PAC S
+240,Perciformes,Kyphosidae,Girella laevifrons,n/a,N,P,G,2.6,NE,N,GI,3,16,16,100,PAC S
+241,Perciformes,Kyphosidae,Girella tricuspidata,Parore,N,BP,G,2.1,NE,y,GI,3,20,14,70,PAC S
+242,Perciformes,Kyphosidae,Graus nigra,n/a,N,D,BP,3.4,NE,Y,GI,3,8,8,100,PAC S
+243,Perciformes,Kyphosidae,Kyphosus pacificus,Pacific drummer,n/a,NA,n/a,NA,NE,Y,GI,1,15,0,0,PAC S
+244,Perciformes,Kyphosidae,Kyphosus sandwicensis,Pacific chub,N,D,G,NA,NE,Y,GI,3,39,20,51.28,PAC S
+245,Perciformes,Kyphosidae,Kyphosus sydneyanus,Silver drummer,N,B,G,2,NE,Y,GI,1,10,0,0,PAC S
+246,Perciformes,Labridae,Coris aygula,Clown coris,N,D,BP,3.7,LC,Y,GI,1,1,0,0,PAC S
+247,Perciformes,Labridae,Notolabrus tetricus,Blue-throated wrasse,N,D,BP,3.6,LC,Y,"G, GI",2,7,0,0,PAC S
+248,Perciformes,Labridae,Oxycheilinus unifasciatus,Ringtail maori wrasse,N,BP,BP,4.1,LC,Y,GI,1,1,0,0,PAC S
+249,Perciformes,Labridae,Thalassoma purpureum,Surge wrasse,N,D,BP,3.8,LC,Y,GI,1,2,1,50,PAC S
+250,Perciformes,Labridae,Thalassoma rueppellii,Klunzinger's wrasse,N,D,BP,3.5,LC,Y,GI,3,12,1,8.33,IND
+251,Perciformes,Labridae,Thalassoma trilobatum,Christmas wrasse,N,D,BP,3.8,LC,Y,GI,1,4,1,25,PAC S
+252,Perciformes,Labrisomidae,Auchenionchus microcirrhis,n/a,N,D,BP,3.7,LC,N,GI,3,16,16,100,PAC S
+253,Perciformes,Lateolabracidae,Lateolabrax japonicus,Japanese seabass,N,BP,P,3.4,NE,Y,GI,3,18,18,100,PAC N
+254,Perciformes,Latidae,Lates calcarifer,Barramundi,N,D,BP,3.8,NE,Y,GI,3,2,2,100,PAC N
+255,Perciformes,Leiognathidae,Photopectoralis bindus,Orangefin ponyfish,N,D,O,2.9,NE,y,GI,3,18,18,100,PAC N
+256,Perciformes,Lethrinidae,Gnathodentex aurolineatus,Striped large-eye bream,N,D,BP,3.7,NE,Y,GI,3,29,2,6.9,PAC S
+257,Perciformes,Lethrinidae,Gymnocranius grandoculis,Blue-lined large-eye bream,N,D,BP,3.8,LC,N,GI ,3,10,2,20,IND
+258,Perciformes,Lethrinidae,Lethrinus amboinensis,Ambon emperor,N,D,BP,4,NE,Y,GI,3,26,6,23.08,PAC S
+259,Perciformes,Lethrinidae,Lethrinus microdon,Smalltooth emperor,N,D,BP,3.8,LC,Y,GI,3,10,2,20,IND
+260,Perciformes,Lethrinidae,Lethrinus obsoletus,Orange-striped emperor,N,D,BP,3.9,NE,Y,GI,3,30,4,13.33,PAC S
+261,Perciformes,Lutjanidae,Lipocheilus carnolabrum,Tang's snapper,N,D,BP,3.9,LC,Y,GI,3,7,2,28.57,IND
+262,Perciformes,Lutjanidae,Lutjanus analis,Mutton snapper,N,D,BP,3.9,NT,Y,GI,2,3,1,33.33,ATL N
+263,Perciformes,Lutjanidae,NA,NA,NA,NA,NA,NA,NA,NA,G ,2,2,0,0,ATL S
+264,Perciformes,Lutjanidae,Lutjanus gibbus,Humpback red snapper,N,BP,BP,4.1,LC,Y,GI,3,29,6,20.69,PAC S
+265,Perciformes,Lutjanidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,3,5,0,0,IND
+266,Perciformes,Lutjanidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,1,1,0,0,PAC S
+267,Perciformes,Lutjanidae,Lutjanus jocu,Dog snapper,N,D,BP,4.4,NE,Y,G ,2,5,0,0,ATL S
+268,Perciformes,Lutjanidae,Lutjanus kasmira,Bluestripe snapper,N,D,BP,3.9,LC,Y,GI ,3,12,2,16.67,IND
+269,Perciformes,Lutjanidae,Lutjanus synagris,Lane snapper,N,D,BP,3.8,NT,Y,GI,2,2,1,50,ATL N
+270,Perciformes,Lutjanidae,Pristipomoides multidens,Gold banded jobfish,N,D,BP,3.8,LC,Y,GI,3,10,2,20,IND
+271,Perciformes,Lutjanidae,Pristipomoides typus,Sharptooth jobfish,N,D,BP,4.2,LC,N,GI,3,5,0,0,IND
+272,Perciformes,Malacanthidae,Branchiostegus japonicus,Horsehead tilefish,N,D,P,3.4,LC,Y,GI,3,18,18,100,PAC N
+273,Perciformes,Moronidae,Dicentrarchus labrax,European seabass,N,D,BP,3.5,LC,Y,GI,3,40,9,22.5,ATL N
+274,Perciformes,Moronidae,Morone americana  ,White perch,N,D,BP,3.1,LC,Y,n/a,NA,12,4,33.33,ATL N
+275,Perciformes,Moronidae,Morone saxatilis,Striped bass,N,D,BP,4.7??,LC,Y,GI,3,7,2,28.57,PAC N
+276,Perciformes,Moronidae,NA,NA,NA,NA,NA,NA,NA,NA,n/a,1,1094,1,0.09,ATL N
+277,Perciformes,Mullidae,Mulloidichthys flavolineatus,Yellowstripe goatfish,N,B,BP,3.8,LC,Y,GI,1,2,0,0,PAC S
+278,Perciformes,Mullidae,Mullus barbatus,Red mullet,N,D,BP,3.1,NE,Y,GI,3,11,7,63.64,MED
+279,Perciformes,Mullidae,NA,NA,NA,NA,NA,NA,NA,NA,G,3,128,24,18.75,MED
+280,Perciformes,Mullidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,3,207,136,65.7,MED
+281,Perciformes,Mullidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,3,12,11,91.67,MED
+282,Perciformes,Mullidae,NA,NA,NA,NA,NA,NA,NA,NA,GI ,2,148,11,7.43,MED
+283,Perciformes,Mullidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,3,25,8,32,MED
+284,Perciformes,Mullidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,3,25,8,32,MED
+285,Perciformes,Mullidae,Mullus surmuletus,Surmullet,N,B,BP,3.5,NE,Y,G,2,4,4,100,ATL N
+286,Perciformes,Mullidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,3,51,33,64.71,MED
+287,Perciformes,Mullidae,NA,NA,NA,NA,NA,NA,NA,NA,G,2,417,114,27.34,MED
+288,Perciformes,Mullidae,NA,NA,NA,NA,NA,NA,NA,NA,GI ,2,8,0,0,MED
+289,Perciformes,Mullidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,3,30,21,70,MED
+290,Perciformes,Mullidae,NA,NA,NA,NA,NA,NA,NA,NA,G,1,1298,0,0,ATL N
+291,Perciformes,Mullidae,Upeneus moluccensis,Goldband goatfish,N,D,BP,3.6,NE,Y,GI,3,18,8,44.44,MED
+292,Perciformes,Mullidae,Upeneus pori,Por's goatfish,N,D,BP,3.5,NE,Y,GI,3,78,32,41.03,MED
+293,Perciformes,Nemipteridae,Nemipterus randalli,Randall's theadfin bream,N,D,BP,3.7,NE,Y,GI,3,135,74,54.81,MED
+294,Perciformes,Nemipteridae,Parascolopsis eriomma,Rosy dwarf mon. bream ,N,D,BP,3.5,NE,Y,GI ,3,5,3,60,IND
+295,Perciformes,Nototheniidae,Dissostichus mawsoni,Antarctic tootfish,O,P,BP,3.9,NE,Y,"G, GI",2,10,1,10,PAC S
+296,Perciformes,Odacidae,Haletta semifasciata,Blue weed whiting,N,D,BP,3.2,LC,Y,"G, GI",2,2,0,0,PAC S
+297,Perciformes,Polynemidae,Polydactylus oligodon,Littlescale threadfin,N,B,BP,3.7,LC,Y,GI,2,1,1,100,ATL N
+298,Perciformes,Polynemidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,2,13,0,0,ATL N
+299,Perciformes,Polyprionidae,Polyprion americanus,Wreckfish,N,D,BP,4.1,DD,Y,GI,2,14,0,0,MED
+300,Perciformes,Polyprionidae,NA,NA,NA,NA,NA,NA,NA,NA,G,2,1,0,0,ATL N
+301,Perciformes,Pomacanthidae,Pygoplites diacanthus,Regal angelfish,N,B,G,2.7,LC,N,GI,3,5,0,0,IND
+302,Perciformes,Pomacentridae,Abudefduf sexfasciatus,Scissortail sergeant,N,BP,O,2.7,NE,N,GI,3,5,1,20,IND
+303,Perciformes,Pomacentridae,Abudefduf sordidus,Blackspot sergeant,N,D,O,2.9,NE,Y,GI,1,1,0,0,PAC S
+304,Perciformes,Pomacentridae,Dascyllus trimaculatus,Threespot dascyllus,N,BP,O,2.8,NE,N,GI ,3,2,0,0,IND
+305,Perciformes,Pomatomidae,Pomatomus saltatrix,Bluefish,N-O,P,PP,4.5,VU,Y,GI,2,2,0,0,ATL N
+306,Perciformes,Priacanthidae,Heteropriacanthus cruentatus,Glasseye,N,D,BP,3.6,LC,Y,GI,3,10,3,30,PAC S
+307,Perciformes,Priacanthidae,Priacanthus arenatus,Atlantic bigeye,N,D,BP,4,LC,Y,G,2,122,60,49.18,ATL S
+308,Perciformes,Rachycentridae,Rachycentron canadum,Cobia,N-O,BP,PP,4,LC,Y,GI,2,1,0,0,ATL N
+309,Perciformes,Scaridae,Chlorurus sordidus,Daisy parrotfish,N,B,G,2.6,LC,Y,GI,1,4,1,25,PAC S
+310,Perciformes,Scaridae,Scarus niger,Dusky parrotfish,N,D,G,2,LC,Y,GI,3,30,7,23.33,PAC S
+311,Perciformes,Scaridae,Scarus oviceps,Dark capped parrotfish,N,D,G,2,LC,Y,GI,3,45,5,11.11,PAC S
+312,Perciformes,Scaridae,Scarus psittacus,Common parrotfish,N,D,G,2,LC,Y,GI,3,30,5,16.67,PAC S
+313,Perciformes,Sciaenidae,Argyrosomus regius,Meagre,N,BP,PP,4.3,NE,Y,G,2,5,3,60,ATL N
+314,Perciformes,Sciaenidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,3,51,38,74.51,MED
+315,Perciformes,Sciaenidae,Bairdiella ronchus,Ground croaker,N,D,BP,3.5,LC,Y,GI,2,4,0,0,ATL N
+316,Perciformes,Sciaenidae,Collichthys lucidus,n/a,N,D,BP,3.5,NE,Y,GI,3,18,18,100,PAC N
+317,Perciformes,Sciaenidae,Ctenosciaena gracilicirrhus,Barbel drum,N,D,BP,3.9,LC,Y,GI,2,11,0,0,ATL N
+318,Perciformes,Sciaenidae,Cynoscion acoupa,Acoupa weakfish,N,B,BP,4.1,LC,Y,G,2,530,340,64.15,ATL S
+319,Perciformes,Sciaenidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,2,552,282,51.09,ATL S
+320,Perciformes,Sciaenidae,Cynoscion arenarius,"Sand trout, s. weakfish",N,D,BP,4.2,LC,Y,G ,2,139,60,43.17,ATL N
+321,Perciformes,Sciaenidae,Cynoscion jamaicensis,Jamaica weakfish,N,D,BP,3.8,LC,Y,GI,2,3,0,0,ATL N
+322,Perciformes,Sciaenidae,Cynoscion leiarchus,Cynoscion weakfish,N,D,BP,3.1,LC,Y,GI,2,2,1,50,ATL N
+323,Perciformes,Sciaenidae,Cynoscion microlepidotus,Smallscale weakfish,N,D,BP,4,LC,Y,GI,2,16,3,18.75,ATL N
+324,Perciformes,Sciaenidae,Cynoscion virescens,Green weakfish,N,D,BP,4,LC,Y,GI,2,7,1,14.29,ATL N
+325,Perciformes,Sciaenidae,Larimichthys crocea,Large yellow croaker,N,BP,BP,3.7,NE,Y,GI,3,18,18,100,PAC N
+326,Perciformes,Sciaenidae,Macrodon ancylodon,King weakfish,N,D,BP,3.9,LC,Y,GI,2,13,1,7.69,ATL N
+327,Perciformes,Sciaenidae,Menticirrhus americanus,Southern kingcroaker,N,D,BP,3.5,LC,Y,G ,2,150,53,35.33,ATL N
+328,Perciformes,Sciaenidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,2,1,0,0,ATL N
+329,Perciformes,Sciaenidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,2,6,0,0,ATL N
+330,Perciformes,Sciaenidae,Micropogonias undulatus,Atlantic croaker,N,D,BP,4,LC,Y,G ,2,383,173,45.17,ATL N
+331,Perciformes,Sciaenidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,2,1,0,0,ATL N
+332,Perciformes,Sciaenidae,Paralonchurus brasiliensis,Banded croaker,N,D,BP,3.4,LC,Y,GI,2,6,0,0,ATL N
+333,Perciformes,Sciaenidae,Pogonias cromis,Black drum,N,D,BP,3.9,LC,Y,GI,2,1,0,0,ATL N
+334,Perciformes,Sciaenidae,Sciaena umbra,Brown meagre,N,D,BP,3.8,NT,Y,GI,3,1,1,100,MED
+335,Perciformes,Sciaenidae,Stellifer brasiliensis,n/a,N,D,BP,3.4,NE,N,G,2,330,23,6.97,ATL S
+336,Perciformes,Sciaenidae,Stellifer stellifer,Little croaker,N,D,BP,3.4,NE,Y,G,2,239,22,9.21,ATL S
+337,Perciformes,Sciaenidae,Umbrina cirrosa,Shi drum,N,D,BP,3.4,NE,Y,GI,3,1,0,0,MED
+338,Perciformes,Scombridae,Acanthocybium solandri,Wahoo,O,P,PP,4.3,LC,Y,n/a,1,885,1,0.11,ATL N
+339,Perciformes,Scombridae,Gymnosarda unicolor,Dogtooth tuna,O,P,PP,4.5,LC,Y,GI,1,2,0,0,PAC S
+340,Perciformes,Scombridae,Katsuwonus pelamis,Skipjack tuna,O,P,PP,4.4,LC,Y,GI,3,26,6,23.08,PAC S
+341,Perciformes,Scombridae,NA,NA,NA,NA,NA,NA,NA,NA,G,1,29,0,0,PAC N
+342,Perciformes,Scombridae,NA,NA,NA,NA,NA,NA,NA,NA,GI,3,9,0,0,IND
+343,Perciformes,Scombridae,NA,NA,NA,NA,NA,NA,NA,NA,"G, GI",2,1,0,0,PAC S
+344,Perciformes,Scombridae,Rastrelliger kanagurta,Indian mackerel,N,P,P,3.2,DD,Y,GI,3,9,5,55.56,IND
+345,Perciformes,Scombridae,Scomber australasicus,Blue mackerel,N,P,P,4.2,LC,Y,"G, GI",2,4,0,0,PAC S
+346,Perciformes,Scombridae,Scomber japonicus,Chub mackerel,N,P,P,3.4,LC,Y,G,2,35,11,31.43,ATL N
+347,Perciformes,Scombridae,NA,NA,NA,NA,NA,NA,NA,NA,GI,3,7,5,71.43,MED
+348,Perciformes,Scombridae,NA,NA,NA,NA,NA,NA,NA,NA,GI,2,30,1,3.33,PAC S
+349,Perciformes,Scombridae,NA,NA,NA,NA,NA,NA,NA,NA,GI,3,1,0,0,PAC N
+350,Perciformes,Scombridae,NA,NA,NA,NA,NA,NA,NA,NA,GI ,2,37,16,43.24,MED
+351,Perciformes,Scombridae,Scomber scombrus,Atlantic mackerel,N-O,P,P,3.6,LC ,Y,G,2,13,4,30.77,ATL N
+352,Perciformes,Scombridae,NA,NA,NA,NA,NA,NA,NA,NA,GI,2,51,9,17.65,ATL N
+353,Perciformes,Scombridae,NA,NA,NA,NA,NA,NA,NA,NA,GI,2,31,10,32.26,ATL N
+354,Perciformes,Scombridae,NA,NA,NA,NA,NA,NA,NA,NA,GI,3,84,0,0,ATL N
+355,Perciformes,Scombridae,Scomberomorus brasiliensis,Serra Spanish mackerel,N-O,P,PP,3.3,LC,Y,GI,2,1,0,0,ATL N
+356,Perciformes,Scombridae,Scomberomorus cavalla,King mackerel,N,P,PP,4.4,LC,Y,G ,2,8,5,62.5,ATL S
+357,Perciformes,Scombridae,NA,NA,NA,NA,NA,NA,NA,NA,GI,2,1,0,0,ATL N
+358,Perciformes,Scombridae,Thunnus albacares,Yellowfin tuna,O,P,PP,4.4,NT,Y,GI,3,68,18,26.47,PAC S
+359,Perciformes,Scombridae,NA,NA,NA,NA,NA,NA,NA,NA,"G, GI",2,50,1,2,PAC S
+360,Perciformes,Scombridae,NA,NA,NA,NA,NA,NA,NA,NA,G,1,26,0,0,PAC N
+361,Perciformes,Scombridae,Thunnus alalunga,Albacore,O,P,PP,4.3,NT,Y,G,?,31,4,12.9,MED
+362,Perciformes,Scombridae,NA,NA,NA,NA,NA,NA,NA,NA,GI,3,2,0,0,PAC N
+363,Perciformes,Scombridae,Thunnus maccoyi,Southern bluefin tuna,O,P,PP,3.9,CR,Y,n/a,1,1219,12,0.98,PAC S
+364,Perciformes,Scombridae,Thunnus obesus,Bigeye tuna,O,P,PP,4.5,VU,Y,G,1,35,3,8.57,PAC N
+365,Perciformes,Scombridae,Thunnus thynnus,Atlantic bluefin tuna,O,P,PP,4.5,EN,Y,G,?,34,11,32.35,MED
+366,Perciformes,Serranidae,Cephalopholis argus,Peacock hind,N,BP,BP,4.5,LC,Y,GI,3,4,0,0,IND
+367,Perciformes,Serranidae,Epinephelus areolatus,Areolate grouper,N,D,BP,3.7,LC,Y,GI,3,5,1,20,IND
+368,Perciformes,Serranidae,Epinephelus chlorostigma,Brownspotted grouper,N,D,BP,4,LC,Y,GI ,3,3,1,33.33,IND
+369,Perciformes,Serranidae,Epinephelus epistictus,Dotted grouper,N,D,BP,4,DD,N,GI,3,5,1,20,IND
+370,Perciformes,Serranidae,Epinephelus fasciatus,Blacktip grouper,N,D,BP,3.7,LC,Y,GI,1,17,0,0,PAC S
+371,Perciformes,Serranidae,Epinephelus itajara,Atlantic goliath grouper,N,D,BP,4.1,CR,Y,GI,2,2,0,0,ATL N
+372,Perciformes,Serranidae,Epinephelus radiatus,Oblique-banded grouper,N,D,BP,4,LC,N,GI,3,7,1,14.29,IND
+373,Perciformes,Serranidae,Mycteroperca sp.,Grouper ?,N,D,NA,NA,NA,n/a,G ,2,1,0,0,ATL S
+374,Perciformes,Serranidae,Serranus cabrilla,Comber,N-O,D,BP,3.4,LC,Y,GI,3,6,4,66.67,MED
+375,Perciformes,Serranidae,Variola louti,Yellow-edged lyretail,N,BP,BP,4.3,NE,Y,GI,1,15,3,20,PAC S
+376,Perciformes,Siganidae,Siganus argenteus,Streamlined spinefoot,N,P,G,2,NE,Y,GI,3,2,1,50,IND
+377,Perciformes,Siganidae,Siganus canaliculatus,White-spotted spinefoot,N,P,G,2.8,NE,Y,GI,3,3,1,33.33,IND
+378,Perciformes,Siganidae,Siganus fuscescens,Mottled spinefoot,N,P,G,2.3,NE,Y,GI,3,2,0,0,IND
+379,Perciformes,Siganidae,Siganus luridus,Dusky spinefoot,N,D,G,2,NE,Y,GI,3,15,13,86.67,MED
+380,Perciformes,Siganidae,Siganus punctatus,Goldspotted spinefoot,N,D,G,2,NE,Y,GI,3,29,4,13.79,PAC S
+381,Perciformes,Sillaginidae,Sillaginodes punctatus,Spotted sillago,N,D,BP,3.3,NE,Y,"G, GI",2,8,0,0,PAC S
+382,Perciformes,Sillaginidae,Sillago flindersi,Flinder's sillago,N,D,BP,3.3,NE,Y,"G, GI",2,10,0,0,PAC S
+383,Perciformes,Sillaginidae,Sillago sihama,Silver silago,N,D,BP,3.3,NE,Y,GI,3,18,18,100,PAC N
+384,Perciformes,Sparidae,Acanthopagrus australis,Yellowfin bream,N,D,BP,3.1,LC,Y,GI,2,24,6,25,PAC S
+385,Perciformes,Sparidae,Boops boops,Bogue,N,B,O,2.8,NE,Y,G,2,32,3,9.38,ATL N
+386,Perciformes,Sparidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,2,337,195,57.86,MED
+387,Perciformes,Sparidae,Dentex dentex,Common dentex,N,BP,BP,4.5,VU,Y,GI,3,1,0,0,MED
+388,Perciformes,Sparidae,Dentex gibbosus,Pink dentex,N,BP,BP,4.1,LC,Y,GI,3,14,4,28.57,MED
+389,Perciformes,Sparidae,Dentex macrophthalmus,Large-eye dentex,N-O,BP,BP,3.5,NE,Y,G,2,1,1,100,ATL N
+390,Perciformes,Sparidae,Diplodus annularis,Pink dentex,N,BP,BP,3.6,LC,Y,GI,3,48,33,68.75,MED
+391,Perciformes,Sparidae,Diplodus vulgaris,2-banded seabream,N,BP,BP,3.5,LC,Y,GI,3,40,29,72.5,ATL N
+392,Perciformes,Sparidae,Lagodon rhomboides,Pinfish,N,D,BP,4.4,LC,Y,G ,2,449,209,46.55,ATL N
+393,Perciformes,Sparidae,Lithognathus mormyrus,Sand steenbras,N,D,BP,3.4,LC,Y,GI,3,46,16,34.78,MED
+394,Perciformes,Sparidae,NA,NA,NA,NA,NA,NA,NA,NA,G,1,63,0,0,ATL N
+395,Perciformes,Sparidae,Pagellus acarne,Axillary seabream,N-O,B,BP,3.8,NE,Y,G,2,1,1,100,ATL N
+396,Perciformes,Sparidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,3,52,35,67.31,MED
+397,Perciformes,Sparidae,NA,NA,NA,NA,NA,NA,NA,NA,G,1,1917,0,0,ATL N
+398,Perciformes,Sparidae,Pagellus bogaraveo,Blackspot seabream,N-O,D,BP,4.2,NE,Y,GI ,2,60,1,1.67,MED
+399,Perciformes,Sparidae,NA,NA,NA,NA,NA,NA,NA,NA,G,1,174,0,0,ATL N
+400,Perciformes,Sparidae,Pagellus erythrinus,Common pandora,N,BP,BP,3.5,LC,Y,GI,3,54,28,51.85,MED
+401,Perciformes,Sparidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,2,80,2,2.5,MED
+402,Perciformes,Sparidae,NA,NA,NA,NA,NA,NA,NA,NA,GI ,3,49,23,46.94,MED
+403,Perciformes,Sparidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,3,19,8,42.11,MED
+404,Perciformes,Sparidae,NA,NA,NA,NA,NA,NA,NA,NA,G,1,370,0,0,ATL N
+405,Perciformes,Sparidae,Pagrus auratus,Silver seabream,N,BP,BP,3.6,LC,Y,GI,3,22,1,4.55,PAC S
+406,Perciformes,Sparidae,Pagrus pagrus,Red porgy,N,BP,BP,3.9,LC,Y,GI,3,9,7,77.78,MED
+407,Perciformes,Sparidae,Sparus aurata,Gilthead seabream,N,D,BP,3.7,LC,Y,GI,3,110,48,43.64,MED
+408,Perciformes,Sparidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,3,20,20,100,MED
+409,Perciformes,Sparidae,Spondyliosoma cantharus,Black seabream,N,BP,O,3.3,LC,Y,GI ,3,5,5,100,MED
+410,Perciformes,Sparidae,NA,NA,NA,NA,NA,NA,NA,NA,G,1,284,0,0,ATL N
+411,Perciformes,Sphyraenidae,Sphyraena forsteri,Bigeye barracuda,N-O,P,PP,4.4,NE,Y,GI,3,12,2,16.67,PAC S
+412,Perciformes,Sphyraenidae,Sphyraena genie,Blackfin barracuda,N-O,P,PP,4.5,NE,Y,GI,1,7,1,14.29,PAC S
+413,Perciformes,Sphyraenidae,Sphyraena guachancho,Guachanche barracuda,N,P,PP,4.4,NE,Y,G ,2,1,0,0,ATL S
+414,Perciformes,Stromateidae,Pampus argenteus,Silver pomfret,N,BP,P,3.3,NE,Y,GI,3,18,18,100,PAC N
+415,Perciformes,Stromateidae,Peprilus paru,American harvestfish,N,BP,??,4.5??,LC,Y,GI,2,2,0,0,ATL N
+416,Perciformes,Teraponidae,Pelates quadrilineatus,Fourlined terapon,N,D,BP,3.6,NE,Y,GI,3,135,88,65.19,MED
+417,Perciformes,Teraponidae,Terapon jarbua,Jarbua terapon,N,D,O,3.9,LC,Y,GI,3,18,18,100,PAC N
+418,Perciformes,Trichiuridae,Aphanopus carbo,Black scabbardfish,O,P,PP,4.5,NE,Y,GI,2,5,0,0,ATL N
+419,Perciformes,Trichiuridae,NA,NA,NA,NA,NA,NA,NA,NA,G,1,11,0,0,ATL N
+420,Perciformes,Trichiuridae,Lepidopus caudatus,Silver Scabbardfish,N-O,BP,PP,3.8,NE,Y,GI,2,1,0,0,MED
+421,Perciformes,Trichiuridae,Trichiurus lepturus,Largehead hairtail,N,BP,PP,4.4,NE,Y,G,1,149,1,0.67,ATL S
+422,Perciformes,Trichiuridae,NA,NA,NA,NA,NA,NA,NA,NA,G,2,1,0,0,ATL N
+423,Perciformes,Trichiuridae,NA,NA,NA,NA,NA,NA,NA,NA,GI,2,5,1,20,ATL N
+424,Perciformes,Tripterygiidae,Helcogrammoides chilensis,n/a,N,D,BP,3.3,LC,N,GI,3,3,3,100,PAC S
+425,Perciformes,Uranoscopidae,Uranoscopus scaber,Stargazer,N-O,D,BP,4.4,LC,Y,GI,3,9,7,77.78,MED
+426,Perciformes,Xiphiidae,Xiphias gladius,Swordfish,O,P,PP,4.5,LC,Y,G,?,56,7,12.5,MED
+427,Perciformes,Xiphiidae,NA,NA,NA,NA,NA,NA,NA,NA,G,1,31,1,3.23,PAC N
+428,Perciformes,Xiphiidae,NA,NA,NA,NA,NA,NA,NA,NA,GI ,2,1,0,0,MED
+429,Perciformes,Zoarcidae,Zoarces viviparus,Eelpout,N,D,BP,3.5,NE,Y,GI,3,150,0,0,ATL N
+430,Pleuronectiformes ,Citharidae,Citharus linguatula,Spotted flounder,N,B,BP,4,LC,Y,GI ,2,52,1,1.92,MED
+431,Pleuronectiformes ,Cynoglossidae,Cynoglossus abbreviatus,3-lined tongue sole,N,D,BP,3.5,NE,Y,GI,3,18,18,100,PAC N
+432,Pleuronectiformes ,Paralichthyidae,Citharichthys sordidus,Pacific sanddab,N-O,B,BP,3.5,NE,y,GI,3,5,3,60,PAC N
+433,Pleuronectiformes ,Paralichthyidae,Paralichthys brasiliensis,Brazilian flounder,N,B,BP,4.2,NE,y,G ,2,1,0,0,ATL S
+434,Pleuronectiformes ,Pleuronectidae,Hippoglossus hippoglossus,Atlantic halibut,O,B,BP,4,EN,Y,GI,2,14,0,0,ATL N
+435,Pleuronectiformes ,Pleuronectidae,Limanda limanda,Common dab,N,B,BP,3.4,LC,Y,GI ,2,89,4,4.49,ATL N
+436,Pleuronectiformes ,Pleuronectidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,3,100,0,0,ATL N
+437,Pleuronectiformes ,Pleuronectidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,2,19,9,47.37,ATL N
+438,Pleuronectiformes ,Pleuronectidae,Pleuronectes platessa,European plaice,N,B,BP,3.2,LC,Y,GI,2,62,28,45.16,ATL N
+439,Pleuronectiformes ,Pleuronectidae,Pseudopleuronectes americanus  ,Winter flounder,N,B,BP,3.6,NE,Y,n/a,NA,95,2,2.11,ATL N
+440,Pleuronectiformes ,Pleuronectidae,Platichthys flesus,European flounder,N,B,BP,3.3,LC,Y,GI,2,66,56,84.85,ATL N
+441,Pleuronectiformes ,Pleuronectidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,2,36,2,5.56,ATL N
+442,Pleuronectiformes ,Pleuronectidae,NA,NA,NA,NA,NA,NA,NA,NA,GI, ,1090,133,12.2,ATL N
+443,Pleuronectiformes ,Pleuronectidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,3,40,5,12.5,ATL N
+444,Pleuronectiformes ,Pleuronectidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,2,47,24,51.06,ATL N
+445,Pleuronectiformes ,Scophthalmidae,Lepidorhombus boscii,Four-spot megrim,N-O,B,BP,3.7,NE,Y,G,2,2,1,50,ATL N
+446,Pleuronectiformes ,Scophthalmidae,NA,NA,NA,NA,NA,NA,NA,NA,G,1,25914,0,0,ATL N
+447,Pleuronectiformes ,Scophthalmidae,Lepidorhombus whiffiagonis,Megrim,N-O,B,BP,4.3,NE,Y,GI,2,10,1,10,ATL N
+448,Pleuronectiformes ,Scophthalmidae,NA,NA,NA,NA,NA,NA,NA,NA,G,2,2,0,0,ATL N
+449,Pleuronectiformes ,Scophthalmidae,NA,NA,NA,NA,NA,NA,NA,NA,G,1,6753,0,0,ATL N
+450,Pleuronectiformes ,Soleidae,Buglossidium luteum,Solenette,N-O,B,BP,3.3,LC,Y,GI,2,50,13,26,ATL N
+451,Pleuronectiformes ,Soleidae,Microchirus variegatus,Thickback sole,N-O,B,BP,3.3,NE ,Y,GI,2,51,12,23.53,ATL N
+452,Pleuronectiformes ,Soleidae,Solea solea,Common sole,N,B,BP,3.2,NE ,Y,GI,3,533,506,94.93,MED
+453,Pleuronectiformes ,Soleidae,NA,NA,NA,NA,NA,NA,NA,NA,G,2,1,0,0,ATL N
+454,Pleuronectiformes ,Soleidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,2,88,2,2.27,MED
+455,Pleuronectiformes ,Soleidae,NA,NA,NA,NA,NA,NA,NA,NA,GI ,3,20,13,65,MED
+456,Salmoniformes,Salmonidae,Oncorhynchus tshawytscha,Chinook salmon,N,BP,PP,4.4,NE,Y,GI,3,4,1,25,PAC N
+457,Salmoniformes,Salmonidae,Salmo trutta,Sea trout,N,P,BP,3.4,LC,Y,GI,3,62,42,67.74,ATL N
+458,Scorpaeniformes ,Cottidae,Myoxocephalus aenaeus  ,Grubby,N-O,B,BP,3.7,NE ,N,n/a,NA,47,2,4.26,ATL N
+459,Scorpaeniformes ,Cottidae,Triglops nybelini,Bigeye sculpin,N-O,B,BP,3.3,NE,N,GI,3,71,24,33.8,ATL N
+460,Scorpaeniformes ,Hexagrammidae,Ophiodon elongatus,Lingcod,N-O,D,BP,4.3,NE,Y,GI,3,11,1,9.09,PAC N
+461,Scorpaeniformes ,Liparidae,Liparis liparis,Striped seasnail,N,B,BP,3.6,LC,Y,GI, ,220,16,7.27,ATL N
+462,Scorpaeniformes ,Platycephalidae,Platycephalus bassensis,Sand flathead,N,B,BP,4.3,NE,Y,"G, GI",2,10,0,0,PAC S
+463,Scorpaeniformes ,Platycephalidae,Platycephalus laevigatus,Black flathead,N,D,BP,3.8,NE,N,"G, GI",2,7,0,0,PAC S
+464,Scorpaeniformes ,Scorpaenidae,Scorpaena elongata,Slender rockfish,N-O,D,BP,3.9,NE,Y,GI,2,1,0,0,MED
+465,Scorpaeniformes ,Scorpaenidae,Scorpaena jacksoniensis,n/a,N,D,BP,3.9,NE,N,"G, GI",2,19,0,0,PAC S
+466,Scorpaeniformes ,Scorpaenidae,Scorpaena loppei,Cadenat's rockfish,N,D,BP,3.5,LC,N,G,1,104,0,0,ATL N
+467,Scorpaeniformes ,Scorpaenidae,Scorpaena scrofa,Red scorpionfish,N-O,D,BP,4.3,LC,Y,G,1,51,0,0,ATL N
+468,Scorpaeniformes ,Scorpaenidae,Scorpaena sp.,n/a,NA,NA,BP,NA,NA,n/a,GI,3,19,16,84.21,MED
+469,Scorpaeniformes ,Sebastidae,Helicolenus dactylopterus,Blackbelly rosefish,N-O,D,BP,3.5,NE,Y,GI ,2,380,0,0,MED
+470,Scorpaeniformes ,Sebastidae,NA,NA,NA,NA,NA,NA,NA,NA,G,2,1,0,0,ATL N
+471,Scorpaeniformes ,Sebastidae,NA,NA,NA,NA,NA,NA,NA,NA,G,1,3618,0,0,ATL N
+472,Scorpaeniformes ,Sebastidae,Sebastes caurinus,Copper rockfish,N,D,BP,4.1,NE,Y,GI,3,1,0,0,PAC N
+473,Scorpaeniformes ,Sebastidae,Sebastes flavidus,Yellowtail rockfish,N-O,BP,PP,4.2,NE,Y,GI,3,3,1,33.33,PAC N
+474,Scorpaeniformes ,Sebastidae,Sebastes miniatus,Vermilion rockfish,N,D,BP,3.9,NE,Y,GI,3,3,0,0,PAC N
+475,Scorpaeniformes ,Sebastidae,Sebastes mystinus,Blue rockfish,N-O,BP,P,2.7,NE,Y,GI,3,10,2,20,PAC N
+476,Scorpaeniformes ,Sebastidae,Sebastiscus marmoratus,False kelpfish,N,B,BP,3.7,NE,Y,GI,3,18,18,100,PAC N
+477,Scorpaeniformes ,Sebastidae,Trachyscorpia cristulata,Atlantic thornyhead,N-O,D,BP,3.9,LC,Y,G,1,49,0,0,ATL N
+478,Scorpaeniformes ,Triglidae,Chelidonichthys cuculus,Red gurnard,N,B,BP,3.8,NE,Y,GI,2,66,34,51.52,ATL N
+479,Scorpaeniformes ,Triglidae,NA,NA,NA,NA,NA,NA,NA,NA,G,1,3503,1,0.03,ATL N
+480,Scorpaeniformes ,Triglidae,Chelidonichthys kumu,Bluefin gurnard,N,B,BP,3.7,LC,Y,GI,3,27,1,3.7,PAC S
+481,Scorpaeniformes ,Triglidae,Chelidonichthys lucerna,Tub gurnard,N,B,BP,4,NE,Y,GI ,3,3,2,66.67,MED
+482,Scorpaeniformes ,Triglidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,3,24,9,37.5,MED
+483,Scorpaeniformes ,Triglidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,2,1,0,0,MED
+484,Scorpaeniformes ,Triglidae,NA,NA,NA,NA,NA,NA,NA,NA,G,1,1019,0,0,ATL N
+485,Scorpaeniformes ,Triglidae,Chelidonichthys obscurus,Longfin gurnard,N,B,BP,3.7,LC,Y,G,1,412,0,0,ATL N
+486,Scorpaeniformes ,Triglidae,Eutrigla gurnardus,Grey gurnard,N,B,BP,3.9,NE,Y,GI,3,171,0,0,ATL N
+487,Scorpaeniformes ,Triglidae,NA,NA,NA,NA,NA,NA,NA,NA,G,1,2853,0,0,ATL N
+488,Scorpaeniformes ,Triglidae,Prionotus evolans,Striped searobin,N,B,BP,4.3,LC,Y,n/a,NA,1,1,100,ATL N
+489,Scorpaeniformes ,Triglidae,Trigla lyra,Piper,N,B,BP,3.7,NE,Y,G,2,31,6,19.35,ATL N
+490,Scorpaeniformes ,Triglidae,NA,NA,NA,NA,NA,NA,NA,NA,G,1,1488,0,0,ATL N
+491,Siluriformes,Ariidae,Bagre bagre,Coco sea catfish,N,B,BP,4,LC,Y,GI,2,7,5,71.43,ATL N
+492,Siluriformes,Ariidae,Bagre marinus,Gafftopsail sea catfish,N,B,BP,3.5,LC,Y,GI,2,4,4,100,ATL N
+493,Siluriformes,Ariidae,Cathorops agassizii,n/a,N,B,BP,4.3,NE,N,G,2,60,20,33.33,ATL S
+494,Siluriformes,Ariidae,Cathorops spixii,Madamango sea catfish,N,D,BP,3.5,NE,Y,G,2,60,11,18.33,ATL S
+495,Siluriformes,Ariidae,Notarius grandicassis,Thomas sea catfish,N,B,BP,4,LC,Y,GI,2,4,0,0,ATL N
+496,Siluriformes,Ariidae,Sciades herzbergii,Pemecou sea catfish,N,D,BP,3.3,NE,Y,G,2,62,11,17.74,ATL S
+497,Stomiiformes,Gonostomatidae,Cyclothone acclinidens,Benttooth bristlemouth,O,P,P,3.6,NE,N,G,2,4,0,0,PAC N
+498,Stomiiformes,Gonostomatidae,Cyclothone atraria,Deep-water bristlemouth,O,P,P,3.1,NE,N,G,2,3,0,0,PAC N
+499,Stomiiformes,Gonostomatidae,Cyclothone pallida,Tan bristlemouth,O,P,P,3.2,NE,N,G,2,5,0,0,PAC N
+500,Stomiiformes,Gonostomatidae,Cyclothone pseudopallida,Slender bristlemouth,O,P,P,3.1,NE,N,G,2,4,0,0,PAC N
+501,Stomiiformes,Gonostomatidae,Gonostoma denudatum,n/a,O,P,P,3.3,LC,N,G ,3,5,5,100,ATL N
+502,Stomiiformes,Phosichthyidae,Vinciguerria mabahiss,n/a,O,P,P,3.1,NE,N,GI ,3,10,0,0,IND
+503,Stomiiformes,Sternoptychidae,Argyropelecus ssp.,n/a,NA,NA,n/a,NA,NA,n/a,GI,3,5,0,0,ATL N
+504,Stomiiformes,Sternoptychidae,Argyropelecus affinis,Pacififc hatchet fish,O,P,P,3.1,NE,N,G,2,1,0,0,PAC N
+505,Stomiiformes,Sternoptychidae,Argyropelecus hemigymnus,Half-naked hatchet fish,O,P,P,3.1,LC,N,G,2,3,0,0,PAC N
+506,Stomiiformes,Sternoptychidae,Danaphos oculatus,Bottlelights,O,P,P,3,NE,Y,G,2,9,0,0,PAC N
+507,Stomiiformes,Sternoptychidae,Maurolicus muelleri,Silvery lightfish,O,P,P,3,NE,Y,GI,3,282,8,2.84,ATL N
+508,Stomiiformes,Sternoptychidae,Maurolicus mucronatus,n/a,O,P,P,3.1,NE,N,GI,3,10,1,10,IND
+509,Stomiiformes,Sternoptychidae,Sternoptyx diaphana,Bottlelights,O,P,P,3.4,NE,N,G,2,4,1,25,PAC N
+510,Stomiiformes,Sternoptychidae,Sternoptyx pseudobscura,Highlight hatchet fish,O,P,P,3.4,NE,N,G,2,6,1,16.67,PAC N
+511,Stomiiformes,Stomiidae,Idiacanthus antrostomus,Pacific blackdragon,O,P,PP,3.8,NE,N,G,2,4,1,25,PAC N
+512,Stomiiformes,Stomiidae,Stomias boa  ,Boa dragonfish,O,P,PP,4,NE,N,GI,3,5,2,40,ATL N
+513,Stomiiformes,Stomiidae,NA,NA,O,P,NA,NA,NA,NA,G ,3,9,6,66.67,ATL N
+514,Tetraodontiformes,Monacanthidae,Meuschenia scaber,Velvet leatherjacket,N,BP,G,3.1,NE,Y,GI,3,19,7,36.84,PAC S
+515,Tetraodontiformes,Monacanthidae,Thamnaconus septentrionalis,n/a,N,D,O,3.4,NE,Y,GI,3,18,18,100,PAC N
+516,Tetraodontiformes,Tetraodontidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,2,2,0,0,ATL N
+517,Tetraodontiformes,Tetraodontidae,Lagocephalus laevigatus,Smooth puffer,N-O,P,BP,4,NE,Y,G ,2,1,0,0,ATL S
+518,Tetraodontiformes,Tetraodontidae,Lagocephalus spadiceus,Half-smooth gold puffie,N,D,BP,3.7,LC,N,GI,3,1,0,0,MED
+519,Zeiformes,Zeidae,Zeus faber,John dory,N,BP,BP,4.5,NE,Y,GI,2,42,20,47.62,ATL N
+520,Zeiformes,Zeidae,NA,NA,NA,NA,NA,NA,NA,NA,G,2,1,1,100,ATL N
+521,Zeiformes,Zeidae,NA,NA,NA,NA,NA,NA,NA,NA,G,1,1346,0,0,ATL N
+522,Carcharhiniformes,Carcharhinidae,Carcharhinus amboinensis,Pigeye shark,N,BP,PP,4.3,DD,Y,G,1,222,0,0,IND
+523,Carcharhiniformes,Carcharhinidae,Carcharhinus brachyurus,Bronze whaler,N-O,BP,PP,4.5,NT,Y,G,1,1404,1,0.07,IND
+524,Carcharhiniformes,Carcharhinidae,Carcharhinus brevipinna,Spinner shark,N-O,P,PP,4.2,NT,Y,G,1,1699,0,0,IND
+525,Carcharhiniformes,Carcharhinidae,Carcharhinus leucas,Bull shark,N,BP,PP,4.3,NT,Y,G,1,661,4,0.61,IND
+526,Carcharhiniformes,Carcharhinidae,Carcharhinus limbatus,Blacktip shark,N,BP,PP,4.4,NT,Y,G,1,1785,4,0.22,IND
+527,Carcharhiniformes,Carcharhinidae,Carcharhinus obscurus,Dusky shark,N,BP,PP,4.3,VU,Y,G,1,2741,4,0.15,IND
+528,Carcharhiniformes,Carcharhinidae,Carcharhinus plumbeus,Sandbar shark,N-O,BP,PP,4.5,VU,Y,G,1,379,0,0,IND
+529,Carcharhiniformes,Carcharhinidae,Galeocerdo cuvier,Tiger shark,N-O,BP,PP,4.5,NT,Y,G,1,505,38,7.52,IND
+530,Carcharhiniformes,Carcharhinidae,Prionace glauca,Blue shark,O,P,PP,4.4,NT,N,G,2,95,24,25.26,MED
+531,Carcharhiniformes,Carcharhinidae,Rhizoprionodon lalandii,Brazilian sharpnose shark,N,D,PP,4.3,DD,Y,G ,2,6,2,33.33,ATL S
+532,Carcharhiniformes,Triakidae,Mustelus canis,Dusky smooth-hound,N-O,D,BP,3.6,NT,Y,GI,2,2,0,0,ATL N
+533,Carcharhiniformes,Triakidae,Mustelus higmani,Smalleye smooth-hound,N-O,D,BP,3.6,LC,Y,GI,2,3,0,0,ATL N
+534,Carcharhiniformes,Scyliorhinidae,Galeus melastomus   ,Blackmouth catshark,N-O,D,BP,4.2,LC,Y,G,2,125,21,16.8,MED
+535,Carcharhiniformes,Scyliorhinidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,2,741,24,3.24,MED
+536,Carcharhiniformes,Scyliorhinidae,Galeus spp. ,NA,NA,NA,NA,NA,NA,NA,G,1,2962,3,0.1,ATL N
+537,Carcharhiniformes,Scyliorhinidae,Scyliorhinus canicula ,Lesser spotted dogfish,N-O,D,BP,3.8,LC,Y,G,2,20,4,20,ATL N
+538,Carcharhiniformes,Scyliorhinidae,NA,NA,NA,NA,NA,NA,NA,NA,G,3,72,11,15.28,ATL N
+539,Carcharhiniformes,Scyliorhinidae,NA,NA,NA,NA,NA,NA,NA,NA,GI,1,20,3,15,ATL N
+540,Carcharhiniformes,Scyliorhinidae,NA,NA,NA,NA,NA,NA,NA,NA,GI ,2,1,0,0,MED
+541,Carcharhiniformes,Scyliorhinidae,NA,NA,NA,NA,NA,NA,NA,NA,G,2,5,0,0,MED
+542,Carcharhiniformes,Scyliorhinidae,NA,NA,NA,NA,NA,NA,NA,NA,G,1,9981,7,0.07,ATL N
+543,Carcharhiniformes,Sphyrnidae,Sphyrna lewini,Scalloped hammerhead,O,P,PP,4.1,EN,Y,G,1,1916,2,0.1,IND
+544,Carcharhiniformes,Sphyrnidae,Sphyrna mokarran,Great hammerhead,O,P,PP,4.3,EN,Y,G,1,177,0,0,IND
+545,Carcharhiniformes,Sphyrnidae,Sphyrna tiburo,Bonnethead,N,D,BP,3.9,LC,Y,GI,2,2,2,100,ATL N
+546,Carcharhiniformes,Sphyrnidae,Sphyrna zygaena,Smooth hammerhead,O,P,PP,4.9,VU,Y,G,1,1154,2,0.17,IND
+547,Lamniformes,Lamnidae,Carcharodon carcharias,Great White shark,O,P,PP,4.5,VU,Y,G,1,524,2,0.38,IND
+548,Lamniformes,Lamnidae,Isurus oxyrinchus,Shortfin mako shark,O,P,PP,4.5,VU,Y,G,1,231,2,0.87,IND
+549,Lamniformes,Odantaspididae,Carcharias taurus,Sand tiger shark,N,BP,PP,4.5,VU,Y,G,1,2268,1,0.04,IND
+550,Myliobatiformes,Dasyatidae,Hypanus americanus,Southern stingray,N,B,BP,3.5,DD,Y,G ,2,3,0,0,ATL S
+551,Myliobatiformes,Dasyatidae,Pteroplatytrygon violacea  ,Pelagic stingray,O,P,PP,4.4,LC,BC,GI,2,2,1,50,MED
+552,Myliobatiformes,Myliobatidae,Rhinoptera bonasus,Cownose ray,N-O,B,BP,3.2,NT,Y,GI,2,1,0,0,ATL N
+553,Rajiformes,Rajidae,Dipturus oxyrinchus,Longnosed skate,N-O,B,BP,3.5,NT,Y,GI ,2,10,0,0,MED
+554,Rajiformes,Rajidae,Leucoraja circularis,Sandy ray,N-O,B,BP,3.5,EN,Y,G,1,34,0,0,ATL N
+555,Rajiformes,Rajidae,Leucoraja naevus,Cuckoo ray,N-O,B,BP,4.2,LC,Y,G,1,381,1,0.26,ATL N
+556,Rajiformes,Rajidae,Raja asterias,Mediterranean starry ray,N,D,BP,3.5,LC,Y,G,2,7,3,42.86,ATL N
+557,Rajiformes,Rajidae,Raja clavata,Thornback ray,N,B,BP,3.8,NT,Y,GI,2,2,0,0,MED
+558,Rajiformes,Rajidae,NA,NA,NA,NA,NA,NA,NA,NA,G,1,2705,0,0,ATL N
+559,Rajiformes,Rajidae,Raja montagui,Spotted ray,N,B,BP,3.9,LC,Y,G,1,1421,0,0,ATL N
+560,Squaliformes,Centrophoridae,Centrophorus granulosus,gulper shark,O,D,PP,4.1,VU,Y,GI ,2,5,0,0,MED
+561,Squaliformes,Centrophoridae,Deania calcea,Birdbeak dogfish,O,BP,PP,4.3,LC,Y,G,1,130,0,0,ATL N
+562,Squaliformes,Etmopteridae,Etmopterus spinax  ,Velvet-belly lanternshark,O,D,PP,4.1,LC,Y,GI,2,16,1,6.25,MED
+563,Squaliformes,Etmopteridae,NA,NA,NA,NA,NA,NA,NA,NA,"G, GI, I",1,13,1,7.69,MED
+564,Squaliformes,Etmopteridae,NA,NA,NA,NA,NA,NA,NA,NA,G,2,8,4,50,MED
+565,Squaliformes,Etmopteridae,NA,NA,NA,NA,NA,NA,NA,NA,G,1,756,0,0,ATL N
+566,Squaliformes,Somniosidae,Centroscymnus coelolepis,Portuguese dogfish,O,D,PP,4.5,NT,Y,"G, GI, I",1,54,1,1.85,MED
+567,Squaliformes,Somniosidae,Scymnodon ringens,Knifetooth dogfish,O,BP,PP,3.9,DD,Y,G,1,49,0,0,ATL N
+568,Squaliformes,Squalidae,Squalus acanthias,Picked dogfish,N-O,BP,PP,4.4,VU,Y,GI,3,9,4,44.44,MED
+569,Squaliformes,Squalidae,NA,NA,NA,NA,NA,NA,NA,NA,GI ,2,10,0,0,MED
+570,Squaliformes,Squalidae,Squalus blainville,Longnose spurdog,N-O,D,PP,4,DD,Y,GI,2,75,1,1.33,MED
+571,Torpediniformes,Narcinidae,Narcine brasiliensis,Brazilian electric ray,N,B,BP,3.2,DD,Y,GI,2,6,1,16.67,ATL N
+572,Torpediniformes,Torpedinidae,Torpedo torpedo,Common torpedo,N,D,BP,4.5,DD,N,G,2,1,0,0,ATL N
+573,Chimaeriformes,Chimaeridae,Chimera monstrosa,Ratfish,N,D,BP,3.5,NT,BC,G,2,2,0,0,MED
