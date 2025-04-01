@@ -10,7 +10,9 @@ library(dplyr)
 library(here)
 library(tidyverse)
 
-fish <- read.csv("fish_data_all_becca.csv")
+here()
+
+fish <- read.csv("data/fish_data_all_becca.csv")
 
 fish[fish == ''] <- NA
 
@@ -276,6 +278,12 @@ troph_dist
 
 fish <- fish %>%
   mutate(log = log(trophic_level))
+
+```
+
+```{r}
+
+write.csv(fish,file='cleaner_fish_table_becca.csv')
 
 ```
 
