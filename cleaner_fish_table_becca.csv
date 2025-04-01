@@ -1,12 +1,12 @@
 "","order","family","species","common_name","Neritic_Oceanic","Bentho_Pelagic","feeding_strategy","trophic_level","IUCN","fisheries_interest","G.GI","method","N","n_fish_ingested","FO"
-"1","Anguilliformes","Congridae","Conger conger","European conger","N-O","D","BP","4.3","NE","Y","G","1","7007","1",0.01
+"1","Anguilliformes","Congridae","Conger conger","European conger","N-O"," D","BP","4.3","NE","Y","G","1","7007","1",0.01
 "2","Anguilliformes","Congridae",NA,NA,NA,NA,NA,NA,NA,NA,"GI ","2","44","0",0
-"3","Anguilliformes","Congridae","Conger verreauxi","Conger","N","D","BP","4.2","LC","Y","G, GI","2","25","0",0
+"3","Anguilliformes","Congridae","Conger verreauxi","Conger","N"," D","BP","4.2","LC","Y","G, GI","2","25","0",0
 "4","Anguilliformes","Muraenesocidae","Cynoponticus savanna","Guayana pike-conger","N","B","BP","3.5","LC","Y","GI","2","1","0",0
-"5","Anguilliformes","Muraenesocidae","Muraenesox cinereus","Daggertooth pike conger","N-O","D","BP","4.4","NE","Y","GI","3","18","18",100
+"5","Anguilliformes","Muraenesocidae","Muraenesox cinereus","Daggertooth pike conger","N-O"," D","BP","4.4","NE","Y","GI","3","18","18",100
 "6","Anguilliformes","Muraenidae","Gymnothorax ocellatus","Ocellated moray","N","B","BP","4.1","LC","Y","GI","2","1","0",0
 "7","Anguilliformes","Nemichthyidae","Nemichthys scolopaceus","Slender snipe eel","O","P","P","3.5","NE","N","GI","3","1","1",100
-"8","Anguilliformes","Nettastomatidae","Nettastoma melanurum","Black fin sorcerer","O","D","BP","3.5","NE","N","G, GI, I","1","11","1",9.09
+"8","Anguilliformes","Nettastomatidae","Nettastoma melanurum","Black fin sorcerer","O"," D","BP","3.5","NE","N","G, GI, I","1","11","1",9.09
 "9","Anguilliformes","Nettastomatidae",NA,NA,NA,NA,NA,NA,NA,NA,"GI","2","1","0",0
 "10","Anguilliformes","Ophichthidae",NA,NA,NA,NA,NA,NA,NA,NA,"GI","2","1","0",0
 "11","Anguilliformes","Ophichthidae","Ophichthus ophis","Spotted snake eel","N","B","BP","4.5","LC","Y","GI","2","1","0",0
@@ -20,16 +20,16 @@
 "19","Aulopiformes","Paralepididae","Arctozenus risso","Spotted barracudina","O","P","P","3.2","NE","N","GI","3","14","3",21.43
 "20","Aulopiformes","Paralepididae","Sudis hyalina","n/a","O","P","PP","4.2","NE","N","GI ","2","5","0",0
 "21","Aulopiformes","Synodontidae","Harpadon nehereus","Bombay-duck","O","BP","BP","4.2","NE","Y","GI","3","18","18",100
-"22","Aulopiformes","Synodontidae","Saurida undosquamis","Brushtooth lizardfish","N","D","BP","4.5","NE","Y","GI","3","99","55",55.56
+"22","Aulopiformes","Synodontidae","Saurida undosquamis","Brushtooth lizardfish","N"," D","BP","4.5","NE","Y","GI","3","99","55",55.56
 "23","Batrachoidiformes","Batrachoididae","Batrachoides surinamensis","Pacuma toadfish","N","B","BP","3.7","LC","Y","GI","2","1","0",0
 "24","Beloniformes","Exocetidae","Cheilopogon pitcairnensis","n/a","N","P","P","3.9","NE","Y","GI","3","21","2",9.52
 "25","Beloniformes","Exocetidae","Cheilopogon rapanouiensis","Easter Island flyingfish","O","P","P","4","LC","N","G, GI","2","43","7",16.28
 "26","Beloniformes","Hemiramphidae","Hyporhamphus ihi","n/a","N","P","P","3.2","NE","Y","GI","3","24","0",0
 "27","Beloniformes","Hemiramphidae","Hyporhamphus intermedius","Asian pencil halfbeak","N","P","P","3.4","NE","Y","GI","3","18","18",100
 "28","Beloniformes","Hemiramphidae","Hyporhamphus melanochir","Southern sea garfish","N","P","O","2.7","NE","Y","G, GI","2","66","0",0
-"29","Beryciformes","Holocentridae","Myripristis amaena","Brick soldierfish","N","D","BP","3.6","LC","Y","GI","1","10","0",0
-"30","Beryciformes","Holocentridae","Neoniphon sammara","Sammara squirrelfish","N","D","BP","3.6","LC","N","GI ","3","5","1",20
-"31","Beryciformes","Holocentridae","Sargocentron spiniferum","Sabre squirrelfish","N","D","BP","3.6","LC","N","GI","3","5","0",0
+"29","Beryciformes","Holocentridae","Myripristis amaena","Brick soldierfish","N"," D","BP","3.6","LC","Y","GI","1","10","0",0
+"30","Beryciformes","Holocentridae","Neoniphon sammara","Sammara squirrelfish","N"," D","BP","3.6","LC","N","GI ","3","5","1",20
+"31","Beryciformes","Holocentridae","Sargocentron spiniferum","Sabre squirrelfish","N"," D","BP","3.6","LC","N","GI","3","5","0",0
 "32","Clupeiformes","Clupeidae","Alosa fallax","Twaite shad","N","P","PP","4","LC","Y","G","2","1","1",100
 "33","Clupeiformes","Clupeidae","Clupea harengus","Atlantic herring","N-O","P","P","3.4","LC","Y","G","3","3","2",66.67
 "34","Clupeiformes","Clupeidae",NA,NA,NA,NA,NA,NA,NA,NA,"n/a",NA,"2","2",100
@@ -68,8 +68,8 @@
 "67","Gadiformes","Gadidae",NA,NA,NA,NA,NA,NA,NA,NA,"G","2","302","9",2.98
 "68","Gadiformes","Gadidae",NA,NA,NA,NA,NA,NA,NA,NA,"G, GI","1","205","5",2.44
 "69","Gadiformes","Gadidae",NA,NA,NA,NA,NA,NA,NA,NA,"GI","2","81","1",1.23
-"70","Gadiformes","Gadidae","Melanogrammus aeglefinus","Haddock","N-O","D","BP","4","VU","Y","GI","3","97","6",6.19
-"71","Gadiformes","Gadidae","Merlangius merlangus","Whiting","N-O","D","BP","4.4","NE","Y","GI","3","105","6",5.71
+"70","Gadiformes","Gadidae","Melanogrammus aeglefinus","Haddock","N-O"," D","BP","4","VU","Y","GI","3","97","6",6.19
+"71","Gadiformes","Gadidae","Merlangius merlangus","Whiting","N-O"," D","BP","4.4","NE","Y","GI","3","105","6",5.71
 "72","Gadiformes","Gadidae",NA,NA,NA,NA,NA,NA,NA,NA,"GI","2","50","16",32
 "73","Gadiformes","Gadidae",NA,NA,NA,NA,NA,NA,NA,NA,"GI","3","28","0",0
 "74","Gadiformes","Gadidae","Micromesistius poutassou","Blue whiting","N-O","P","BP","4.1","NE","Y","GI","2","27","14",51.85
@@ -77,37 +77,37 @@
 "76","Gadiformes","Gadidae",NA,NA,NA,NA,NA,NA,NA,NA,"GI","2","3","0",0
 "77","Gadiformes","Gadidae",NA,NA,NA,NA,NA,NA,NA,NA,"G","1","10575","2",0.02
 "78","Gadiformes","Gadidae","Pollachius pollachius","Pollack","N-O","BP","BP","4.3","NE","Y","GI","2","5","0",0
-"79","Gadiformes","Gadidae","Pollachius virens","Saithe","N-O","D","BP","4.3","NE","Y","n/a",NA,"1","1",100
+"79","Gadiformes","Gadidae","Pollachius virens","Saithe","N-O"," D","BP","4.3","NE","Y","n/a",NA,"1","1",100
 "80","Gadiformes","Gadidae","Trisopterus luscus","pout whiting","N-O","BP","BP","3.7","NE","Y","G","1","3076","1",0.03
 "81","Gadiformes","Gadidae",NA,NA,NA,NA,NA,NA,NA,NA,"G","2","1","0",0
-"82","Gadiformes","Gadidae","Trisopterus minutus","Poor cod","N","D","BP","3.7","LC","Y","GI","2","50","20",40
+"82","Gadiformes","Gadidae","Trisopterus minutus","Poor cod","N"," D","BP","3.7","LC","Y","GI","2","50","20",40
 "83","Gadiformes","Gadidae",NA,NA,NA,NA,NA,NA,NA,NA,"G","1","2062","0",0
-"84","Gadiformes","Lotidae","Ciliata mustela","Fivebeard rockling","N","D","BP","3.5","NE","Y","GI"," ","113","6",5.31
-"85","Gadiformes","Lotidae","Gaidropsaurus macrophthalmus","Bigeye rockling","N-O","D","BP","3.5","LC","Y","G","1","725","0",0
-"86","Gadiformes","Lotidae","Molva macrophthalma","Spanish ling","O","D","BP","4.5","NE","N","GI ","2","13","0",0
+"84","Gadiformes","Lotidae","Ciliata mustela","Fivebeard rockling","N"," D","BP","3.5","NE","Y","GI"," ","113","6",5.31
+"85","Gadiformes","Lotidae","Gaidropsaurus macrophthalmus","Bigeye rockling","N-O"," D","BP","3.5","LC","Y","G","1","725","0",0
+"86","Gadiformes","Lotidae","Molva macrophthalma","Spanish ling","O"," D","BP","4.5","NE","N","GI ","2","13","0",0
 "87","Gadiformes","Lotidae",NA,NA,NA,NA,NA,NA,NA,NA,"G","1","990","0",0
-"88","Gadiformes","Lotidae","Molva molva","Ling ","O","D","BP","4.4","NE","Y","GI","2","5","0",0
+"88","Gadiformes","Lotidae","Molva molva","Ling ","O"," D","BP","4.4","NE","Y","GI","2","5","0",0
 "89","Gadiformes","Macrouridae","Coryphaenoides rupestris","Roundnose grenadier","O","P","PP","3.5","CR","Y","GI","2","5","0",0
 "90","Gadiformes","Macrouridae","Trachyrincus scabrus","Roughsnout grenadier","O","BP","P","3.6","NE","Y","G, GI, I","1","18","6",33.33
-"91","Gadiformes","Merlucciidae","Merluccius binilearis","Silver hake","N","D","BP","4.5","NT","Y","GI","1","134","0",0
-"92","Gadiformes","Merlucciidae","Merluccius merluccius","European Hake","N-O","D","BP","4.4","NE","Y","GI","3","3","3",100
+"91","Gadiformes","Merlucciidae","Merluccius binilearis","Silver hake","N"," D","BP","4.5","NT","Y","GI","1","134","0",0
+"92","Gadiformes","Merlucciidae","Merluccius merluccius","European Hake","N-O"," D","BP","4.4","NE","Y","GI","3","3","3",100
 "93","Gadiformes","Merlucciidae",NA,NA,NA,NA,NA,NA,NA,NA,"G","2","12","3",25
 "94","Gadiformes","Merlucciidae",NA,NA,NA,NA,NA,NA,NA,NA,"G","3","12","2",16.67
 "95","Gadiformes","Merlucciidae",NA,NA,NA,NA,NA,NA,NA,NA,"GI","2","36","0",0
 "96","Gadiformes","Merlucciidae",NA,NA,NA,NA,NA,NA,NA,NA,"G","1","16164","0",0
 "97","Gadiformes","Moridae",NA,NA,NA,NA,NA,NA,NA,NA,"GI ","2","19","0",0
-"98","Gadiformes","Phycidae","Phycis blennoides","Greater forkbeard","N-O","D","BP","3.7","NE","Y","GI","2","46","0",0
+"98","Gadiformes","Phycidae","Phycis blennoides","Greater forkbeard","N-O"," D","BP","3.7","NE","Y","GI","2","46","0",0
 "99","Gadiformes","Phycidae",NA,NA,NA,NA,NA,NA,NA,NA,"G, GI, I","1","22","0",0
 "100","Gadiformes","Phycidae",NA,NA,NA,NA,NA,NA,NA,NA,"G","1","1828","0",0
-"101","Gadiformes","Phycidae","Phycis phycis ","Forkbeard","N-O","D","BP","4.3","LC","Y","GI","3","8","7",87.5
+"101","Gadiformes","Phycidae","Phycis phycis ","Forkbeard","N-O"," D","BP","4.3","LC","Y","GI","3","8","7",87.5
 "102","Gasterosteiformes","Gasterosteidae","Gasterosteus aculeatus","Three-spined stickleback","N","BP","BP","3.3","LC","Y","GI","3","355","0",0
 "103","Lampriformes","Lampridae","Lampris sp.","Big-eye moonfish/opah","O","P","PP","4.2","NE","Y","G","1","115","49",42.61
 "104","Lampriformes","Lampridae","Lampris sp.","Small-eye moonfish/opah","O","P","PP","4.2","NE","Y","G","1","24","14",58.33
 "105","Lampriformes","Lampridae","Lampris immaculatus","Southern opah","O","P","PP","4.4","NE","BC","n/a","1","69","10",14.49
 "106","Lophiiformes","Lophiidae","Lophius budegassa","Blackbellied angler","N-O","B","BP","4.4","DD","Y","G","1","505","0",0
-"107","Lophiiformes","Lophiidae","Lophius piscatorius","Angler","N-O","D","BP","4.5","NE","Y","G","2","2","1",50
+"107","Lophiiformes","Lophiidae","Lophius piscatorius","Angler","N-O"," D","BP","4.5","NE","Y","G","2","2","1",50
 "108","Lophiiformes","Lophiidae",NA,NA,NA,NA,NA,NA,NA,NA,"G","1","1382","0",0
-"109","Mugiliformes","Mugilidae","Aldrichetta forsteri","Yellow-eye mullet","N","D","O","2.5","NE","Y","G, GI","2","17","0",0
+"109","Mugiliformes","Mugilidae","Aldrichetta forsteri","Yellow-eye mullet","N"," D","O","2.5","NE","Y","G, GI","2","17","0",0
 "110","Mugiliformes","Mugilidae","Chelon auratus","Golden grey mullet","N","BP","O","2.8","LC","Y","GI","3","39","17",43.59
 "111","Mugiliformes","Mugilidae",NA,NA,NA,NA,NA,NA,NA,NA,"GI ","3","20","19",95
 "112","Mugiliformes","Mugilidae","Ellochelon vaigiensis","Squaretail mullet","N","BP","O","2.2","LC","Y","GI","3","33","16",48.48
@@ -152,8 +152,8 @@
 "151","Myctophiformes","Myctophidae","Notoscopelus resplendens","Patchwork lampfish","O","P","P","3","NE","Y","G","2","3","0",0
 "152","Myctophiformes","Myctophidae","Symbolophorus evermanni","Evermann's lanternfish","O","P","P","3.4","NE","N","n/a","1","14","1",7.14
 "153","Myctophiformes","Myctophidae","Taaningichthys bathyphilus","Deepwater lanternfish","O","P","P","3.1","NE","Y","G","2","3","0",0
-"154","Ophidiiformes","Bythidiae","Cataetyx laticeps","n/a","O","D","BP","3.8","NE","N","G, GI, I","1","10","1",10
-"155","Osmeriformes","Alepocephalidae","Alepocephalus rostratus","Risso's smooth-head","O","D","BP","3.7","NE","N","G, GI, I","1","158","0",0
+"154","Ophidiiformes","Bythidiae","Cataetyx laticeps","n/a","O"," D","BP","3.8","NE","N","G, GI, I","1","10","1",10
+"155","Osmeriformes","Alepocephalidae","Alepocephalus rostratus","Risso's smooth-head","O"," D","BP","3.7","NE","N","G, GI, I","1","158","0",0
 "156","Osmeriformes","Alepocephalidae","Xenodermichthys copei","Bluntsnout smooth-head","O","P","P","3.2","NE","N","GI","3","5","3",60
 "157","Osmeriformes","Argentinidae","Argentina silus","Greater argentine","O","P","P","3.3","NE","Y","GI","2","15","1",6.67
 "158","Osmeriformes","Osmeridae","Osmerus eperlanus","European smelt","N","BP","P","3.5","LC","Y","GI","2","10","2",20
@@ -172,7 +172,7 @@
 "171","Perciformes","Blennidae","Scartichthys viridis","n/a","N","B","G","2.2","LC","N","GI","3","19","19",100
 "172","Perciformes","Bramidae","Brama brama","Atlantic pomfret","O","P","PP","4.1","NE","Y","G","2","3","1",33.33
 "173","Perciformes","Bramidae",NA,NA,NA,NA,NA,NA,NA,NA,"GI ","2","9","0",0
-"174","Perciformes","Callionymidae","Callionymus lyra","Dragonet","N","D","BP","3.3","NE","Y","GI","2","50","19",38
+"174","Perciformes","Callionymidae","Callionymus lyra","Dragonet","N"," D","BP","3.3","NE","Y","GI","2","50","19",38
 "175","Perciformes","Callionymidae",NA,NA,NA,NA,NA,NA,NA,NA,"G","1","2116","0",0
 "176","Perciformes","Callionymidae","Callionymus planus","Japanese darter dragonet","N","B","BP","3.3","NE","N","GI","3","18","18",100
 "177","Perciformes","Carangidae","Caranx crysos","Blue runner","N","P","PP","4.1","LC","Y","GI","3","1","1",100
@@ -188,7 +188,7 @@
 "187","Perciformes","Carangidae",NA,NA,NA,NA,NA,NA,NA,NA,"GI","2","20","16",80
 "188","Perciformes","Carangidae","Selar boops","Oxeye scad","N","BP","P","3.5","NE","Y","GI","3","7","0",0
 "189","Perciformes","Carangidae","Selene setapinnis","Atlantic moofish","N","BP","PP","3.7","LC","Y","GI","2","1","0",0
-"190","Perciformes","Carangidae","Selene vomer","Lookdown","N","D","BP","4.3","LC","Y","GI","2","2","1",50
+"190","Perciformes","Carangidae","Selene vomer","Lookdown","N"," D","BP","4.3","LC","Y","GI","2","2","1",50
 "191","Perciformes","Carangidae","Seriola lalandi ","Yellowtail kingfish","N-O","BP","PP","4.2","NE","Y","GI","2","19","2",10.53
 "192","Perciformes","Carangidae",NA,NA,NA,NA,NA,NA,NA,NA,"GI","3","15","3",20
 "193","Perciformes","Carangidae",NA,NA,NA,NA,NA,NA,NA,NA,"GI","1","10","0",0
@@ -207,76 +207,76 @@
 "206","Perciformes","Centrolophidae","Psenopsis anomala","Pacific rudderfish","N","BP","P","4","LC","Y","GI","3","18","18",100
 "207","Perciformes","Centrolophidae","Schedophilus ovalis","Imperial blackfish","O","BP","P","3.5","NE","Y","GI","2","3","0",0
 "208","Perciformes","Centrolophidae","Schedophilus velaini","Violet warehou","O","P","PP","4.2","LC","Y","GI","3","14","8",57.14
-"209","Perciformes","Cepolidae","Cepola macrophthalma","Red bandfish","N","D","P","3.1","NE","Y","GI","2","62","20",32.26
+"209","Perciformes","Cepolidae","Cepola macrophthalma","Red bandfish","N"," D","P","3.1","NE","Y","GI","2","62","20",32.26
 "210","Perciformes","Chaetodontidae","Chaetodon austriacus","Blacktail butterflyfish","N","B","G","3.3","LC","N","GI ","3","10","1",10
-"211","Perciformes","Cheilodactylidae","Nemadactylus macropterus","Tarakihi","N","D","BP","3.4","NE","Y","GI","3","23","2",8.7
+"211","Perciformes","Cheilodactylidae","Nemadactylus macropterus","Tarakihi","N"," D","BP","3.4","NE","Y","GI","3","23","2",8.7
 "212","Perciformes","Coryphaenidae","Coryphaena hippurus","Common dolphinfish","N-O","P","PP","4.4","LC","Y","GI","3","10","2",20
 "213","Perciformes","Coryphaenidae",NA,NA,NA,NA,NA,NA,NA,NA,"G","1","42","1",2.38
 "214","Perciformes","Coryphaenidae",NA,NA,NA,NA,NA,NA,NA,NA,"GI","1","1","0",0
 "215","Perciformes","Eleotridae","Oxyeleotris marmorata","Marble goby","N","B","BP","3.9","LC","Y","GI","3","18","18",100
-"216","Perciformes","Ephippidae","Chaetodipterus faber","Atlantic spadefish","N","D","BP","4.5 ??","LC","Y","G ","2","103","48",46.6
+"216","Perciformes","Ephippidae","Chaetodipterus faber","Atlantic spadefish","N"," D","BP","4.5 ??","LC","Y","G ","2","103","48",46.6
 "217","Perciformes","Ephippidae",NA,NA,NA,NA,NA,NA,NA,NA,"GI","2","5","0",0
 "218","Perciformes","Epigonidae","Epigonus telescopus","Black cardinal fish","O","BP","BP","3.6","NE","Y","GI ","2","4","0",0
 "219","Perciformes","Gempylidae","Gempylus serpens","Snake mackarel","O","P","PP","4.4","NE","Y","G","1","104","1",0.96
 "220","Perciformes","Gempylidae","Lepidocybium flavobrunneum","Escolar","O","P","PP","4.3","NE","Y","G","1","45","0",0
 "221","Perciformes","Gempylidae","Thyrsites atun","Snoek","N-O","BP","PP","3.6","NE","Y","GI","3","28","8",28.57
 "222","Perciformes","Gempylidae",NA,NA,NA,NA,NA,NA,NA,NA,"G, GI","2","2","0",0
-"223","Perciformes","Gerreidae","Diapterus rhombeus","Caitipa mojarra","N","D","BP","3","NE","Y","G",NA,"44","5",11.36
-"224","Perciformes","Gerreidae","Eugerres brasilianus","Brazilian mojarra","N","D","BP","3.4","NE","Y","G",NA,"240","39",16.25
-"225","Perciformes","Gerreidae","Eucinostomus melanopterus","Flagfin mojarra","N","D","O","3.4","NE","Y","G",NA,"141","13",9.22
+"223","Perciformes","Gerreidae","Diapterus rhombeus","Caitipa mojarra","N"," D","BP","3","NE","Y","G",NA,"44","5",11.36
+"224","Perciformes","Gerreidae","Eugerres brasilianus","Brazilian mojarra","N"," D","BP","3.4","NE","Y","G",NA,"240","39",16.25
+"225","Perciformes","Gerreidae","Eucinostomus melanopterus","Flagfin mojarra","N"," D","O","3.4","NE","Y","G",NA,"141","13",9.22
 "226","Perciformes","Gerreidae","Gerres subfasciatus","Common silver belly","n/a",NA,"n/a","3.3","LC","Y","GI","2","24","5",20.83
 "227","Perciformes","Gobiidae","Pomatoschistus minutus","Sand goby","N","B","BP","3.2","NE","N","GI"," ","200","15",7.5
 "228","Perciformes","Gobiidae","Synechogobius ommaturus","Asian freshwater goby","N","B","BP","3.5","NE","N","GI","3","18","18",100
 "229","Perciformes","Haemulidae",NA,NA,NA,NA,NA,NA,NA,NA,"GI","2","1","0",0
-"230","Perciformes","Haemulidae","Anisotremus virginicus","Porkfish","N","D","BP","3.6","LC","Y","GI","2","1","0",0
-"231","Perciformes","Haemulidae","Conodon nobilis","Barred grunt","N","D","BP","3.6","LC","Y","GI","2","8","0",0
-"232","Perciformes","Haemulidae","Genyatremus luteus","Torroto grunt","N","D","O","3.5","NE","Y","GI","2","8","0",0
-"233","Perciformes","Haemulidae","Haemulon plunierii","White grunt","N","D","BP","3.8","LC","Y","GI","2","13","0",0
-"234","Perciformes","Haemulidae","Haemulon steindachneri","Chere-chere grunt","N","D","BP","3.7","LC","Y","GI","2","5","0",0
-"235","Perciformes","Haemulidae","Orthopristis chrysoptera","Grunt, pigfish","N","D","BP","3.4","LC","Y","G ","2","157","42",26.75
-"236","Perciformes","Haemulidae","Orthopristis ruber","Corocoro grunt","N","D","BP","3.6","LC","Y","GI","2","2","0",0
+"230","Perciformes","Haemulidae","Anisotremus virginicus","Porkfish","N"," D","BP","3.6","LC","Y","GI","2","1","0",0
+"231","Perciformes","Haemulidae","Conodon nobilis","Barred grunt","N"," D","BP","3.6","LC","Y","GI","2","8","0",0
+"232","Perciformes","Haemulidae","Genyatremus luteus","Torroto grunt","N"," D","O","3.5","NE","Y","GI","2","8","0",0
+"233","Perciformes","Haemulidae","Haemulon plunierii","White grunt","N"," D","BP","3.8","LC","Y","GI","2","13","0",0
+"234","Perciformes","Haemulidae","Haemulon steindachneri","Chere-chere grunt","N"," D","BP","3.7","LC","Y","GI","2","5","0",0
+"235","Perciformes","Haemulidae","Orthopristis chrysoptera","Grunt, pigfish","N"," D","BP","3.4","LC","Y","G ","2","157","42",26.75
+"236","Perciformes","Haemulidae","Orthopristis ruber","Corocoro grunt","N"," D","BP","3.6","LC","Y","GI","2","2","0",0
 "237","Perciformes","Haemulidae","Plectorhinchus gaterinus","Blackspotted subberlip","N","B","BP","4","NE","Y","GI","3","6","2",33.33
-"238","Perciformes","Haemulidae","Pomadasys incisus","Bastard grunt","N","D","BP","3.8","LC","Y","GI","3","29","16",55.17
+"238","Perciformes","Haemulidae","Pomadasys incisus","Bastard grunt","N"," D","BP","3.8","LC","Y","GI","3","29","16",55.17
 "239","Perciformes","Kuhliidae","Kuhlia sandvicensis","Hawaiian flagtail","n/a",NA,"n/a","3.8","NE","Y","GI","1","15","3",20
 "240","Perciformes","Kyphosidae","Girella laevifrons","n/a","N","P","G","2.6","NE","N","GI","3","16","16",100
 "241","Perciformes","Kyphosidae","Girella tricuspidata","Parore","N","BP","G","2.1","NE","y","GI","3","20","14",70
-"242","Perciformes","Kyphosidae","Graus nigra","n/a","N","D","BP","3.4","NE","Y","GI","3","8","8",100
+"242","Perciformes","Kyphosidae","Graus nigra","n/a","N"," D","BP","3.4","NE","Y","GI","3","8","8",100
 "243","Perciformes","Kyphosidae","Kyphosus pacificus","Pacific drummer","n/a",NA,"n/a",NA,"NE","Y","GI","1","15","0",0
-"244","Perciformes","Kyphosidae","Kyphosus sandwicensis","Pacific chub","N","D","G",NA,"NE","Y","GI","3","39","20",51.28
+"244","Perciformes","Kyphosidae","Kyphosus sandwicensis","Pacific chub","N"," D","G",NA,"NE","Y","GI","3","39","20",51.28
 "245","Perciformes","Kyphosidae","Kyphosus sydneyanus","Silver drummer","N","B","G","2","NE","Y","GI","1","10","0",0
-"246","Perciformes","Labridae","Coris aygula","Clown coris","N","D","BP","3.7","LC","Y","GI","1","1","0",0
-"247","Perciformes","Labridae","Notolabrus tetricus","Blue-throated wrasse","N","D","BP","3.6","LC","Y","G, GI","2","7","0",0
+"246","Perciformes","Labridae","Coris aygula","Clown coris","N"," D","BP","3.7","LC","Y","GI","1","1","0",0
+"247","Perciformes","Labridae","Notolabrus tetricus","Blue-throated wrasse","N"," D","BP","3.6","LC","Y","G, GI","2","7","0",0
 "248","Perciformes","Labridae","Oxycheilinus unifasciatus","Ringtail maori wrasse","N","BP","BP","4.1","LC","Y","GI","1","1","0",0
-"249","Perciformes","Labridae","Thalassoma purpureum","Surge wrasse","N","D","BP","3.8","LC","Y","GI","1","2","1",50
-"250","Perciformes","Labridae","Thalassoma rueppellii","Klunzinger's wrasse","N","D","BP","3.5","LC","Y","GI","3","12","1",8.33
-"251","Perciformes","Labridae","Thalassoma trilobatum","Christmas wrasse","N","D","BP","3.8","LC","Y","GI","1","4","1",25
-"252","Perciformes","Labrisomidae","Auchenionchus microcirrhis","n/a","N","D","BP","3.7","LC","N","GI","3","16","16",100
+"249","Perciformes","Labridae","Thalassoma purpureum","Surge wrasse","N"," D","BP","3.8","LC","Y","GI","1","2","1",50
+"250","Perciformes","Labridae","Thalassoma rueppellii","Klunzinger's wrasse","N"," D","BP","3.5","LC","Y","GI","3","12","1",8.33
+"251","Perciformes","Labridae","Thalassoma trilobatum","Christmas wrasse","N"," D","BP","3.8","LC","Y","GI","1","4","1",25
+"252","Perciformes","Labrisomidae","Auchenionchus microcirrhis","n/a","N"," D","BP","3.7","LC","N","GI","3","16","16",100
 "253","Perciformes","Lateolabracidae","Lateolabrax japonicus","Japanese seabass","N","BP","P","3.4","NE","Y","GI","3","18","18",100
-"254","Perciformes","Latidae","Lates calcarifer","Barramundi","N","D","BP","3.8","NE","Y","GI","3","2","2",100
-"255","Perciformes","Leiognathidae","Photopectoralis bindus","Orangefin ponyfish","N","D","O","2.9","NE","y","GI","3","18","18",100
-"256","Perciformes","Lethrinidae","Gnathodentex aurolineatus","Striped large-eye bream","N","D","BP","3.7","NE","Y","GI","3","29","2",6.9
-"257","Perciformes","Lethrinidae","Gymnocranius grandoculis","Blue-lined large-eye bream","N","D","BP","3.8","LC","N","GI ","3","10","2",20
-"258","Perciformes","Lethrinidae","Lethrinus amboinensis","Ambon emperor","N","D","BP","4","NE","Y","GI","3","26","6",23.08
-"259","Perciformes","Lethrinidae","Lethrinus microdon","Smalltooth emperor","N","D","BP","3.8","LC","Y","GI","3","10","2",20
-"260","Perciformes","Lethrinidae","Lethrinus obsoletus","Orange-striped emperor","N","D","BP","3.9","NE","Y","GI","3","30","4",13.33
-"261","Perciformes","Lutjanidae","Lipocheilus carnolabrum","Tang's snapper","N","D","BP","3.9","LC","Y","GI","3","7","2",28.57
-"262","Perciformes","Lutjanidae","Lutjanus analis","Mutton snapper","N","D","BP","3.9","NT","Y","GI","2","3","1",33.33
+"254","Perciformes","Latidae","Lates calcarifer","Barramundi","N"," D","BP","3.8","NE","Y","GI","3","2","2",100
+"255","Perciformes","Leiognathidae","Photopectoralis bindus","Orangefin ponyfish","N"," D","O","2.9","NE","y","GI","3","18","18",100
+"256","Perciformes","Lethrinidae","Gnathodentex aurolineatus","Striped large-eye bream","N"," D","BP","3.7","NE","Y","GI","3","29","2",6.9
+"257","Perciformes","Lethrinidae","Gymnocranius grandoculis","Blue-lined large-eye bream","N"," D","BP","3.8","LC","N","GI ","3","10","2",20
+"258","Perciformes","Lethrinidae","Lethrinus amboinensis","Ambon emperor","N"," D","BP","4","NE","Y","GI","3","26","6",23.08
+"259","Perciformes","Lethrinidae","Lethrinus microdon","Smalltooth emperor","N"," D","BP","3.8","LC","Y","GI","3","10","2",20
+"260","Perciformes","Lethrinidae","Lethrinus obsoletus","Orange-striped emperor","N"," D","BP","3.9","NE","Y","GI","3","30","4",13.33
+"261","Perciformes","Lutjanidae","Lipocheilus carnolabrum","Tang's snapper","N"," D","BP","3.9","LC","Y","GI","3","7","2",28.57
+"262","Perciformes","Lutjanidae","Lutjanus analis","Mutton snapper","N"," D","BP","3.9","NT","Y","GI","2","3","1",33.33
 "263","Perciformes","Lutjanidae",NA,NA,NA,NA,NA,NA,NA,NA,"G ","2","2","0",0
 "264","Perciformes","Lutjanidae","Lutjanus gibbus","Humpback red snapper","N","BP","BP","4.1","LC","Y","GI","3","29","6",20.69
 "265","Perciformes","Lutjanidae",NA,NA,NA,NA,NA,NA,NA,NA,"GI","3","5","0",0
 "266","Perciformes","Lutjanidae",NA,NA,NA,NA,NA,NA,NA,NA,"GI","1","1","0",0
-"267","Perciformes","Lutjanidae","Lutjanus jocu","Dog snapper","N","D","BP","4.4","NE","Y","G ","2","5","0",0
-"268","Perciformes","Lutjanidae","Lutjanus kasmira","Bluestripe snapper","N","D","BP","3.9","LC","Y","GI ","3","12","2",16.67
-"269","Perciformes","Lutjanidae","Lutjanus synagris","Lane snapper","N","D","BP","3.8","NT","Y","GI","2","2","1",50
-"270","Perciformes","Lutjanidae","Pristipomoides multidens","Gold banded jobfish","N","D","BP","3.8","LC","Y","GI","3","10","2",20
-"271","Perciformes","Lutjanidae","Pristipomoides typus","Sharptooth jobfish","N","D","BP","4.2","LC","N","GI","3","5","0",0
-"272","Perciformes","Malacanthidae","Branchiostegus japonicus","Horsehead tilefish","N","D","P","3.4","LC","Y","GI","3","18","18",100
-"273","Perciformes","Moronidae","Dicentrarchus labrax","European seabass","N","D","BP","3.5","LC","Y","GI","3","40","9",22.5
-"274","Perciformes","Moronidae","Morone americana  ","White perch","N","D","BP","3.1","LC","Y","n/a",NA,"12","4",33.33
-"275","Perciformes","Moronidae","Morone saxatilis","Striped bass","N","D","BP","4.7??","LC","Y","GI","3","7","2",28.57
+"267","Perciformes","Lutjanidae","Lutjanus jocu","Dog snapper","N"," D","BP","4.4","NE","Y","G ","2","5","0",0
+"268","Perciformes","Lutjanidae","Lutjanus kasmira","Bluestripe snapper","N"," D","BP","3.9","LC","Y","GI ","3","12","2",16.67
+"269","Perciformes","Lutjanidae","Lutjanus synagris","Lane snapper","N"," D","BP","3.8","NT","Y","GI","2","2","1",50
+"270","Perciformes","Lutjanidae","Pristipomoides multidens","Gold banded jobfish","N"," D","BP","3.8","LC","Y","GI","3","10","2",20
+"271","Perciformes","Lutjanidae","Pristipomoides typus","Sharptooth jobfish","N"," D","BP","4.2","LC","N","GI","3","5","0",0
+"272","Perciformes","Malacanthidae","Branchiostegus japonicus","Horsehead tilefish","N"," D","P","3.4","LC","Y","GI","3","18","18",100
+"273","Perciformes","Moronidae","Dicentrarchus labrax","European seabass","N"," D","BP","3.5","LC","Y","GI","3","40","9",22.5
+"274","Perciformes","Moronidae","Morone americana  ","White perch","N"," D","BP","3.1","LC","Y","n/a",NA,"12","4",33.33
+"275","Perciformes","Moronidae","Morone saxatilis","Striped bass","N"," D","BP","4.7??","LC","Y","GI","3","7","2",28.57
 "276","Perciformes","Moronidae",NA,NA,NA,NA,NA,NA,NA,NA,"n/a","1","1094","1",0.09
 "277","Perciformes","Mullidae","Mulloidichthys flavolineatus","Yellowstripe goatfish","N","B","BP","3.8","LC","Y","GI","1","2","0",0
-"278","Perciformes","Mullidae","Mullus barbatus","Red mullet","N","D","BP","3.1","NE","Y","GI","3","11","7",63.64
+"278","Perciformes","Mullidae","Mullus barbatus","Red mullet","N"," D","BP","3.1","NE","Y","GI","3","11","7",63.64
 "279","Perciformes","Mullidae",NA,NA,NA,NA,NA,NA,NA,NA,"G","3","128","24",18.75
 "280","Perciformes","Mullidae",NA,NA,NA,NA,NA,NA,NA,NA,"GI","3","207","136",65.7
 "281","Perciformes","Mullidae",NA,NA,NA,NA,NA,NA,NA,NA,"GI","3","12","11",91.67
@@ -289,53 +289,53 @@
 "288","Perciformes","Mullidae",NA,NA,NA,NA,NA,NA,NA,NA,"GI ","2","8","0",0
 "289","Perciformes","Mullidae",NA,NA,NA,NA,NA,NA,NA,NA,"GI","3","30","21",70
 "290","Perciformes","Mullidae",NA,NA,NA,NA,NA,NA,NA,NA,"G","1","1298","0",0
-"291","Perciformes","Mullidae","Upeneus moluccensis","Goldband goatfish","N","D","BP","3.6","NE","Y","GI","3","18","8",44.44
-"292","Perciformes","Mullidae","Upeneus pori","Por's goatfish","N","D","BP","3.5","NE","Y","GI","3","78","32",41.03
-"293","Perciformes","Nemipteridae","Nemipterus randalli","Randall's theadfin bream","N","D","BP","3.7","NE","Y","GI","3","135","74",54.81
-"294","Perciformes","Nemipteridae","Parascolopsis eriomma","Rosy dwarf mon. bream ","N","D","BP","3.5","NE","Y","GI ","3","5","3",60
+"291","Perciformes","Mullidae","Upeneus moluccensis","Goldband goatfish","N"," D","BP","3.6","NE","Y","GI","3","18","8",44.44
+"292","Perciformes","Mullidae","Upeneus pori","Por's goatfish","N"," D","BP","3.5","NE","Y","GI","3","78","32",41.03
+"293","Perciformes","Nemipteridae","Nemipterus randalli","Randall's theadfin bream","N"," D","BP","3.7","NE","Y","GI","3","135","74",54.81
+"294","Perciformes","Nemipteridae","Parascolopsis eriomma","Rosy dwarf mon. bream ","N"," D","BP","3.5","NE","Y","GI ","3","5","3",60
 "295","Perciformes","Nototheniidae","Dissostichus mawsoni","Antarctic tootfish","O","P","BP","3.9","NE","Y","G, GI","2","10","1",10
-"296","Perciformes","Odacidae","Haletta semifasciata","Blue weed whiting","N","D","BP","3.2","LC","Y","G, GI","2","2","0",0
+"296","Perciformes","Odacidae","Haletta semifasciata","Blue weed whiting","N"," D","BP","3.2","LC","Y","G, GI","2","2","0",0
 "297","Perciformes","Polynemidae","Polydactylus oligodon","Littlescale threadfin","N","B","BP","3.7","LC","Y","GI","2","1","1",100
 "298","Perciformes","Polynemidae",NA,NA,NA,NA,NA,NA,NA,NA,"GI","2","13","0",0
-"299","Perciformes","Polyprionidae","Polyprion americanus","Wreckfish","N","D","BP","4.1","DD","Y","GI","2","14","0",0
+"299","Perciformes","Polyprionidae","Polyprion americanus","Wreckfish","N"," D","BP","4.1","DD","Y","GI","2","14","0",0
 "300","Perciformes","Polyprionidae",NA,NA,NA,NA,NA,NA,NA,NA,"G","2","1","0",0
 "301","Perciformes","Pomacanthidae","Pygoplites diacanthus","Regal angelfish","N","B","G","2.7","LC","N","GI","3","5","0",0
 "302","Perciformes","Pomacentridae","Abudefduf sexfasciatus","Scissortail sergeant","N","BP","O","2.7","NE","N","GI","3","5","1",20
-"303","Perciformes","Pomacentridae","Abudefduf sordidus","Blackspot sergeant","N","D","O","2.9","NE","Y","GI","1","1","0",0
+"303","Perciformes","Pomacentridae","Abudefduf sordidus","Blackspot sergeant","N"," D","O","2.9","NE","Y","GI","1","1","0",0
 "304","Perciformes","Pomacentridae","Dascyllus trimaculatus","Threespot dascyllus","N","BP","O","2.8","NE","N","GI ","3","2","0",0
 "305","Perciformes","Pomatomidae","Pomatomus saltatrix","Bluefish","N-O","P","PP","4.5","VU","Y","GI","2","2","0",0
-"306","Perciformes","Priacanthidae","Heteropriacanthus cruentatus","Glasseye","N","D","BP","3.6","LC","Y","GI","3","10","3",30
-"307","Perciformes","Priacanthidae","Priacanthus arenatus","Atlantic bigeye","N","D","BP","4","LC","Y","G","2","122","60",49.18
+"306","Perciformes","Priacanthidae","Heteropriacanthus cruentatus","Glasseye","N"," D","BP","3.6","LC","Y","GI","3","10","3",30
+"307","Perciformes","Priacanthidae","Priacanthus arenatus","Atlantic bigeye","N"," D","BP","4","LC","Y","G","2","122","60",49.18
 "308","Perciformes","Rachycentridae","Rachycentron canadum","Cobia","N-O","BP","PP","4","LC","Y","GI","2","1","0",0
 "309","Perciformes","Scaridae","Chlorurus sordidus","Daisy parrotfish","N","B","G","2.6","LC","Y","GI","1","4","1",25
-"310","Perciformes","Scaridae","Scarus niger","Dusky parrotfish","N","D","G","2","LC","Y","GI","3","30","7",23.33
-"311","Perciformes","Scaridae","Scarus oviceps","Dark capped parrotfish","N","D","G","2","LC","Y","GI","3","45","5",11.11
-"312","Perciformes","Scaridae","Scarus psittacus","Common parrotfish","N","D","G","2","LC","Y","GI","3","30","5",16.67
+"310","Perciformes","Scaridae","Scarus niger","Dusky parrotfish","N"," D","G","2","LC","Y","GI","3","30","7",23.33
+"311","Perciformes","Scaridae","Scarus oviceps","Dark capped parrotfish","N"," D","G","2","LC","Y","GI","3","45","5",11.11
+"312","Perciformes","Scaridae","Scarus psittacus","Common parrotfish","N"," D","G","2","LC","Y","GI","3","30","5",16.67
 "313","Perciformes","Sciaenidae","Argyrosomus regius","Meagre","N","BP","PP","4.3","NE","Y","G","2","5","3",60
 "314","Perciformes","Sciaenidae",NA,NA,NA,NA,NA,NA,NA,NA,"GI","3","51","38",74.51
-"315","Perciformes","Sciaenidae","Bairdiella ronchus","Ground croaker","N","D","BP","3.5","LC","Y","GI","2","4","0",0
-"316","Perciformes","Sciaenidae","Collichthys lucidus","n/a","N","D","BP","3.5","NE","Y","GI","3","18","18",100
-"317","Perciformes","Sciaenidae","Ctenosciaena gracilicirrhus","Barbel drum","N","D","BP","3.9","LC","Y","GI","2","11","0",0
+"315","Perciformes","Sciaenidae","Bairdiella ronchus","Ground croaker","N"," D","BP","3.5","LC","Y","GI","2","4","0",0
+"316","Perciformes","Sciaenidae","Collichthys lucidus","n/a","N"," D","BP","3.5","NE","Y","GI","3","18","18",100
+"317","Perciformes","Sciaenidae","Ctenosciaena gracilicirrhus","Barbel drum","N"," D","BP","3.9","LC","Y","GI","2","11","0",0
 "318","Perciformes","Sciaenidae","Cynoscion acoupa","Acoupa weakfish","N","B","BP","4.1","LC","Y","G","2","530","340",64.15
 "319","Perciformes","Sciaenidae",NA,NA,NA,NA,NA,NA,NA,NA,"GI","2","552","282",51.09
-"320","Perciformes","Sciaenidae","Cynoscion arenarius","Sand trout, s. weakfish","N","D","BP","4.2","LC","Y","G ","2","139","60",43.17
-"321","Perciformes","Sciaenidae","Cynoscion jamaicensis","Jamaica weakfish","N","D","BP","3.8","LC","Y","GI","2","3","0",0
-"322","Perciformes","Sciaenidae","Cynoscion leiarchus","Cynoscion weakfish","N","D","BP","3.1","LC","Y","GI","2","2","1",50
-"323","Perciformes","Sciaenidae","Cynoscion microlepidotus","Smallscale weakfish","N","D","BP","4","LC","Y","GI","2","16","3",18.75
-"324","Perciformes","Sciaenidae","Cynoscion virescens","Green weakfish","N","D","BP","4","LC","Y","GI","2","7","1",14.29
+"320","Perciformes","Sciaenidae","Cynoscion arenarius","Sand trout, s. weakfish","N"," D","BP","4.2","LC","Y","G ","2","139","60",43.17
+"321","Perciformes","Sciaenidae","Cynoscion jamaicensis","Jamaica weakfish","N"," D","BP","3.8","LC","Y","GI","2","3","0",0
+"322","Perciformes","Sciaenidae","Cynoscion leiarchus","Cynoscion weakfish","N"," D","BP","3.1","LC","Y","GI","2","2","1",50
+"323","Perciformes","Sciaenidae","Cynoscion microlepidotus","Smallscale weakfish","N"," D","BP","4","LC","Y","GI","2","16","3",18.75
+"324","Perciformes","Sciaenidae","Cynoscion virescens","Green weakfish","N"," D","BP","4","LC","Y","GI","2","7","1",14.29
 "325","Perciformes","Sciaenidae","Larimichthys crocea","Large yellow croaker","N","BP","BP","3.7","NE","Y","GI","3","18","18",100
-"326","Perciformes","Sciaenidae","Macrodon ancylodon","King weakfish","N","D","BP","3.9","LC","Y","GI","2","13","1",7.69
-"327","Perciformes","Sciaenidae","Menticirrhus americanus","Southern kingcroaker","N","D","BP","3.5","LC","Y","G ","2","150","53",35.33
+"326","Perciformes","Sciaenidae","Macrodon ancylodon","King weakfish","N"," D","BP","3.9","LC","Y","GI","2","13","1",7.69
+"327","Perciformes","Sciaenidae","Menticirrhus americanus","Southern kingcroaker","N"," D","BP","3.5","LC","Y","G ","2","150","53",35.33
 "328","Perciformes","Sciaenidae",NA,NA,NA,NA,NA,NA,NA,NA,"GI","2","1","0",0
 "329","Perciformes","Sciaenidae",NA,NA,NA,NA,NA,NA,NA,NA,"GI","2","6","0",0
-"330","Perciformes","Sciaenidae","Micropogonias undulatus","Atlantic croaker","N","D","BP","4","LC","Y","G ","2","383","173",45.17
+"330","Perciformes","Sciaenidae","Micropogonias undulatus","Atlantic croaker","N"," D","BP","4","LC","Y","G ","2","383","173",45.17
 "331","Perciformes","Sciaenidae",NA,NA,NA,NA,NA,NA,NA,NA,"GI","2","1","0",0
-"332","Perciformes","Sciaenidae","Paralonchurus brasiliensis","Banded croaker","N","D","BP","3.4","LC","Y","GI","2","6","0",0
-"333","Perciformes","Sciaenidae","Pogonias cromis","Black drum","N","D","BP","3.9","LC","Y","GI","2","1","0",0
-"334","Perciformes","Sciaenidae","Sciaena umbra","Brown meagre","N","D","BP","3.8","NT","Y","GI","3","1","1",100
-"335","Perciformes","Sciaenidae","Stellifer brasiliensis","n/a","N","D","BP","3.4","NE","N","G","2","330","23",6.97
-"336","Perciformes","Sciaenidae","Stellifer stellifer","Little croaker","N","D","BP","3.4","NE","Y","G","2","239","22",9.21
-"337","Perciformes","Sciaenidae","Umbrina cirrosa","Shi drum","N","D","BP","3.4","NE","Y","GI","3","1","0",0
+"332","Perciformes","Sciaenidae","Paralonchurus brasiliensis","Banded croaker","N"," D","BP","3.4","LC","Y","GI","2","6","0",0
+"333","Perciformes","Sciaenidae","Pogonias cromis","Black drum","N"," D","BP","3.9","LC","Y","GI","2","1","0",0
+"334","Perciformes","Sciaenidae","Sciaena umbra","Brown meagre","N"," D","BP","3.8","NT","Y","GI","3","1","1",100
+"335","Perciformes","Sciaenidae","Stellifer brasiliensis","n/a","N"," D","BP","3.4","NE","N","G","2","330","23",6.97
+"336","Perciformes","Sciaenidae","Stellifer stellifer","Little croaker","N"," D","BP","3.4","NE","Y","G","2","239","22",9.21
+"337","Perciformes","Sciaenidae","Umbrina cirrosa","Shi drum","N"," D","BP","3.4","NE","Y","GI","3","1","0",0
 "338","Perciformes","Scombridae","Acanthocybium solandri","Wahoo","O","P","PP","4.3","LC","Y","n/a","1","885","1",0.11
 "339","Perciformes","Scombridae","Gymnosarda unicolor","Dogtooth tuna","O","P","PP","4.5","LC","Y","GI","1","2","0",0
 "340","Perciformes","Scombridae","Katsuwonus pelamis","Skipjack tuna","O","P","PP","4.4","LC","Y","GI","3","26","6",23.08
@@ -365,24 +365,24 @@
 "364","Perciformes","Scombridae","Thunnus obesus","Bigeye tuna","O","P","PP","4.5","VU","Y","G","1","35","3",8.57
 "365","Perciformes","Scombridae","Thunnus thynnus","Atlantic bluefin tuna","O","P","PP","4.5","EN","Y","G","?","34","11",32.35
 "366","Perciformes","Serranidae","Cephalopholis argus","Peacock hind","N","BP","BP","4.5","LC","Y","GI","3","4","0",0
-"367","Perciformes","Serranidae","Epinephelus areolatus","Areolate grouper","N","D","BP","3.7","LC","Y","GI","3","5","1",20
-"368","Perciformes","Serranidae","Epinephelus chlorostigma","Brownspotted grouper","N","D","BP","4","LC","Y","GI ","3","3","1",33.33
-"369","Perciformes","Serranidae","Epinephelus epistictus","Dotted grouper","N","D","BP","4","DD","N","GI","3","5","1",20
-"370","Perciformes","Serranidae","Epinephelus fasciatus","Blacktip grouper","N","D","BP","3.7","LC","Y","GI","1","17","0",0
-"371","Perciformes","Serranidae","Epinephelus itajara","Atlantic goliath grouper","N","D","BP","4.1","CR","Y","GI","2","2","0",0
-"372","Perciformes","Serranidae","Epinephelus radiatus","Oblique-banded grouper","N","D","BP","4","LC","N","GI","3","7","1",14.29
-"373","Perciformes","Serranidae","Mycteroperca sp.","Grouper ?","N","D",NA,NA,NA,"n/a","G ","2","1","0",0
-"374","Perciformes","Serranidae","Serranus cabrilla","Comber","N-O","D","BP","3.4","LC","Y","GI","3","6","4",66.67
+"367","Perciformes","Serranidae","Epinephelus areolatus","Areolate grouper","N"," D","BP","3.7","LC","Y","GI","3","5","1",20
+"368","Perciformes","Serranidae","Epinephelus chlorostigma","Brownspotted grouper","N"," D","BP","4","LC","Y","GI ","3","3","1",33.33
+"369","Perciformes","Serranidae","Epinephelus epistictus","Dotted grouper","N"," D","BP","4","DD","N","GI","3","5","1",20
+"370","Perciformes","Serranidae","Epinephelus fasciatus","Blacktip grouper","N"," D","BP","3.7","LC","Y","GI","1","17","0",0
+"371","Perciformes","Serranidae","Epinephelus itajara","Atlantic goliath grouper","N"," D","BP","4.1","CR","Y","GI","2","2","0",0
+"372","Perciformes","Serranidae","Epinephelus radiatus","Oblique-banded grouper","N"," D","BP","4","LC","N","GI","3","7","1",14.29
+"373","Perciformes","Serranidae","Mycteroperca sp.","Grouper ?","N"," D",NA,NA,NA,"n/a","G ","2","1","0",0
+"374","Perciformes","Serranidae","Serranus cabrilla","Comber","N-O"," D","BP","3.4","LC","Y","GI","3","6","4",66.67
 "375","Perciformes","Serranidae","Variola louti","Yellow-edged lyretail","N","BP","BP","4.3","NE","Y","GI","1","15","3",20
 "376","Perciformes","Siganidae","Siganus argenteus","Streamlined spinefoot","N","P","G","2","NE","Y","GI","3","2","1",50
 "377","Perciformes","Siganidae","Siganus canaliculatus","White-spotted spinefoot","N","P","G","2.8","NE","Y","GI","3","3","1",33.33
 "378","Perciformes","Siganidae","Siganus fuscescens","Mottled spinefoot","N","P","G","2.3","NE","Y","GI","3","2","0",0
-"379","Perciformes","Siganidae","Siganus luridus","Dusky spinefoot","N","D","G","2","NE","Y","GI","3","15","13",86.67
-"380","Perciformes","Siganidae","Siganus punctatus","Goldspotted spinefoot","N","D","G","2","NE","Y","GI","3","29","4",13.79
-"381","Perciformes","Sillaginidae","Sillaginodes punctatus","Spotted sillago","N","D","BP","3.3","NE","Y","G, GI","2","8","0",0
-"382","Perciformes","Sillaginidae","Sillago flindersi","Flinder's sillago","N","D","BP","3.3","NE","Y","G, GI","2","10","0",0
-"383","Perciformes","Sillaginidae","Sillago sihama","Silver silago","N","D","BP","3.3","NE","Y","GI","3","18","18",100
-"384","Perciformes","Sparidae","Acanthopagrus australis","Yellowfin bream","N","D","BP","3.1","LC","Y","GI","2","24","6",25
+"379","Perciformes","Siganidae","Siganus luridus","Dusky spinefoot","N"," D","G","2","NE","Y","GI","3","15","13",86.67
+"380","Perciformes","Siganidae","Siganus punctatus","Goldspotted spinefoot","N"," D","G","2","NE","Y","GI","3","29","4",13.79
+"381","Perciformes","Sillaginidae","Sillaginodes punctatus","Spotted sillago","N"," D","BP","3.3","NE","Y","G, GI","2","8","0",0
+"382","Perciformes","Sillaginidae","Sillago flindersi","Flinder's sillago","N"," D","BP","3.3","NE","Y","G, GI","2","10","0",0
+"383","Perciformes","Sillaginidae","Sillago sihama","Silver silago","N"," D","BP","3.3","NE","Y","GI","3","18","18",100
+"384","Perciformes","Sparidae","Acanthopagrus australis","Yellowfin bream","N"," D","BP","3.1","LC","Y","GI","2","24","6",25
 "385","Perciformes","Sparidae","Boops boops","Bogue","N","B","O","2.8","NE","Y","G","2","32","3",9.38
 "386","Perciformes","Sparidae",NA,NA,NA,NA,NA,NA,NA,NA,"GI","2","337","195",57.86
 "387","Perciformes","Sparidae","Dentex dentex","Common dentex","N","BP","BP","4.5","VU","Y","GI","3","1","0",0
@@ -390,13 +390,13 @@
 "389","Perciformes","Sparidae","Dentex macrophthalmus","Large-eye dentex","N-O","BP","BP","3.5","NE","Y","G","2","1","1",100
 "390","Perciformes","Sparidae","Diplodus annularis","Pink dentex","N","BP","BP","3.6","LC","Y","GI","3","48","33",68.75
 "391","Perciformes","Sparidae","Diplodus vulgaris","2-banded seabream","N","BP","BP","3.5","LC","Y","GI","3","40","29",72.5
-"392","Perciformes","Sparidae","Lagodon rhomboides","Pinfish","N","D","BP","4.4","LC","Y","G ","2","449","209",46.55
-"393","Perciformes","Sparidae","Lithognathus mormyrus","Sand steenbras","N","D","BP","3.4","LC","Y","GI","3","46","16",34.78
+"392","Perciformes","Sparidae","Lagodon rhomboides","Pinfish","N"," D","BP","4.4","LC","Y","G ","2","449","209",46.55
+"393","Perciformes","Sparidae","Lithognathus mormyrus","Sand steenbras","N"," D","BP","3.4","LC","Y","GI","3","46","16",34.78
 "394","Perciformes","Sparidae",NA,NA,NA,NA,NA,NA,NA,NA,"G","1","63","0",0
 "395","Perciformes","Sparidae","Pagellus acarne","Axillary seabream","N-O","B","BP","3.8","NE","Y","G","2","1","1",100
 "396","Perciformes","Sparidae",NA,NA,NA,NA,NA,NA,NA,NA,"GI","3","52","35",67.31
 "397","Perciformes","Sparidae",NA,NA,NA,NA,NA,NA,NA,NA,"G","1","1917","0",0
-"398","Perciformes","Sparidae","Pagellus bogaraveo","Blackspot seabream","N-O","D","BP","4.2","NE","Y","GI ","2","60","1",1.67
+"398","Perciformes","Sparidae","Pagellus bogaraveo","Blackspot seabream","N-O"," D","BP","4.2","NE","Y","GI ","2","60","1",1.67
 "399","Perciformes","Sparidae",NA,NA,NA,NA,NA,NA,NA,NA,"G","1","174","0",0
 "400","Perciformes","Sparidae","Pagellus erythrinus","Common pandora","N","BP","BP","3.5","LC","Y","GI","3","54","28",51.85
 "401","Perciformes","Sparidae",NA,NA,NA,NA,NA,NA,NA,NA,"GI","2","80","2",2.5
@@ -405,7 +405,7 @@
 "404","Perciformes","Sparidae",NA,NA,NA,NA,NA,NA,NA,NA,"G","1","370","0",0
 "405","Perciformes","Sparidae","Pagrus auratus","Silver seabream","N","BP","BP","3.6","LC","Y","GI","3","22","1",4.55
 "406","Perciformes","Sparidae","Pagrus pagrus","Red porgy","N","BP","BP","3.9","LC","Y","GI","3","9","7",77.78
-"407","Perciformes","Sparidae","Sparus aurata","Gilthead seabream","N","D","BP","3.7","LC","Y","GI","3","110","48",43.64
+"407","Perciformes","Sparidae","Sparus aurata","Gilthead seabream","N"," D","BP","3.7","LC","Y","GI","3","110","48",43.64
 "408","Perciformes","Sparidae",NA,NA,NA,NA,NA,NA,NA,NA,"GI","3","20","20",100
 "409","Perciformes","Sparidae","Spondyliosoma cantharus","Black seabream","N","BP","O","3.3","LC","Y","GI ","3","5","5",100
 "410","Perciformes","Sparidae",NA,NA,NA,NA,NA,NA,NA,NA,"G","1","284","0",0
@@ -414,22 +414,22 @@
 "413","Perciformes","Sphyraenidae","Sphyraena guachancho","Guachanche barracuda","N","P","PP","4.4","NE","Y","G ","2","1","0",0
 "414","Perciformes","Stromateidae","Pampus argenteus","Silver pomfret","N","BP","P","3.3","NE","Y","GI","3","18","18",100
 "415","Perciformes","Stromateidae","Peprilus paru","American harvestfish","N","BP","??","4.5??","LC","Y","GI","2","2","0",0
-"416","Perciformes","Teraponidae","Pelates quadrilineatus","Fourlined terapon","N","D","BP","3.6","NE","Y","GI","3","135","88",65.19
-"417","Perciformes","Teraponidae","Terapon jarbua","Jarbua terapon","N","D","O","3.9","LC","Y","GI","3","18","18",100
+"416","Perciformes","Teraponidae","Pelates quadrilineatus","Fourlined terapon","N"," D","BP","3.6","NE","Y","GI","3","135","88",65.19
+"417","Perciformes","Teraponidae","Terapon jarbua","Jarbua terapon","N"," D","O","3.9","LC","Y","GI","3","18","18",100
 "418","Perciformes","Trichiuridae","Aphanopus carbo","Black scabbardfish","O","P","PP","4.5","NE","Y","GI","2","5","0",0
 "419","Perciformes","Trichiuridae",NA,NA,NA,NA,NA,NA,NA,NA,"G","1","11","0",0
 "420","Perciformes","Trichiuridae","Lepidopus caudatus","Silver Scabbardfish","N-O","BP","PP","3.8","NE","Y","GI","2","1","0",0
 "421","Perciformes","Trichiuridae","Trichiurus lepturus","Largehead hairtail","N","BP","PP","4.4","NE","Y","G","1","149","1",0.67
 "422","Perciformes","Trichiuridae",NA,NA,NA,NA,NA,NA,NA,NA,"G","2","1","0",0
 "423","Perciformes","Trichiuridae",NA,NA,NA,NA,NA,NA,NA,NA,"GI","2","5","1",20
-"424","Perciformes","Tripterygiidae","Helcogrammoides chilensis","n/a","N","D","BP","3.3","LC","N","GI","3","3","3",100
-"425","Perciformes","Uranoscopidae","Uranoscopus scaber","Stargazer","N-O","D","BP","4.4","LC","Y","GI","3","9","7",77.78
+"424","Perciformes","Tripterygiidae","Helcogrammoides chilensis","n/a","N"," D","BP","3.3","LC","N","GI","3","3","3",100
+"425","Perciformes","Uranoscopidae","Uranoscopus scaber","Stargazer","N-O"," D","BP","4.4","LC","Y","GI","3","9","7",77.78
 "426","Perciformes","Xiphiidae","Xiphias gladius","Swordfish","O","P","PP","4.5","LC","Y","G","?","56","7",12.5
 "427","Perciformes","Xiphiidae",NA,NA,NA,NA,NA,NA,NA,NA,"G","1","31","1",3.23
 "428","Perciformes","Xiphiidae",NA,NA,NA,NA,NA,NA,NA,NA,"GI ","2","1","0",0
-"429","Perciformes","Zoarcidae","Zoarces viviparus","Eelpout","N","D","BP","3.5","NE","Y","GI","3","150","0",0
+"429","Perciformes","Zoarcidae","Zoarces viviparus","Eelpout","N"," D","BP","3.5","NE","Y","GI","3","150","0",0
 "430","Pleuronectiformes ","Citharidae","Citharus linguatula","Spotted flounder","N","B","BP","4","LC","Y","GI ","2","52","1",1.92
-"431","Pleuronectiformes ","Cynoglossidae","Cynoglossus abbreviatus","3-lined tongue sole","N","D","BP","3.5","NE","Y","GI","3","18","18",100
+"431","Pleuronectiformes ","Cynoglossidae","Cynoglossus abbreviatus","3-lined tongue sole","N"," D","BP","3.5","NE","Y","GI","3","18","18",100
 "432","Pleuronectiformes ","Paralichthyidae","Citharichthys sordidus","Pacific sanddab","N-O","B","BP","3.5","NE","y","GI","3","5","3",60
 "433","Pleuronectiformes ","Paralichthyidae","Paralichthys brasiliensis","Brazilian flounder","N","B","BP","4.2","NE","y","G ","2","1","0",0
 "434","Pleuronectiformes ","Pleuronectidae","Hippoglossus hippoglossus","Atlantic halibut","O","B","BP","4","EN","Y","GI","2","14","0",0
@@ -458,24 +458,24 @@
 "457","Salmoniformes","Salmonidae","Salmo trutta","Sea trout","N","P","BP","3.4","LC","Y","GI","3","62","42",67.74
 "458","Scorpaeniformes ","Cottidae","Myoxocephalus aenaeus  ","Grubby","N-O","B","BP","3.7","NE ","N","n/a",NA,"47","2",4.26
 "459","Scorpaeniformes ","Cottidae","Triglops nybelini","Bigeye sculpin","N-O","B","BP","3.3","NE","N","GI","3","71","24",33.8
-"460","Scorpaeniformes ","Hexagrammidae","Ophiodon elongatus","Lingcod","N-O","D","BP","4.3","NE","Y","GI","3","11","1",9.09
+"460","Scorpaeniformes ","Hexagrammidae","Ophiodon elongatus","Lingcod","N-O"," D","BP","4.3","NE","Y","GI","3","11","1",9.09
 "461","Scorpaeniformes ","Liparidae","Liparis liparis","Striped seasnail","N","B","BP","3.6","LC","Y","GI"," ","220","16",7.27
 "462","Scorpaeniformes ","Platycephalidae","Platycephalus bassensis","Sand flathead","N","B","BP","4.3","NE","Y","G, GI","2","10","0",0
-"463","Scorpaeniformes ","Platycephalidae","Platycephalus laevigatus","Black flathead","N","D","BP","3.8","NE","N","G, GI","2","7","0",0
-"464","Scorpaeniformes ","Scorpaenidae","Scorpaena elongata","Slender rockfish","N-O","D","BP","3.9","NE","Y","GI","2","1","0",0
-"465","Scorpaeniformes ","Scorpaenidae","Scorpaena jacksoniensis","n/a","N","D","BP","3.9","NE","N","G, GI","2","19","0",0
-"466","Scorpaeniformes ","Scorpaenidae","Scorpaena loppei","Cadenat's rockfish","N","D","BP","3.5","LC","N","G","1","104","0",0
-"467","Scorpaeniformes ","Scorpaenidae","Scorpaena scrofa","Red scorpionfish","N-O","D","BP","4.3","LC","Y","G","1","51","0",0
+"463","Scorpaeniformes ","Platycephalidae","Platycephalus laevigatus","Black flathead","N"," D","BP","3.8","NE","N","G, GI","2","7","0",0
+"464","Scorpaeniformes ","Scorpaenidae","Scorpaena elongata","Slender rockfish","N-O"," D","BP","3.9","NE","Y","GI","2","1","0",0
+"465","Scorpaeniformes ","Scorpaenidae","Scorpaena jacksoniensis","n/a","N"," D","BP","3.9","NE","N","G, GI","2","19","0",0
+"466","Scorpaeniformes ","Scorpaenidae","Scorpaena loppei","Cadenat's rockfish","N"," D","BP","3.5","LC","N","G","1","104","0",0
+"467","Scorpaeniformes ","Scorpaenidae","Scorpaena scrofa","Red scorpionfish","N-O"," D","BP","4.3","LC","Y","G","1","51","0",0
 "468","Scorpaeniformes ","Scorpaenidae","Scorpaena sp.","n/a",NA,NA,"BP",NA,NA,"n/a","GI","3","19","16",84.21
-"469","Scorpaeniformes ","Sebastidae","Helicolenus dactylopterus","Blackbelly rosefish","N-O","D","BP","3.5","NE","Y","GI ","2","380","0",0
+"469","Scorpaeniformes ","Sebastidae","Helicolenus dactylopterus","Blackbelly rosefish","N-O"," D","BP","3.5","NE","Y","GI ","2","380","0",0
 "470","Scorpaeniformes ","Sebastidae",NA,NA,NA,NA,NA,NA,NA,NA,"G","2","1","0",0
 "471","Scorpaeniformes ","Sebastidae",NA,NA,NA,NA,NA,NA,NA,NA,"G","1","3618","0",0
-"472","Scorpaeniformes ","Sebastidae","Sebastes caurinus","Copper rockfish","N","D","BP","4.1","NE","Y","GI","3","1","0",0
+"472","Scorpaeniformes ","Sebastidae","Sebastes caurinus","Copper rockfish","N"," D","BP","4.1","NE","Y","GI","3","1","0",0
 "473","Scorpaeniformes ","Sebastidae","Sebastes flavidus","Yellowtail rockfish","N-O","BP","PP","4.2","NE","Y","GI","3","3","1",33.33
-"474","Scorpaeniformes ","Sebastidae","Sebastes miniatus","Vermilion rockfish","N","D","BP","3.9","NE","Y","GI","3","3","0",0
+"474","Scorpaeniformes ","Sebastidae","Sebastes miniatus","Vermilion rockfish","N"," D","BP","3.9","NE","Y","GI","3","3","0",0
 "475","Scorpaeniformes ","Sebastidae","Sebastes mystinus","Blue rockfish","N-O","BP","P","2.7","NE","Y","GI","3","10","2",20
 "476","Scorpaeniformes ","Sebastidae","Sebastiscus marmoratus","False kelpfish","N","B","BP","3.7","NE","Y","GI","3","18","18",100
-"477","Scorpaeniformes ","Sebastidae","Trachyscorpia cristulata","Atlantic thornyhead","N-O","D","BP","3.9","LC","Y","G","1","49","0",0
+"477","Scorpaeniformes ","Sebastidae","Trachyscorpia cristulata","Atlantic thornyhead","N-O"," D","BP","3.9","LC","Y","G","1","49","0",0
 "478","Scorpaeniformes ","Triglidae","Chelidonichthys cuculus","Red gurnard","N","B","BP","3.8","NE","Y","GI","2","66","34",51.52
 "479","Scorpaeniformes ","Triglidae",NA,NA,NA,NA,NA,NA,NA,NA,"G","1","3503","1",0.03
 "480","Scorpaeniformes ","Triglidae","Chelidonichthys kumu","Bluefin gurnard","N","B","BP","3.7","LC","Y","GI","3","27","1",3.7
@@ -492,9 +492,9 @@
 "491","Siluriformes","Ariidae","Bagre bagre","Coco sea catfish","N","B","BP","4","LC","Y","GI","2","7","5",71.43
 "492","Siluriformes","Ariidae","Bagre marinus","Gafftopsail sea catfish","N","B","BP","3.5","LC","Y","GI","2","4","4",100
 "493","Siluriformes","Ariidae","Cathorops agassizii","n/a","N","B","BP","4.3","NE","N","G","2","60","20",33.33
-"494","Siluriformes","Ariidae","Cathorops spixii","Madamango sea catfish","N","D","BP","3.5","NE","Y","G","2","60","11",18.33
+"494","Siluriformes","Ariidae","Cathorops spixii","Madamango sea catfish","N"," D","BP","3.5","NE","Y","G","2","60","11",18.33
 "495","Siluriformes","Ariidae","Notarius grandicassis","Thomas sea catfish","N","B","BP","4","LC","Y","GI","2","4","0",0
-"496","Siluriformes","Ariidae","Sciades herzbergii","Pemecou sea catfish","N","D","BP","3.3","NE","Y","G","2","62","11",17.74
+"496","Siluriformes","Ariidae","Sciades herzbergii","Pemecou sea catfish","N"," D","BP","3.3","NE","Y","G","2","62","11",17.74
 "497","Stomiiformes","Gonostomatidae","Cyclothone acclinidens","Benttooth bristlemouth","O","P","P","3.6","NE","N","G","2","4","0",0
 "498","Stomiiformes","Gonostomatidae","Cyclothone atraria","Deep-water bristlemouth","O","P","P","3.1","NE","N","G","2","3","0",0
 "499","Stomiiformes","Gonostomatidae","Cyclothone pallida","Tan bristlemouth","O","P","P","3.2","NE","N","G","2","5","0",0
@@ -513,10 +513,10 @@
 "512","Stomiiformes","Stomiidae","Stomias boa  ","Boa dragonfish","O","P","PP","4","NE","N","GI","3","5","2",40
 "513","Stomiiformes","Stomiidae",NA,NA,"O","P",NA,NA,NA,NA,"G ","3","9","6",66.67
 "514","Tetraodontiformes","Monacanthidae","Meuschenia scaber","Velvet leatherjacket","N","BP","G","3.1","NE","Y","GI","3","19","7",36.84
-"515","Tetraodontiformes","Monacanthidae","Thamnaconus septentrionalis","n/a","N","D","O","3.4","NE","Y","GI","3","18","18",100
+"515","Tetraodontiformes","Monacanthidae","Thamnaconus septentrionalis","n/a","N"," D","O","3.4","NE","Y","GI","3","18","18",100
 "516","Tetraodontiformes","Tetraodontidae",NA,NA,NA,NA,NA,NA,NA,NA,"GI","2","2","0",0
 "517","Tetraodontiformes","Tetraodontidae","Lagocephalus laevigatus","Smooth puffer","N-O","P","BP","4","NE","Y","G ","2","1","0",0
-"518","Tetraodontiformes","Tetraodontidae","Lagocephalus spadiceus","Half-smooth gold puffie","N","D","BP","3.7","LC","N","GI","3","1","0",0
+"518","Tetraodontiformes","Tetraodontidae","Lagocephalus spadiceus","Half-smooth gold puffie","N"," D","BP","3.7","LC","N","GI","3","1","0",0
 "519","Zeiformes","Zeidae","Zeus faber","John dory","N","BP","BP","4.5","NE","Y","GI","2","42","20",47.62
 "520","Zeiformes","Zeidae",NA,NA,NA,NA,NA,NA,NA,NA,"G","2","1","1",100
 "521","Zeiformes","Zeidae",NA,NA,NA,NA,NA,NA,NA,NA,"G","1","1346","0",0
@@ -529,13 +529,13 @@
 "528","Carcharhiniformes","Carcharhinidae","Carcharhinus plumbeus","Sandbar shark","N-O","BP","PP","4.5","VU","Y","G","1","379","0",0
 "529","Carcharhiniformes","Carcharhinidae","Galeocerdo cuvier","Tiger shark","N-O","BP","PP","4.5","NT","Y","G","1","505","38",7.52
 "530","Carcharhiniformes","Carcharhinidae","Prionace glauca","Blue shark","O","P","PP","4.4","NT","N","G","2","95","24",25.26
-"531","Carcharhiniformes","Carcharhinidae","Rhizoprionodon lalandii","Brazilian sharpnose shark","N","D","PP","4.3","DD","Y","G ","2","6","2",33.33
-"532","Carcharhiniformes","Triakidae","Mustelus canis","Dusky smooth-hound","N-O","D","BP","3.6","NT","Y","GI","2","2","0",0
-"533","Carcharhiniformes","Triakidae","Mustelus higmani","Smalleye smooth-hound","N-O","D","BP","3.6","LC","Y","GI","2","3","0",0
-"534","Carcharhiniformes","Scyliorhinidae","Galeus melastomus   ","Blackmouth catshark","N-O","D","BP","4.2","LC","Y","G","2","125","21",16.8
+"531","Carcharhiniformes","Carcharhinidae","Rhizoprionodon lalandii","Brazilian sharpnose shark","N"," D","PP","4.3","DD","Y","G ","2","6","2",33.33
+"532","Carcharhiniformes","Triakidae","Mustelus canis","Dusky smooth-hound","N-O"," D","BP","3.6","NT","Y","GI","2","2","0",0
+"533","Carcharhiniformes","Triakidae","Mustelus higmani","Smalleye smooth-hound","N-O"," D","BP","3.6","LC","Y","GI","2","3","0",0
+"534","Carcharhiniformes","Scyliorhinidae","Galeus melastomus   ","Blackmouth catshark","N-O"," D","BP","4.2","LC","Y","G","2","125","21",16.8
 "535","Carcharhiniformes","Scyliorhinidae",NA,NA,NA,NA,NA,NA,NA,NA,"GI","2","741","24",3.24
 "536","Carcharhiniformes","Scyliorhinidae","Galeus spp. ",NA,NA,NA,NA,NA,NA,NA,"G","1","2962","3",0.1
-"537","Carcharhiniformes","Scyliorhinidae","Scyliorhinus canicula ","Lesser spotted dogfish","N-O","D","BP","3.8","LC","Y","G","2","20","4",20
+"537","Carcharhiniformes","Scyliorhinidae","Scyliorhinus canicula ","Lesser spotted dogfish","N-O"," D","BP","3.8","LC","Y","G","2","20","4",20
 "538","Carcharhiniformes","Scyliorhinidae",NA,NA,NA,NA,NA,NA,NA,NA,"G","3","72","11",15.28
 "539","Carcharhiniformes","Scyliorhinidae",NA,NA,NA,NA,NA,NA,NA,NA,"GI","1","20","3",15
 "540","Carcharhiniformes","Scyliorhinidae",NA,NA,NA,NA,NA,NA,NA,NA,"GI ","2","1","0",0
@@ -543,7 +543,7 @@
 "542","Carcharhiniformes","Scyliorhinidae",NA,NA,NA,NA,NA,NA,NA,NA,"G","1","9981","7",0.07
 "543","Carcharhiniformes","Sphyrnidae","Sphyrna lewini","Scalloped hammerhead","O","P","PP","4.1","EN","Y","G","1","1916","2",0.1
 "544","Carcharhiniformes","Sphyrnidae","Sphyrna mokarran","Great hammerhead","O","P","PP","4.3","EN","Y","G","1","177","0",0
-"545","Carcharhiniformes","Sphyrnidae","Sphyrna tiburo","Bonnethead","N","D","BP","3.9","LC","Y","GI","2","2","2",100
+"545","Carcharhiniformes","Sphyrnidae","Sphyrna tiburo","Bonnethead","N"," D","BP","3.9","LC","Y","GI","2","2","2",100
 "546","Carcharhiniformes","Sphyrnidae","Sphyrna zygaena","Smooth hammerhead","O","P","PP","4.9","VU","Y","G","1","1154","2",0.17
 "547","Lamniformes","Lamnidae","Carcharodon carcharias","Great White shark","O","P","PP","4.5","VU","Y","G","1","524","2",0.38
 "548","Lamniformes","Lamnidae","Isurus oxyrinchus","Shortfin mako shark","O","P","PP","4.5","VU","Y","G","1","231","2",0.87
@@ -554,21 +554,21 @@
 "553","Rajiformes","Rajidae","Dipturus oxyrinchus","Longnosed skate","N-O","B","BP","3.5","NT","Y","GI ","2","10","0",0
 "554","Rajiformes","Rajidae","Leucoraja circularis","Sandy ray","N-O","B","BP","3.5","EN","Y","G","1","34","0",0
 "555","Rajiformes","Rajidae","Leucoraja naevus","Cuckoo ray","N-O","B","BP","4.2","LC","Y","G","1","381","1",0.26
-"556","Rajiformes","Rajidae","Raja asterias","Mediterranean starry ray","N","D","BP","3.5","LC","Y","G","2","7","3",42.86
+"556","Rajiformes","Rajidae","Raja asterias","Mediterranean starry ray","N"," D","BP","3.5","LC","Y","G","2","7","3",42.86
 "557","Rajiformes","Rajidae","Raja clavata","Thornback ray","N","B","BP","3.8","NT","Y","GI","2","2","0",0
 "558","Rajiformes","Rajidae",NA,NA,NA,NA,NA,NA,NA,NA,"G","1","2705","0",0
 "559","Rajiformes","Rajidae","Raja montagui","Spotted ray","N","B","BP","3.9","LC","Y","G","1","1421","0",0
-"560","Squaliformes","Centrophoridae","Centrophorus granulosus","gulper shark","O","D","PP","4.1","VU","Y","GI ","2","5","0",0
+"560","Squaliformes","Centrophoridae","Centrophorus granulosus","gulper shark","O"," D","PP","4.1","VU","Y","GI ","2","5","0",0
 "561","Squaliformes","Centrophoridae","Deania calcea","Birdbeak dogfish","O","BP","PP","4.3","LC","Y","G","1","130","0",0
-"562","Squaliformes","Etmopteridae","Etmopterus spinax  ","Velvet-belly lanternshark","O","D","PP","4.1","LC","Y","GI","2","16","1",6.25
+"562","Squaliformes","Etmopteridae","Etmopterus spinax  ","Velvet-belly lanternshark","O"," D","PP","4.1","LC","Y","GI","2","16","1",6.25
 "563","Squaliformes","Etmopteridae",NA,NA,NA,NA,NA,NA,NA,NA,"G, GI, I","1","13","1",7.69
 "564","Squaliformes","Etmopteridae",NA,NA,NA,NA,NA,NA,NA,NA,"G","2","8","4",50
 "565","Squaliformes","Etmopteridae",NA,NA,NA,NA,NA,NA,NA,NA,"G","1","756","0",0
-"566","Squaliformes","Somniosidae","Centroscymnus coelolepis","Portuguese dogfish","O","D","PP","4.5","NT","Y","G, GI, I","1","54","1",1.85
+"566","Squaliformes","Somniosidae","Centroscymnus coelolepis","Portuguese dogfish","O"," D","PP","4.5","NT","Y","G, GI, I","1","54","1",1.85
 "567","Squaliformes","Somniosidae","Scymnodon ringens","Knifetooth dogfish","O","BP","PP","3.9","DD","Y","G","1","49","0",0
 "568","Squaliformes","Squalidae","Squalus acanthias","Picked dogfish","N-O","BP","PP","4.4","VU","Y","GI","3","9","4",44.44
 "569","Squaliformes","Squalidae",NA,NA,NA,NA,NA,NA,NA,NA,"GI ","2","10","0",0
-"570","Squaliformes","Squalidae","Squalus blainville","Longnose spurdog","N-O","D","PP","4","DD","Y","GI","2","75","1",1.33
+"570","Squaliformes","Squalidae","Squalus blainville","Longnose spurdog","N-O"," D","PP","4","DD","Y","GI","2","75","1",1.33
 "571","Torpediniformes","Narcinidae","Narcine brasiliensis","Brazilian electric ray","N","B","BP","3.2","DD","Y","GI","2","6","1",16.67
-"572","Torpediniformes","Torpedinidae","Torpedo torpedo","Common torpedo","N","D","BP","4.5","DD","N","G","2","1","0",0
-"573","Chimaeriformes","Chimaeridae","Chimera monstrosa","Ratfish","N","D","BP","3.5","NT","BC","G","2","2","0",0
+"572","Torpediniformes","Torpedinidae","Torpedo torpedo","Common torpedo","N"," D","BP","4.5","DD","N","G","2","1","0",0
+"573","Chimaeriformes","Chimaeridae","Chimera monstrosa","Ratfish","N"," D","BP","3.5","NT","BC","G","2","2","0",0

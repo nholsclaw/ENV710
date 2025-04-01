@@ -100,7 +100,9 @@ dunn_test_family_sorted <- dunn_test_family %>%
 
 fish <- fish %>% separate(habitat, c('Neritic_Oceanic', 'Bentho_Pelagic'), sep=",")
 
-fish[fish == ' D'] <- "D"
+fish[fish=="D"]<-"B"
+
+#fish[fish == ' D'] <- "D"
 fish[fish == ' B'] <- "B"
 fish[fish == ' P'] <- "P"
 fish[fish == ' BP'] <- "BP"
@@ -114,7 +116,7 @@ mlm1 <- lm(FO ~ order + family + Neritic_Oceanic + Bentho_Pelagic + feeding_stra
 
 summary(mlm1)
 
-plot(mlm1) 
+#plot(mlm1) 
 
 # Run AIC
 
@@ -126,13 +128,14 @@ mlm2 <- lm(FO ~ order + family + Neritic_Oceanic + Bentho_Pelagic + feeding_stra
 
 summary(mlm2)
 
-plot(mlm2)
+#plot(mlm2)
+
 
 mlm3 <- lm(FO ~ Neritic_Oceanic + Bentho_Pelagic + feeding_strategy + trophic_level, data = fish)
 
 summary(mlm3)
 
-plot(mlm3)
+#plot(mlm3)
 
 step(mlm3)
 
@@ -156,8 +159,7 @@ fish$Neritic_Oceanic <- factor(fish$Neritic_Oceanic,
 unique(fish$Bentho_Pelagic)
 
 fish$Bentho_Pelagic <- factor(fish$Bentho_Pelagic,
-                             levels = c("D",
-                                        "B",
+                             levels = c("B",
                                         "P",
                                         "BP"))
 
@@ -180,7 +182,7 @@ fish_mod <- glm(FO~Neritic_Oceanic+Bentho_Pelagic+feeding_strategy+trophic_level
 
 summary(fish_mod)
 
-plot(fish_mod)
+#plot(fish_mod)
 
 fishmod_2 <- fish[-c(15,273,123,122,128,27,26,48,72),] #a lot of outliers! this isn't all of them
 
@@ -190,11 +192,17 @@ fish_mod_2 <- glm(FO~Neritic_Oceanic+Bentho_Pelagic+feeding_strategy+trophic_lev
 
 summary(fish_mod_2)
 
-plot(fish_mod_2)
+#plot(fish_mod_2)
 
 ```
 
+## Predictive Model
+
 ```{r}
+
+unique(fish$feeding_strategy)
+
+fish <- fish %>% drop_na(feeding_strategy)
 
 fish$binary <- ifelse(fish$FO > 0, "1", "0")
 
@@ -206,36 +214,33 @@ fish_mod_glm <- glm(binary~Neritic_Oceanic+Bentho_Pelagic+feeding_strategy+troph
 
 summary(fish_mod_glm)
 
-fish <- subset(fish, !is.na(trophic_level))
-
 unique(fish$trophic_level)
 
 range(fish$trophic_level)
 
-trophic_vector <- rep(seq(from = 2, to = 5), 150)
+#trophic_vector <- rep(seq(from = 2, to = 5), 150)
 
-neritic_oceanic_vector <- rep(c("N-O", "N", "O"), 200)
+trophiclevel <- fish %>% select(trophic_level)
 
-bentho_pelagic_vector <- c(rep("D", 150),
-                   rep("B", 150),
-                 rep("P", 150),
-                 rep("BP", 150))
+# sometimes I get 406, sometimes I get 403, now I have 405
 
-fish[fish == '??'] <- "NA"
-fish <- subset(fish, !is.na(feeding_vector))
+neritic_oceanic_vector <- c(rep("N-O", 135),
+                   rep("N", 135),
+                 rep("O", 135))
 
-unique(fish$feeding_strategy)
+bentho_pelagic_vector <- c(rep("B", 135),
+                 rep("P", 135),
+                 rep("BP", 135))
 
-feeding_vector <- c(rep("BP", 120),
-                   rep("P", 120),
-                 rep("PP", 120),
-                 rep("O", 120),
-                     rep("G", 120))
 
-data_pred <- data.frame(trophic_vector, neritic_oceanic_vector, bentho_pelagic_vector, feeding_vector)
+feeding_vector <- c(rep("BP", 81),
+                   rep("P", 81),
+                 rep("PP", 81),
+                 rep("O", 81),
+                     rep("G", 81))
+
+data_pred <- data.frame(trophiclevel, neritic_oceanic_vector, bentho_pelagic_vector, feeding_vector)
 colnames(data_pred) <- c("trophic_level", "Neritic_Oceanic", "Bentho_Pelagic", "feeding_strategy")
-
-data_pred$trophic_level <- as.numeric(data_pred$trophic_level)
 
 prediction <- predict(fish_mod_glm,
                       newdata = data_pred,
@@ -261,6 +266,16 @@ ggplot(data_fig, aes(x = trophic_level,
   labs(x = "trophic", y = "Probability of Occurrence") +
   theme_bw()
 
+
+troph_dist <- ggplot(fish, aes(x=log)) +
+  geom_histogram() +
+  theme_bw() +
+  theme(legend.position = "none")
+
+troph_dist
+
+fish <- fish %>%
+  mutate(log = log(trophic_level))
 
 ```
 
