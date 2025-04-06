@@ -17,7 +17,7 @@ library(tidyverse)
 library(DHARMa)
 
 # Bring in data
-fish_data <- read.csv("cleaned_fish_data.csv")
+fish_data <- read.csv(here("Data/cleaned_fish_data.csv"))
 
 # Clean data
 fish_data <- fish_data %>% filter(!is.na(Region))
@@ -29,6 +29,26 @@ fish_data$trophic_level<- as.numeric(fish_data$trophic_level)
 fish_data <- fish_data %>% 
   filter(!is.na(trophic_level))
 unique(fish_data$trophic_level)
+
+apex <- fish_data %>% 
+  filter(trophic_level > 4)
+
+fish_data <- fish_data %>%
+  mutate(Trophic_Category = case_when(
+    order %in% c("Clupeiformes", "Mugiliformes", "Osmeriformes") ~ "Primary Consumer",
+    order %in% c("Atheriniformes", "Gasterosteiformes", "Myctophiformes", 
+                 "Ophidiiformes", "Salmoniformes", "Siluriformes") ~ "Secondary Consumer",
+    order %in% c("Anguilliformes", "Aulopiformes", "Batrachoidiformes", "Beloniformes", 
+                 "Beryciformes", "Gadiformes", "Lophiiformes", "Perciformes", 
+                 "Pleuronectiformes", "Scorpaeniformes", "Stomiiformes", 
+                 "Tetraodontiformes", "Zeiformes") ~ "Tertiary Consumer",
+    order %in% c("Carcharhiniformes", "Lamniformes", "Myliobatiformes", "Rajiformes", 
+                 "Squaliformes", "Torpediniformes", "Chimaeriformes") ~ "Apex Predator",
+    TRUE ~ "Unknown" # For any unlisted orders
+  ))
+
+plot(fish_data$trophic_level, fish_data$FO)
+lines(lowess(fish_data$trophic_level, fish_data$FO), col="red")
 
 # Check raw data
 ggplot(fish_data, aes(x = FO))+
