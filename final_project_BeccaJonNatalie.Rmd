@@ -1,12 +1,14 @@
 ---
-title: "Natalie's Fish Model"
+title: "Final Project Script"
 output: pdf_document
-date: "2025-03-30"
-editor_options: 
-  chunk_output_type: console
+author: "Natalie Holsclaw, Becca Cox, and Jon Gilman"
+date: "2025-04-08"
 ---
 
-# Setup
+
+# Natalie's Fish Model
+
+## Setup
 
 ```{r}
 # Load packages
@@ -39,25 +41,6 @@ unique(fish_data$trophic_level)
 fish_data$Bentho_Pelagic[fish_data$Bentho_Pelagic =="D"]<-"B"
 
 
-# Breaking orders into trophic categories 
-fish_data <- fish_data %>%
-  mutate(Trophic_Category = case_when(
-    order %in% c("Clupeiformes", "Mugiliformes", "Osmeriformes") ~ "Primary Consumer",
-    order %in% c("Atheriniformes", "Gasterosteiformes", "Myctophiformes", 
-                 "Ophidiiformes", "Salmoniformes", "Siluriformes") ~ "Secondary Consumer",
-    order %in% c("Anguilliformes", "Aulopiformes", "Batrachoidiformes", "Beloniformes", 
-                 "Beryciformes", "Gadiformes", "Lophiiformes", "Perciformes", 
-                 "Pleuronectiformes", "Scorpaeniformes", "Stomiiformes", 
-                 "Tetraodontiformes", "Zeiformes", "Lampriformes", "Pleuronectiformes", "Scorpaeniformes") ~ "Tertiary Consumer",
-    order %in% c("Carcharhiniformes", "Lamniformes", "Myliobatiformes", "Rajiformes", 
-                 "Squaliformes", "Torpediniformes", "Chimaeriformes") ~ "Apex Predator",
-    TRUE ~ "Tertiary Consumer" # For any unlisted orders
-  ))
-
-# not sure ?
-plot(fish_data$trophic_level, fish_data$FO)
-lines(lowess(fish_data$trophic_level, fish_data$FO), col="red")
-
 # Check raw data
 ggplot(fish_data, aes(x = FO))+
   geom_histogram()
@@ -77,7 +60,8 @@ ggplot(fish_data, aes(x = Region, y = order))+
 
 ### Binomial Regression
 
-#### Question: Are region and species order significant predictors of plastic ingestion?
+#### Question: Are region, feeding strategy, and trophic level significant 
+#### predictors of plastic ingestion?
 
 ```{r}
 # Add plastic present/absent data
@@ -216,7 +200,6 @@ ggplot(fish_data_filtered, aes(x = FO, fill = as.factor(trophic_category))) +
        title = "Distribution of Plastic Ingestion Across Trophic Levels",
        fill = "Trophic Category") +
   theme_classic()
-
 
 
 
