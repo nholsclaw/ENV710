@@ -15,24 +15,31 @@ library(dplyr)
 library(here)
 library(tidyverse)
 library(DHARMa)
+library(dunn.test)
+library(cowplot)
 
 # Bring in data
 fish_data <- read.csv(here("Data/cleaned_fish_data.csv"))
 
-# Clean data
+# Clean data, filter NAs
 fish_data <- fish_data %>% filter(!is.na(Region))
 fish_data <- fish_data %>% filter(!is.na(feeding_strategy)) %>% 
   filter(feeding_strategy != "??") %>% 
   filter(feeding_strategy != "n/a")
 
+# Make trophic level numeric, filter for NAs
 fish_data$trophic_level<- as.numeric(fish_data$trophic_level)
 fish_data <- fish_data %>% 
   filter(!is.na(trophic_level))
+
+# Checking trophic levels
 unique(fish_data$trophic_level)
 
-apex <- fish_data %>% 
-  filter(trophic_level > 4)
+# Combine B and D habitat (same thing)
+fish_data$Bentho_Pelagic[fish_data$Bentho_Pelagic =="D"]<-"B"
 
+
+# Breaking orders into trophic categories 
 fish_data <- fish_data %>%
   mutate(Trophic_Category = case_when(
     order %in% c("Clupeiformes", "Mugiliformes", "Osmeriformes") ~ "Primary Consumer",
@@ -41,12 +48,13 @@ fish_data <- fish_data %>%
     order %in% c("Anguilliformes", "Aulopiformes", "Batrachoidiformes", "Beloniformes", 
                  "Beryciformes", "Gadiformes", "Lophiiformes", "Perciformes", 
                  "Pleuronectiformes", "Scorpaeniformes", "Stomiiformes", 
-                 "Tetraodontiformes", "Zeiformes") ~ "Tertiary Consumer",
+                 "Tetraodontiformes", "Zeiformes", "Lampriformes", "Pleuronectiformes", "Scorpaeniformes") ~ "Tertiary Consumer",
     order %in% c("Carcharhiniformes", "Lamniformes", "Myliobatiformes", "Rajiformes", 
                  "Squaliformes", "Torpediniformes", "Chimaeriformes") ~ "Apex Predator",
-    TRUE ~ "Unknown" # For any unlisted orders
+    TRUE ~ "Tertiary Consumer" # For any unlisted orders
   ))
 
+# not sure ?
 plot(fish_data$trophic_level, fish_data$FO)
 lines(lowess(fish_data$trophic_level, fish_data$FO), col="red")
 
@@ -76,6 +84,7 @@ ggplot(fish_data, aes(x = Region, y = order))+
 fish_data$Plastic_Present <- round((fish_data$FO / 100) * fish_data$N)
 fish_data$Plastic_Absent <- fish_data$N - fish_data$Plastic_Present
 
+
 # Run regression model
 model <- glm(cbind(Plastic_Present, Plastic_Absent) ~ Region + feeding_strategy, 
              family = binomial, data = fish_data)
@@ -83,30 +92,47 @@ model <- glm(cbind(Plastic_Present, Plastic_Absent) ~ Region + feeding_strategy,
 # *** try with trophic level
 model2 <- glm(cbind(Plastic_Present, Plastic_Absent) ~ Region + feeding_strategy +
                       trophic_level,
-                    family = binomial, data = fish_data)
+              family = binomial, data = fish_data)
+
+# try with just region
+model3 <- glm(cbind(Plastic_Present, Plastic_Absent) ~ Region,
+                    family = binomial, data = fish_data_new)
 
 # Model results
 summary(model)
 summary(model2)
+summary(model3)
+
+AIC(model2, model3)
+
+# Going to model with Regions alone to focus on this area
+
+unique(fish_data$Region)
 
 # All regions and feeding strategies had significant effect on probability of 
 # plastic ingestion (log-odds) 
 
-simulateResiduals(model) %>% plot() # Examine modified residual plots
+simulateResiduals(model3) %>% plot() # Examine modified residual plots
 
-# to convert log-odds to probabilities
-#prob_south <- exp(int + coeff) / (1 + exp(int + coeff))
+# These models aren't a good fit; going to go with a linear regression model
 
-log_odds_ATL_S <- -2.635 + 1.709  # Log-odds for ATL S
-prob_ATL_S <- 1 / (1 + exp(-log_odds_ATL_S))
-prob_ATL_S 
+lg <- lm(FO ~ Region, data = fish_data)
+summary(lg)
+plot(lg)
+
+AIC(lg)
+
+# (F(5, 397) = 6.003, p < 0.001, R2 = 0.0703). The Indian Ocean had a significantly lower FO than the North Atlantic (B = -11.82, p = 0.031) while the North Pacific had a significantly higher FO (B = 15.21, p = 0.0017). The South Atlantic (B = -9.19, p = 0.23), Mediterranean (B = 5.74, p = 0.25), and South Pacific (B = -7.96, p = 0.091) had no significant difference in FO compared to the North Atlantic. Although region has a significant effect on FO, the R2 suggests only 7% of variance in FO is explained by region. The AIC value for this model was 3951.05 and residuals displayed constant variance and were approximately normally distributed
+
+
+
 ```
 
 #### Plots
 
 ```{r}
 
-
+# mean FO by feeding strategy
 mean_feeding <- fish_data %>% 
   group_by(feeding_strategy) %>% 
   summarize(mean_FO = mean(FO, na.rm = TRUE),
@@ -119,21 +145,115 @@ mean_feeding <- fish_data %>%
 # O = Omnivore
 # G = Grazer)
 
+# Set the order of feeding strategies
+mean_feeding$feeding_strategy <- factor(mean_feeding$feeding_strategy,
+                                        levels = c("P", "G", "O", "BP", "PP"))
+# plot of mean FO by feeding strategy
 ggplot(mean_feeding, aes(x = feeding_strategy, y = mean_FO, 
                          color = feeding_strategy)) +
   geom_point()+
   geom_errorbar(aes(ymin = mean_FO - sd_FO, ymax = mean_FO + sd_FO), width = 0.2) +
   labs(x = "Feeding Strategy", y = "Mean FO (%)", title = "Mean FO by Feeding Strategy") +
+  theme_minimal()+
+  theme(legend.position = "none")
+
+
+# FO by region
+ggplot(fish_data, aes(x = Region, y = FO)) +
+  geom_boxplot(fill = "skyblue", alpha = 0.6) +
+  geom_jitter(width = 0.2, alpha = 0.3) +
+  labs(title = "Frequency of Occurrence by Region",
+       y = "Frequency of Occurrence (%)") +
   theme_minimal()
 
-# plot probabilities - see week 9 script
+# mean FO by region
+mean_region <- fish_data %>% 
+  group_by(Region) %>% 
+  summarize(mean_FO = mean(FO, na.rm = TRUE),
+            sd_FO = sd(FO, na.rm = TRUE),
+            count = n())
 
-fish_data$predicted <- predict(model, type = "response")
+# test for sig diff in means
+aov <- kruskal.test(FO ~ Region, data = fish_data)
+aov
 
-ggplot(fish_data, aes(x = feeding_strategy, y = predicted, fill = feeding_strategy)) +
-  geom_bar(stat = "identity", position = position_dodge()) +
-  labs(y = "Predicted Probability of Plastic Ingestion")+
-  facet_wrap(~Region)
+# post hoc Dunns
+dunn_test <- dunn.test(fish_data$FO, fish_data$Region)
+
+
+## show unequal sample sizes by group
+
+fish_data <- fish_data %>%
+  mutate(trophic_category = case_when(
+    trophic_level < 3 ~ "Primary Consumers",
+    trophic_level >= 3 & trophic_level < 4 ~ "Secondary Consumers",
+    trophic_level >= 4 & trophic_level < 4.5 ~ "Tertiary Consumers",
+    trophic_level >= 4.5 ~ "Apex Predators"
+  ))
+
+fish_data$trophic_category <- factor(fish_data$trophic_category,
+                                     levels = c("Primary Consumers",
+                                                "Secondary Consumers",
+                                                "Tertiary Consumers",
+                                                "Apex Predators"))
+ggplot(fish_data, aes(x = as.factor(trophic_category), y = FO, fill = trophic_category)) +
+  geom_jitter(width = 0.2, alpha = 0.4, color = "black") +  # Raw data points
+  geom_boxplot(outlier.shape = NA, alpha = 0.6) +  # Boxplot without outliers
+  labs(x = "Trophic Level", 
+       y = "Plastic Ingestion Frequency (FO)", 
+       title = "Plastic Ingestion Across Trophic Levels") +
+  theme_classic()+
+  theme(legend.position = "none")
+
+# Remove NAs from FO before plotting
+fish_data_filtered <- fish_data %>%
+  filter(!is.na(trophic_category))
+
+# Density plot without NAs
+ggplot(fish_data_filtered, aes(x = FO, fill = as.factor(trophic_category))) +
+  geom_density(alpha = 0.4) +
+  labs(x = "Plastic Ingestion (FO)", y = "Density",
+       title = "Distribution of Plastic Ingestion Across Trophic Levels",
+       fill = "Trophic Category") +
+  theme_classic()
+
+
+
+
+# Count plots
+
+
+p1 <- ggplot(fish_data, aes(x = Region))+
+  geom_bar()+
+  theme_bw()+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+p2 <- ggplot(fish_data, aes(x = Neritic_Oceanic))+
+  geom_bar()+
+  theme_bw()+
+  labs(x = "Neritic-Oceanic Habitat")
+
+p3 <- ggplot(fish_data, aes(x = Bentho_Pelagic))+
+  geom_bar()+
+  theme_bw()+
+  labs(x = "Benthic-Pelagic Habitat")
+
+plot_grid(p1, p2, p3, ncol = 3, align = "v")
+
+p4 <- ggplot(fish_data, aes(x = feeding_strategy))+
+  geom_bar()+
+  theme_bw()+
+  labs(x = "Feeding Strategy")
+
+p5 <- ggplot(fish_data, aes(x = trophic_category))+
+  geom_bar()+
+  theme_bw()+
+  labs(x = "Trophic Category")+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+plot_grid(p4, p5, ncol = 2, align = "v")
+
+
 ```
 
 
