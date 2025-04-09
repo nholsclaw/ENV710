@@ -14,10 +14,10 @@ fish_clean <- fish_data_FINAL %>%
     feeding_strategy = as.factor(feeding_strategy)
   )
 
-# Convert to numeric
+# convert to numeric
 fish_clean$trophic_level <- as.numeric(fish_clean$trophic_level)
 
-# Fit the model
+# fit the model
 mod1 <- lmer(
   FO ~ trophic_level + Neritic_Oceanic + Bentho_Pelagic + feeding_strategy + (1 | Region),
   data = fish_clean
