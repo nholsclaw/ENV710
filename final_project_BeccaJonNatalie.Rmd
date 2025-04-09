@@ -239,4 +239,305 @@ plot_grid(p4, p5, ncol = 2, align = "v")
 
 ```
 
+# Becca's Models
+
+## Set Up
+
+```{r}
+
+library(dplyr)
+library(here)
+library(tidyverse)
+
+here()
+
+fish <- read.csv("data/fish_data_all_becca.csv")
+
+fish[fish == ''] <- NA
+
+fish <- fish %>%
+  filter(if_any(FO, ~ !(.x %in% c("yes", "no")))) %>%
+  drop_na(FO)
+
+fish$FO <- as.numeric(fish$FO)
+
+fish_group <- fish %>%
+  group_by(order) %>%
+  summarize(mean_fo=mean(FO))
+
+```
+
+```{r}
+
+fish_dist <- ggplot(fish, aes(x=FO)) +
+  geom_histogram() +
+  theme_bw() +
+  theme(legend.position = "none")
+
+fish_dist
+
+```
+
+## Kruskal Wallis Test
+
+```{r}
+
+fish_clean <- read.csv("cleaner_fish_table_becca.csv")
+
+library(dunn.test)
+
+kruskal_test_order <- kruskal.test(FO ~ order, data = fish_clean)
+
+kruskal_test_order
+
+#dunn_test_order <- dunn.test(fish_clean$FO, fish_clean$order, list = TRUE)
+
+#dunn_test_order = cbind.data.frame(dunn_test_order$comparisons,dunn_test_order$Z,dunn_test_order$P.adjusted)
+
+#colnames(dunn_test_order) <- c("comparisons","Z", "P.adjusted")
+
+#dunn_test_order_sorted <- dunn_test_order %>%
+ # filter(P.adjusted < 0.05)
+
+kruskal_test_family <- kruskal.test(FO ~ family, data = fish_clean)
+
+kruskal_test_family
+
+dunn_test_family <- dunn.test(fish_clean$FO, fish_clean$family, list = TRUE)
+
+dunn_test_family = cbind.data.frame(dunn_test_family$comparisons,dunn_test_family$Z,dunn_test_family$P.adjusted)
+
+colnames(dunn_test_family) <- c("comparisons","Z", "P.adjusted")
+
+dunn_test_family_sorted <- dunn_test_family %>%
+  filter(P.adjusted < 0.05)
+
+```
+
+## Linear Model
+
+```{r}
+
+# Cleaning Data
+
+#fish <- fish %>% separate(habitat, c('Neritic_Oceanic', 'Bentho_Pelagic'), sep=",")
+
+#fish[fish=="D"]<-"B"
+
+#fish[fish == ' D'] <- "D"
+#fish[fish == ' B'] <- "B"
+#fish[fish == ' P'] <- "P"
+#fish[fish == ' BP'] <- "BP"
+#fish[fish == ' B '] <- "B"
+
+#write.csv(fish,file='cleaner_fish_table_becca.csv')
+
+# fish <- fish %>% drop_na(trophic_level) %>% drop_na(Neritic_Oceanic) %>% drop_na(Bentho_Pelagic)
+
+mlm1 <- lm(FO ~ Neritic_Oceanic + Bentho_Pelagic + feeding_strategy, data = fish_clean)
+
+summary(mlm1)
+
+AIC(mlm1)
+
+#plot(mlm3)
+
+step(mlm1)
+
+mlm2 <- lm(FO ~ Neritic_Oceanic, data = fish_clean)
+
+summary(mlm2)
+
+```
+
+## Predictive Model 1
+
+```{r}
+
+unique(fish_clean$feeding_strategy)
+
+#fish <- fish %>% drop_na(feeding_strategy)
+
+#fish$binary <- ifelse(fish$FO > 0, "1", "0")
+
+#fish$binary <- as.numeric(fish$binary)
+
+fish_mod_glm <- glm(binary~Neritic_Oceanic+Bentho_Pelagic+feeding_strategy+trophic_level,
+                data = fish_clean,
+                family = "binomial")
+
+summary(fish_mod_glm)
+
+trophic_vector <- rep(seq(from = 2, to = 5, by = 0.1), 5)
+
+#trophiclevel <- fish %>% select(trophic_level)
+
+# sometimes I get 406, sometimes I get 403, now I have 405
+
+#neritic_oceanic_vector <- c(rep("N-O", 135),
+               #    rep("N", 135),
+              #   rep("O", 135))
+
+#bentho_pelagic_vector <- c(rep("B", 135),
+          #       rep("P", 135),
+          #       rep("BP", 135))
+
+
+feeding_vector <- c(rep("BP", 31),
+                   rep("P", 31),
+                 rep("PP", 31),
+                 rep("O", 31),
+                     rep("G", 31))
+
+neritic_oceanic_vector <- rep("N-O", 155)
+bentho_pelagic_vector <- rep("BP", 155)
+
+data_pred <- data.frame(trophic_vector, neritic_oceanic_vector, bentho_pelagic_vector, feeding_vector)
+colnames(data_pred) <- c("trophic_level", "Neritic_Oceanic", "Bentho_Pelagic", "feeding_strategy")
+
+prediction <- predict(fish_mod_glm,
+                      newdata = data_pred,
+                      type = "response",
+                      se.fit = TRUE)
+
+
+data_fig <- data.frame(data_pred,
+                       prediction$fit,
+                       prediction$se.fit)
+
+
+colnames(data_fig) <- c("trophic_vector", "neritic_oceanic", "bentho_pelagic", "FeedingStrategy", "probability", "se")
+
+library(ggplot2)
+
+predmod_1 <- ggplot(data_fig, aes(x = trophic_vector,
+                     y = probability)) +
+  geom_line(aes(color = FeedingStrategy)) +
+  geom_ribbon(aes(ymin = probability - se,
+                  ymax = probability + se,
+                  fill = FeedingStrategy), alpha = 0.3) +
+  labs(x = "Trophic Level", y = "Probability of Occurrence", title = "Probability of Plastic Occurrence by Trophic Level According to Fish Feeding Strategy") +
+  theme_bw()
+
+predmod_1
+
+```
+
+## Predictive Model 2
+
+```{r}
+
+trophic_vector <- rep(seq(from = 2, to = 5, by = 0.1), 3)
+
+feeding_vector <- c(rep("BP", 93))
+
+neritic_oceanic_vector <- c(rep("N-O", 31),
+                   rep("N", 31),
+                rep("O", 31))
+
+bentho_pelagic_vector <- rep("BP", 93)
+
+data_pred <- data.frame(trophic_vector, neritic_oceanic_vector, bentho_pelagic_vector, feeding_vector)
+colnames(data_pred) <- c("trophic_level", "Neritic_Oceanic", "Bentho_Pelagic", "feeding_strategy")
+
+prediction <- predict(fish_mod_glm,
+                      newdata = data_pred,
+                      type = "response",
+                      se.fit = TRUE)
+
+
+data_fig <- data.frame(data_pred,
+                       prediction$fit,
+                       prediction$se.fit)
+
+
+colnames(data_fig) <- c("trophic_vector", "NeriticOceanic", "bentho_pelagic", "feeding_strategy", "probability", "se")
+
+library(ggplot2)
+
+predmod_2 <- ggplot(data_fig, aes(x = trophic_vector,
+                     y = probability)) +
+  geom_line(aes(color = NeriticOceanic)) +
+  geom_ribbon(aes(ymin = probability - se,
+                  ymax = probability + se,
+                  fill = NeriticOceanic), alpha = 0.3) +
+  labs(x = "Trophic Level", y = "Probability of Occurrence", title = "Probability of Plastic Occurrence by Trophic Level According to Neritic-Oceanic Habitat") +
+  theme_bw()
+
+predmod_2
+
+```
+
+## Predictive Model 3
+
+```{r}
+
+
+trophic_vector <- rep(seq(from = 2, to = 5, by = 0.1), 3)
+
+feeding_vector <- c(rep("BP", 93))
+
+neritic_oceanic_vector <- rep("N-O", 93)
+
+bentho_pelagic_vector <- c(rep("B", 31),
+                 rep("P", 31),
+                rep("BP", 31))
+
+data_pred <- data.frame(trophic_vector, neritic_oceanic_vector, bentho_pelagic_vector, feeding_vector)
+colnames(data_pred) <- c("trophic_level", "Neritic_Oceanic", "Bentho_Pelagic", "feeding_strategy")
+
+prediction <- predict(fish_mod_glm,
+                      newdata = data_pred,
+                      type = "response",
+                      se.fit = TRUE)
+
+
+data_fig <- data.frame(data_pred,
+                       prediction$fit,
+                       prediction$se.fit)
+
+
+colnames(data_fig) <- c("trophic_vector", "neritic_oceanic", "BenthoPelagic", "feeding_strategy", "probability", "se")
+
+library(ggplot2)
+
+predmod_3 <- ggplot(data_fig, aes(x = trophic_vector,
+                     y = probability)) +
+  geom_line(aes(color = BenthoPelagic)) +
+  geom_ribbon(aes(ymin = probability - se,
+                  ymax = probability + se,
+                  fill = BenthoPelagic), alpha = 0.3) +
+  labs(x = "Trophic Level", y = "Probability of Occurrence", title = "Probability of Plastic Occurrence by Trophic Level According to Bentho-Pelagic Habitat") +
+  theme_bw()
+
+predmod_3
+
+#install.packages("ggpubr")
+library(ggpubr)
+
+pred_combo <- ggarrange(predmod_1,predmod_2,predmod_3, ncol=1, nrow=3)
+
+pred_combo
+
+
+```
+
+```{r}
+
+mean(fish$FO)
+
+var(fish$FO)
+
+sd(fish$FO)
+
+troph_dist <- ggplot(fish, aes(x=FO)) +
+  geom_histogram(bins = 15) + # rice's rule 
+  theme_bw() +
+  theme(legend.position = "none") +
+  labs(x="Frequency of Occurrence", y = "Count", title = "Histogram of Frequency of Occurrence Values")
+
+troph_dist
+
+
+```
 
